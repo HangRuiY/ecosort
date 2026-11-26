@@ -1,0 +1,37 @@
+{
+  "image_index": 9,
+  "source_image": "D:\\Pycharm\\ecosort\\data\\split\\images\\test\\000037.png",
+  "status": "completed",
+  "source_sha256": "7b47c0360feb133e3150a7bf2495bba9b8d9994c299806a8f74fd7dbdfeab7cf",
+  "original_width": 640,
+  "original_height": 640,
+  "detection_count": 2,
+  "annotated_image": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\annotated\\000009.jpg",
+  "error": null,
+  "detections": [
+    {
+      "class_id": 0,
+      "class_name": "plastic_rigid",
+      "class_name_zh": "硬质塑料",
+      "confidence": 0.4363304376602173,
+      "xyxy": [
+        337.0078125,
+        352.24322509765625,
+        393.4854736328125,
+        460.49652099609375
+      ]
+    },
+    {
+      "class_id": 6,
+      "class_name": "glass",
+      "class_name_zh": "玻璃",
+      "confidence": 0.2683781683444977,
+      "xyxy": [
+        336.3863525390625,
+        352.3817138671875,
+        393.446533203125,
+        460.835205078125
+      ]
+    }
+  ]
+}

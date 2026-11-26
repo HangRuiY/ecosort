@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "images": [
+    "000005.png",
+    "000013.png",
+    "000017.png",
+    "000023.png"
+  ],
+  "output_shape": [
+    4,
+    14,
+    8400
+  ],
+  "max_abs_difference": 8.678314208984375,
+  "mean_abs_difference": 0.036553069949150085,
+  "note": "Raw tensors contain pixel boxes and class scores in different units; full mAP evaluation establishes accuracy."
+}

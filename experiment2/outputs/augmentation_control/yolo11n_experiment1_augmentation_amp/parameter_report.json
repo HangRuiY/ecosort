@@ -1,0 +1,11 @@
+{
+  "total_parameters": 2607070,
+  "trainable_parameters": 2607054,
+  "frozen_parameters": 16,
+  "trainable_ratio": 0.9999938628421945,
+  "lora_parameters": 0,
+  "method": "full_finetune",
+  "frozen_names": [
+    "model.23.dfl.conv.weight"
+  ]
+}

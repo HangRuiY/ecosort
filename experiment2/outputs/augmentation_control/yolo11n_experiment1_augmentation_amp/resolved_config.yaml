@@ -1,0 +1,50 @@
+config_path: D:\Pycharm\ecosort\experiment2\configs\experiment1_augmentation.yaml
+data: D:\Pycharm\ecosort\experiment2\datasets\augmentation_control\experiment1_augmentation\data.yaml
+model: D:\Pycharm\ecosort\experiment2\yolo11n.pt
+run:
+  project: D:\Pycharm\ecosort\experiment2\outputs\augmentation_control
+  name: yolo11n_experiment1_augmentation_amp
+  exist_ok: false
+train:
+  epochs: 30
+  patience: 0
+  imgsz: 640
+  batch: 16
+  nbs: 64
+  device: 0
+  workers: 4
+  seed: 20261003
+  deterministic: true
+  pretrained: true
+  amp: true
+  optimizer: AdamW
+  lr0: 0.001
+  lrf: 0.01
+  weight_decay: 0.0005
+  warmup_epochs: 3.0
+  cos_lr: true
+  fraction: 1.0
+  cache: false
+  rect: false
+  multi_scale: 0.0
+  hsv_h: 0.0
+  hsv_s: 0.0
+  hsv_v: 0.0
+  degrees: 0.0
+  translate: 0.0
+  scale: 0.0
+  shear: 0.0
+  perspective: 0.0
+  flipud: 0.0
+  fliplr: 0.0
+  bgr: 0.0
+  mosaic: 0.0
+  mixup: 0.0
+  cutmix: 0.0
+  copy_paste: 0.0
+  close_mosaic: 0
+  augment: false
+  plots: true
+  save: true
+  val: true
+  verbose: true

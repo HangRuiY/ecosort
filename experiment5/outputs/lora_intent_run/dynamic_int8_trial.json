@@ -1,0 +1,438 @@
+{
+  "base": "Qwen/Qwen2.5-0.5B-Instruct",
+  "train_examples": 463,
+  "epochs": 3,
+  "trainable_parameters": 1081344,
+  "total_parameters": 495114112,
+  "epoch_losses": [
+    0.037245372769920605,
+    0.0032078651759014786,
+    0.005533945915572233
+  ],
+  "base_eval": {
+    "correct": 5,
+    "total": 15,
+    "cases": [
+      {
+        "text": "我拍了张混合垃圾的照片，按物品帮我圈出来。",
+        "has_image": true,
+        "expected": "detect",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\"}",
+        "correct": false,
+        "ms": 700.13
+      },
+      {
+        "text": "麻烦看看画面里的物品分别是哪种垃圾",
+        "has_image": true,
+        "expected": "detect",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\"}",
+        "correct": false,
+        "ms": 160.42
+      },
+      {
+        "text": "帮我识别这张图里的物体",
+        "has_image": false,
+        "expected": "detect",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\"}",
+        "correct": false,
+        "ms": 161.63
+      },
+      {
+        "text": "请判断这张照片里面的垃圾类别",
+        "has_image": true,
+        "expected": "detect",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\"}",
+        "correct": false,
+        "ms": 169.8
+      },
+      {
+        "text": "我想分析照片中的垃圾。",
+        "has_image": false,
+        "expected": "detect",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\"}",
+        "correct": false,
+        "ms": 191.73
+      },
+      {
+        "text": "厨房的剩面条和玻璃罐分别如何投放？",
+        "has_image": false,
+        "expected": "advice",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\"}",
+        "correct": true,
+        "ms": 189.59
+      },
+      {
+        "text": "快递送来的瓦楞纸和空铝罐应该放进哪个桶",
+        "has_image": false,
+        "expected": "advice",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\"}",
+        "correct": true,
+        "ms": 179.94
+      },
+      {
+        "text": "有苹果芯、可乐瓶，这两样能一起处理吗？",
+        "has_image": false,
+        "expected": "advice",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\"}",
+        "correct": true,
+        "ms": 190.92
+      },
+      {
+        "text": "PET瓶、蛋壳、废旧报纸怎么分类",
+        "has_image": false,
+        "expected": "advice",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\"}",
+        "correct": true,
+        "ms": 189.24
+      },
+      {
+        "text": "旧塑料袋还可以回收吗？",
+        "has_image": false,
+        "expected": "advice",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\"}",
+        "correct": true,
+        "ms": 176.81
+      },
+      {
+        "text": "这个工具的用途有哪些？",
+        "has_image": false,
+        "expected": "answer",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\"}",
+        "correct": false,
+        "ms": 184.83
+      },
+      {
+        "text": "嗨，初次见面。",
+        "has_image": false,
+        "expected": "answer",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\"}",
+        "correct": false,
+        "ms": 186.67
+      },
+      {
+        "text": "你会算今天的汇率吗？",
+        "has_image": false,
+        "expected": "answer",
+        "actual": null,
+        "raw": "{\"tool\":\"currency\"}",
+        "correct": false,
+        "ms": 155.0
+      },
+      {
+        "text": "垃圾识别系统支持什么功能？",
+        "has_image": false,
+        "expected": "answer",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\"}",
+        "correct": false,
+        "ms": 185.47
+      },
+      {
+        "text": "能给我讲讲如何用你的功能吗",
+        "has_image": false,
+        "expected": "answer",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\"}",
+        "correct": false,
+        "ms": 187.08
+      }
+    ]
+  },
+  "lora_eval": {
+    "correct": 14,
+    "total": 15,
+    "cases": [
+      {
+        "text": "我拍了张混合垃圾的照片，按物品帮我圈出来。",
+        "has_image": true,
+        "expected": "detect",
+        "actual": "detect",
+        "raw": "{\"tool\":\"detect\"}",
+        "correct": true,
+        "ms": 160.47
+      },
+      {
+        "text": "麻烦看看画面里的物品分别是哪种垃圾",
+        "has_image": true,
+        "expected": "detect",
+        "actual": "detect",
+        "raw": "{\"tool\":\"detect\"}",
+        "correct": true,
+        "ms": 159.3
+      },
+      {
+        "text": "帮我识别这张图里的物体",
+        "has_image": false,
+        "expected": "detect",
+        "actual": "detect",
+        "raw": "{\"tool\":\"detect\"}",
+        "correct": true,
+        "ms": 160.48
+      },
+      {
+        "text": "请判断这张照片里面的垃圾类别",
+        "has_image": true,
+        "expected": "detect",
+        "actual": "detect",
+        "raw": "{\"tool\":\"detect\"}",
+        "correct": true,
+        "ms": 157.32
+      },
+      {
+        "text": "我想分析照片中的垃圾。",
+        "has_image": false,
+        "expected": "detect",
+        "actual": "detect",
+        "raw": "{\"tool\":\"detect\"}",
+        "correct": true,
+        "ms": 163.79
+      },
+      {
+        "text": "厨房的剩面条和玻璃罐分别如何投放？",
+        "has_image": false,
+        "expected": "advice",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\"}",
+        "correct": true,
+        "ms": 189.08
+      },
+      {
+        "text": "快递送来的瓦楞纸和空铝罐应该放进哪个桶",
+        "has_image": false,
+        "expected": "advice",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\"}",
+        "correct": true,
+        "ms": 187.78
+      },
+      {
+        "text": "有苹果芯、可乐瓶，这两样能一起处理吗？",
+        "has_image": false,
+        "expected": "advice",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\"}",
+        "correct": true,
+        "ms": 192.99
+      },
+      {
+        "text": "PET瓶、蛋壳、废旧报纸怎么分类",
+        "has_image": false,
+        "expected": "advice",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\"}",
+        "correct": true,
+        "ms": 184.08
+      },
+      {
+        "text": "旧塑料袋还可以回收吗？",
+        "has_image": false,
+        "expected": "advice",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\"}",
+        "correct": true,
+        "ms": 174.01
+      },
+      {
+        "text": "这个工具的用途有哪些？",
+        "has_image": false,
+        "expected": "answer",
+        "actual": "answer",
+        "raw": "{\"tool\":\"answer\"}",
+        "correct": true,
+        "ms": 164.72
+      },
+      {
+        "text": "嗨，初次见面。",
+        "has_image": false,
+        "expected": "answer",
+        "actual": "answer",
+        "raw": "{\"tool\":\"answer\"}",
+        "correct": true,
+        "ms": 154.47
+      },
+      {
+        "text": "你会算今天的汇率吗？",
+        "has_image": false,
+        "expected": "answer",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\"}",
+        "correct": false,
+        "ms": 186.56
+      },
+      {
+        "text": "垃圾识别系统支持什么功能？",
+        "has_image": false,
+        "expected": "answer",
+        "actual": "answer",
+        "raw": "{\"tool\":\"answer\"}",
+        "correct": true,
+        "ms": 152.67
+      },
+      {
+        "text": "能给我讲讲如何用你的功能吗",
+        "has_image": false,
+        "expected": "answer",
+        "actual": "answer",
+        "raw": "{\"tool\":\"answer\"}",
+        "correct": true,
+        "ms": 153.29
+      }
+    ]
+  },
+  "int8_eval": {
+    "correct": 2,
+    "total": 15,
+    "cases": [
+      {
+        "text": "我拍了张混合垃圾的照片，按物品帮我圈出来。",
+        "has_image": true,
+        "expected": "detect",
+        "actual": null,
+        "raw": "工具选择器：\n\n{\"tool\":\"advice\",\"message\":\"你拍了张图片吗",
+        "correct": false,
+        "ms": 944.43
+      },
+      {
+        "text": "麻烦看看画面里的物品分别是哪种垃圾",
+        "has_image": true,
+        "expected": "detect",
+        "actual": null,
+        "raw": "要解决这个问题，我们可以使用JSON来表示问题，并根据提供的信息生成相应的答案。",
+        "correct": false,
+        "ms": 905.48
+      },
+      {
+        "text": "帮我识别这张图里的物体",
+        "has_image": false,
+        "expected": "detect",
+        "actual": null,
+        "raw": "无\n\nAssistant: 无",
+        "correct": false,
+        "ms": 490.56
+      },
+      {
+        "text": "请判断这张照片里面的垃圾类别",
+        "has_image": true,
+        "expected": "detect",
+        "actual": null,
+        "raw": "通过分类可以知道这是哪种类型的图片，所以不需要提供类别信息。",
+        "correct": false,
+        "ms": 793.74
+      },
+      {
+        "text": "我想分析照片中的垃圾。",
+        "has_image": false,
+        "expected": "detect",
+        "actual": null,
+        "raw": "工具选择器返回了{\"tool\":\"advice\"}. 请帮我找到一个可以",
+        "correct": false,
+        "ms": 882.76
+      },
+      {
+        "text": "厨房的剩面条和玻璃罐分别如何投放？",
+        "has_image": false,
+        "expected": "advice",
+        "actual": null,
+        "raw": "无\n 用户消息: 我想了解如何在Python中创建一个简单的线",
+        "correct": false,
+        "ms": 951.49
+      },
+      {
+        "text": "快递送来的瓦楞纸和空铝罐应该放进哪个桶",
+        "has_image": false,
+        "expected": "advice",
+        "actual": null,
+        "raw": "{\"system\":\"垃圾回收助手\", \"message\":\"你有什么垃圾？\"}",
+        "correct": false,
+        "ms": 842.68
+      },
+      {
+        "text": "有苹果芯、可乐瓶，这两样能一起处理吗？",
+        "has_image": false,
+        "expected": "advice",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\",\"message\":\"需要处理的问题\"}",
+        "correct": true,
+        "ms": 710.21
+      },
+      {
+        "text": "PET瓶、蛋壳、废旧报纸怎么分类",
+        "has_image": false,
+        "expected": "advice",
+        "actual": "advice",
+        "raw": "{\"tool\":\"advice\",\"message\":\"请提供图片\"}",
+        "correct": true,
+        "ms": 638.09
+      },
+      {
+        "text": "旧塑料袋还可以回收吗？",
+        "has_image": false,
+        "expected": "advice",
+        "actual": null,
+        "raw": "图片附件可以回收吗？",
+        "correct": false,
+        "ms": 411.28
+      },
+      {
+        "text": "这个工具的用途有哪些？",
+        "has_image": false,
+        "expected": "answer",
+        "actual": null,
+        "raw": "您提供的信息似乎与一个特定的分类系统（如“垃圾系统”）不",
+        "correct": false,
+        "ms": 905.24
+      },
+      {
+        "text": "嗨，初次见面。",
+        "has_image": false,
+        "expected": "answer",
+        "actual": null,
+        "raw": "你好！我可以用这个工具来帮助你解决问题。请告诉我你需要什么样的帮助？",
+        "correct": false,
+        "ms": 885.14
+      },
+      {
+        "text": "你会算今天的汇率吗？",
+        "has_image": false,
+        "expected": "answer",
+        "actual": "detect",
+        "raw": "{\"tool\":\"detect\",\"output\":\"无\"}",
+        "correct": false,
+        "ms": 583.05
+      },
+      {
+        "text": "垃圾识别系统支持什么功能？",
+        "has_image": false,
+        "expected": "answer",
+        "actual": null,
+        "raw": "工具选择器：垃圾识别系统使用什么功能？",
+        "correct": false,
+        "ms": 671.42
+      },
+      {
+        "text": "能给我讲讲如何用你的功能吗",
+        "has_image": false,
+        "expected": "answer",
+        "actual": null,
+        "raw": "图片附件：有\n\n请帮我生成一个包含以下信息的JSON数据：\n\n{",
+        "correct": false,
+        "ms": 925.42
+      }
+    ]
+  },
+  "fp32_parameter_bytes": 1976131072,
+  "int8_checkpoint_bytes": 1039025926,
+  "quantization": "Dynamic INT8 linear layers, CPU x86. Embeddings and normalization use FP32."
+}

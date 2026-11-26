@@ -1,0 +1,19 @@
+# 先单独安装与显卡匹配的 PyTorch（RTX 50 系需要 CUDA 12.8 及以上的版本）：
+#   pip install torch==2.11.0 torchvision==0.26.0 --index-url https://download.pytorch.org/whl/cu128
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pydantic>=2.7
+ultralytics==8.4.175
+numpy>=1.26,<3
+pillow>=10,<13
+PyYAML>=6,<7
+onnx==1.19.1
+onnxruntime>=1.20          # 有 CUDA 时可换成 onnxruntime-gpu
+celery>=5.6
+redis>=5
+# TensorRT（仅 GPU 机器需要；与实验三相同版本）
+tensorrt_cu12==10.13.3.9; sys_platform != "darwin"
+# 测试
+pytest>=8
+httpx>=0.27

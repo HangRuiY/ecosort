@@ -1,0 +1,1102 @@
+[
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "请分类：苹果核",
+    "output": "材质：食物残余；投放建议：厨余垃圾；说明：食物残余与包装分离后投放",
+    "meta": {
+      "class_id": 4,
+      "class_name": "食物残余",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "餐巾纸，应该投到哪个垃圾桶？",
+    "output": "材质：纸及纸板；投放建议：可回收物；说明：纸及纸板保持干燥清洁可回收；油污纸张投其他垃圾",
+    "meta": {
+      "class_id": 1,
+      "class_name": "纸及纸板",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "薯片袋还能回收吗？",
+    "output": "材质：塑料；投放建议：可回收物；说明：塑料容器/包装清空、冲洗后可回收；沾污塑料投其他垃圾",
+    "meta": {
+      "class_id": 0,
+      "class_name": "塑料",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "薯片袋，应该投到哪个垃圾桶？",
+    "output": "材质：塑料；投放建议：可回收物；说明：塑料容器/包装清空、冲洗后可回收；沾污塑料投其他垃圾",
+    "meta": {
+      "class_id": 0,
+      "class_name": "塑料",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "废弃的铝罐",
+    "output": "材质：金属；投放建议：可回收物；说明：金属罐冲洗后可回收",
+    "meta": {
+      "class_id": 2,
+      "class_name": "金属",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "传单，在上海属于什么垃圾？",
+    "output": "材质：纸及纸板；投放建议：可回收物；说明：纸及纸板保持干燥清洁可回收；油污纸张投其他垃圾",
+    "meta": {
+      "class_id": 1,
+      "class_name": "纸及纸板",
+      "contaminated": false,
+      "region": "shanghai"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "用过的薯片袋",
+    "output": "材质：塑料；投放建议：可回收物；说明：塑料容器/包装清空、冲洗后可回收；沾污塑料投其他垃圾",
+    "meta": {
+      "class_id": 0,
+      "class_name": "塑料",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "废弃的蛋壳",
+    "output": "材质：食物残余；投放建议：厨余垃圾；说明：食物残余与包装分离后投放",
+    "meta": {
+      "class_id": 4,
+      "class_name": "食物残余",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "沾了油的镜子",
+    "output": "材质：玻璃；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 3,
+      "class_name": "玻璃",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "苹果核，应该投到哪个垃圾桶？",
+    "output": "材质：食物残余；投放建议：厨余垃圾；说明：食物残余与包装分离后投放",
+    "meta": {
+      "class_id": 4,
+      "class_name": "食物残余",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "没洗的餐巾纸",
+    "output": "材质：纸及纸板；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 1,
+      "class_name": "纸及纸板",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "废弃的镜子",
+    "output": "材质：玻璃；投放建议：可回收物；说明：玻璃轻放，尖锐边角包裹后投放",
+    "meta": {
+      "class_id": 3,
+      "class_name": "玻璃",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "干净的传单",
+    "output": "材质：纸及纸板；投放建议：可回收物；说明：纸及纸板保持干燥清洁可回收；油污纸张投其他垃圾",
+    "meta": {
+      "class_id": 1,
+      "class_name": "纸及纸板",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "在上海，餐巾纸怎么投放？",
+    "output": "材质：纸及纸板；投放建议：可回收物；说明：纸及纸板保持干燥清洁可回收；油污纸张投其他垃圾",
+    "meta": {
+      "class_id": 1,
+      "class_name": "纸及纸板",
+      "contaminated": false,
+      "region": "shanghai"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "干净的薯片袋",
+    "output": "材质：塑料；投放建议：可回收物；说明：塑料容器/包装清空、冲洗后可回收；沾污塑料投其他垃圾",
+    "meta": {
+      "class_id": 0,
+      "class_name": "塑料",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "饮料瓶，应该投到哪个垃圾桶？",
+    "output": "材质：塑料；投放建议：可回收物；说明：塑料容器/包装清空、冲洗后可回收；沾污塑料投其他垃圾",
+    "meta": {
+      "class_id": 0,
+      "class_name": "塑料",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "酒瓶，在上海属于什么垃圾？",
+    "output": "材质：玻璃；投放建议：可回收物；说明：玻璃轻放，尖锐边角包裹后投放",
+    "meta": {
+      "class_id": 3,
+      "class_name": "玻璃",
+      "contaminated": false,
+      "region": "shanghai"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "没洗的传单",
+    "output": "材质：纸及纸板；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 1,
+      "class_name": "纸及纸板",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "在上海，镜子怎么投放？",
+    "output": "材质：玻璃；投放建议：可回收物；说明：玻璃轻放，尖锐边角包裹后投放",
+    "meta": {
+      "class_id": 3,
+      "class_name": "玻璃",
+      "contaminated": false,
+      "region": "shanghai"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "传单",
+    "output": "材质：纸及纸板；投放建议：可回收物；说明：纸及纸板保持干燥清洁可回收；油污纸张投其他垃圾",
+    "meta": {
+      "class_id": 1,
+      "class_name": "纸及纸板",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "请分类：餐巾纸",
+    "output": "材质：纸及纸板；投放建议：可回收物；说明：纸及纸板保持干燥清洁可回收；油污纸张投其他垃圾",
+    "meta": {
+      "class_id": 1,
+      "class_name": "纸及纸板",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "废弃的传单",
+    "output": "材质：纸及纸板；投放建议：可回收物；说明：纸及纸板保持干燥清洁可回收；油污纸张投其他垃圾",
+    "meta": {
+      "class_id": 1,
+      "class_name": "纸及纸板",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "废弃的饮料瓶",
+    "output": "材质：塑料；投放建议：可回收物；说明：塑料容器/包装清空、冲洗后可回收；沾污塑料投其他垃圾",
+    "meta": {
+      "class_id": 0,
+      "class_name": "塑料",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "沾了油的传单",
+    "output": "材质：纸及纸板；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 1,
+      "class_name": "纸及纸板",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "铝罐，已经弄脏了",
+    "output": "材质：金属；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 2,
+      "class_name": "金属",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "废弃的餐巾纸",
+    "output": "材质：纸及纸板；投放建议：可回收物；说明：纸及纸板保持干燥清洁可回收；油污纸张投其他垃圾",
+    "meta": {
+      "class_id": 1,
+      "class_name": "纸及纸板",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "蛋壳还能回收吗？",
+    "output": "材质：食物残余；投放建议：厨余垃圾；说明：食物残余与包装分离后投放",
+    "meta": {
+      "class_id": 4,
+      "class_name": "食物残余",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "干净的饮料瓶",
+    "output": "材质：塑料；投放建议：可回收物；说明：塑料容器/包装清空、冲洗后可回收；沾污塑料投其他垃圾",
+    "meta": {
+      "class_id": 0,
+      "class_name": "塑料",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "沾了油的苹果核",
+    "output": "材质：食物残余；投放建议：厨余垃圾；说明：食物残余与包装分离后投放",
+    "meta": {
+      "class_id": 4,
+      "class_name": "食物残余",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "没洗的蛋壳",
+    "output": "材质：食物残余；投放建议：厨余垃圾；说明：食物残余与包装分离后投放",
+    "meta": {
+      "class_id": 4,
+      "class_name": "食物残余",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "在上海，薯片袋怎么投放？",
+    "output": "材质：塑料；投放建议：可回收物；说明：塑料容器/包装清空、冲洗后可回收；沾污塑料投其他垃圾",
+    "meta": {
+      "class_id": 0,
+      "class_name": "塑料",
+      "contaminated": false,
+      "region": "shanghai"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "钉子，已经弄脏了",
+    "output": "材质：金属；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 2,
+      "class_name": "金属",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "请分类：酒瓶",
+    "output": "材质：玻璃；投放建议：可回收物；说明：玻璃轻放，尖锐边角包裹后投放",
+    "meta": {
+      "class_id": 3,
+      "class_name": "玻璃",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "干净的酒瓶",
+    "output": "材质：玻璃；投放建议：可回收物；说明：玻璃轻放，尖锐边角包裹后投放",
+    "meta": {
+      "class_id": 3,
+      "class_name": "玻璃",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "铝罐，在上海属于什么垃圾？",
+    "output": "材质：金属；投放建议：可回收物；说明：金属罐冲洗后可回收",
+    "meta": {
+      "class_id": 2,
+      "class_name": "金属",
+      "contaminated": false,
+      "region": "shanghai"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "镜子，应该投到哪个垃圾桶？",
+    "output": "材质：玻璃；投放建议：可回收物；说明：玻璃轻放，尖锐边角包裹后投放",
+    "meta": {
+      "class_id": 3,
+      "class_name": "玻璃",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "餐巾纸，在上海属于什么垃圾？",
+    "output": "材质：纸及纸板；投放建议：可回收物；说明：纸及纸板保持干燥清洁可回收；油污纸张投其他垃圾",
+    "meta": {
+      "class_id": 1,
+      "class_name": "纸及纸板",
+      "contaminated": false,
+      "region": "shanghai"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "废弃的钉子",
+    "output": "材质：金属；投放建议：可回收物；说明：金属罐冲洗后可回收",
+    "meta": {
+      "class_id": 2,
+      "class_name": "金属",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "在上海，铝罐怎么投放？",
+    "output": "材质：金属；投放建议：可回收物；说明：金属罐冲洗后可回收",
+    "meta": {
+      "class_id": 2,
+      "class_name": "金属",
+      "contaminated": false,
+      "region": "shanghai"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "沾了油的铝罐",
+    "output": "材质：金属；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 2,
+      "class_name": "金属",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "蛋壳，在上海属于什么垃圾？",
+    "output": "材质：食物残余；投放建议：湿垃圾；说明：食物残余与包装分离后投放",
+    "meta": {
+      "class_id": 4,
+      "class_name": "食物残余",
+      "contaminated": false,
+      "region": "shanghai"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "请分类：蛋壳",
+    "output": "材质：食物残余；投放建议：厨余垃圾；说明：食物残余与包装分离后投放",
+    "meta": {
+      "class_id": 4,
+      "class_name": "食物残余",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "沾了油的酒瓶",
+    "output": "材质：玻璃；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 3,
+      "class_name": "玻璃",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "苹果核",
+    "output": "材质：食物残余；投放建议：厨余垃圾；说明：食物残余与包装分离后投放",
+    "meta": {
+      "class_id": 4,
+      "class_name": "食物残余",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "沾了油的蛋壳",
+    "output": "材质：食物残余；投放建议：厨余垃圾；说明：食物残余与包装分离后投放",
+    "meta": {
+      "class_id": 4,
+      "class_name": "食物残余",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "在上海，钉子怎么投放？",
+    "output": "材质：金属；投放建议：可回收物；说明：金属罐冲洗后可回收",
+    "meta": {
+      "class_id": 2,
+      "class_name": "金属",
+      "contaminated": false,
+      "region": "shanghai"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "钉子",
+    "output": "材质：金属；投放建议：可回收物；说明：金属罐冲洗后可回收",
+    "meta": {
+      "class_id": 2,
+      "class_name": "金属",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "没洗的镜子",
+    "output": "材质：玻璃；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 3,
+      "class_name": "玻璃",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "在上海，苹果核怎么投放？",
+    "output": "材质：食物残余；投放建议：湿垃圾；说明：食物残余与包装分离后投放",
+    "meta": {
+      "class_id": 4,
+      "class_name": "食物残余",
+      "contaminated": false,
+      "region": "shanghai"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "废弃的薯片袋",
+    "output": "材质：塑料；投放建议：可回收物；说明：塑料容器/包装清空、冲洗后可回收；沾污塑料投其他垃圾",
+    "meta": {
+      "class_id": 0,
+      "class_name": "塑料",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "没洗的酒瓶",
+    "output": "材质：玻璃；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 3,
+      "class_name": "玻璃",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "传单，已经弄脏了",
+    "output": "材质：纸及纸板；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 1,
+      "class_name": "纸及纸板",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "餐巾纸",
+    "output": "材质：纸及纸板；投放建议：可回收物；说明：纸及纸板保持干燥清洁可回收；油污纸张投其他垃圾",
+    "meta": {
+      "class_id": 1,
+      "class_name": "纸及纸板",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "蛋壳，应该投到哪个垃圾桶？",
+    "output": "材质：食物残余；投放建议：厨余垃圾；说明：食物残余与包装分离后投放",
+    "meta": {
+      "class_id": 4,
+      "class_name": "食物残余",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "镜子，已经弄脏了",
+    "output": "材质：玻璃；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 3,
+      "class_name": "玻璃",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "餐巾纸，已经弄脏了",
+    "output": "材质：纸及纸板；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 1,
+      "class_name": "纸及纸板",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "铝罐",
+    "output": "材质：金属；投放建议：可回收物；说明：金属罐冲洗后可回收",
+    "meta": {
+      "class_id": 2,
+      "class_name": "金属",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "苹果核，已经弄脏了",
+    "output": "材质：食物残余；投放建议：厨余垃圾；说明：食物残余与包装分离后投放",
+    "meta": {
+      "class_id": 4,
+      "class_name": "食物残余",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "镜子还能回收吗？",
+    "output": "材质：玻璃；投放建议：可回收物；说明：玻璃轻放，尖锐边角包裹后投放",
+    "meta": {
+      "class_id": 3,
+      "class_name": "玻璃",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "干净的餐巾纸",
+    "output": "材质：纸及纸板；投放建议：可回收物；说明：纸及纸板保持干燥清洁可回收；油污纸张投其他垃圾",
+    "meta": {
+      "class_id": 1,
+      "class_name": "纸及纸板",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "废弃的酒瓶",
+    "output": "材质：玻璃；投放建议：可回收物；说明：玻璃轻放，尖锐边角包裹后投放",
+    "meta": {
+      "class_id": 3,
+      "class_name": "玻璃",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "干净的钉子",
+    "output": "材质：金属；投放建议：可回收物；说明：金属罐冲洗后可回收",
+    "meta": {
+      "class_id": 2,
+      "class_name": "金属",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "镜子",
+    "output": "材质：玻璃；投放建议：可回收物；说明：玻璃轻放，尖锐边角包裹后投放",
+    "meta": {
+      "class_id": 3,
+      "class_name": "玻璃",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "用过的蛋壳",
+    "output": "材质：食物残余；投放建议：厨余垃圾；说明：食物残余与包装分离后投放",
+    "meta": {
+      "class_id": 4,
+      "class_name": "食物残余",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "沾了油的饮料瓶",
+    "output": "材质：塑料；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 0,
+      "class_name": "塑料",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "干净的蛋壳",
+    "output": "材质：食物残余；投放建议：厨余垃圾；说明：食物残余与包装分离后投放",
+    "meta": {
+      "class_id": 4,
+      "class_name": "食物残余",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "用过的酒瓶",
+    "output": "材质：玻璃；投放建议：可回收物；说明：玻璃轻放，尖锐边角包裹后投放",
+    "meta": {
+      "class_id": 3,
+      "class_name": "玻璃",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "饮料瓶还能回收吗？",
+    "output": "材质：塑料；投放建议：可回收物；说明：塑料容器/包装清空、冲洗后可回收；沾污塑料投其他垃圾",
+    "meta": {
+      "class_id": 0,
+      "class_name": "塑料",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "铝罐，应该投到哪个垃圾桶？",
+    "output": "材质：金属；投放建议：可回收物；说明：金属罐冲洗后可回收",
+    "meta": {
+      "class_id": 2,
+      "class_name": "金属",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "薯片袋",
+    "output": "材质：塑料；投放建议：可回收物；说明：塑料容器/包装清空、冲洗后可回收；沾污塑料投其他垃圾",
+    "meta": {
+      "class_id": 0,
+      "class_name": "塑料",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "没洗的饮料瓶",
+    "output": "材质：塑料；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 0,
+      "class_name": "塑料",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "蛋壳",
+    "output": "材质：食物残余；投放建议：厨余垃圾；说明：食物残余与包装分离后投放",
+    "meta": {
+      "class_id": 4,
+      "class_name": "食物残余",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "沾了油的餐巾纸",
+    "output": "材质：纸及纸板；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 1,
+      "class_name": "纸及纸板",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "饮料瓶，在上海属于什么垃圾？",
+    "output": "材质：塑料；投放建议：可回收物；说明：塑料容器/包装清空、冲洗后可回收；沾污塑料投其他垃圾",
+    "meta": {
+      "class_id": 0,
+      "class_name": "塑料",
+      "contaminated": false,
+      "region": "shanghai"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "没洗的铝罐",
+    "output": "材质：金属；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 2,
+      "class_name": "金属",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "铝罐还能回收吗？",
+    "output": "材质：金属；投放建议：可回收物；说明：金属罐冲洗后可回收",
+    "meta": {
+      "class_id": 2,
+      "class_name": "金属",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "苹果核，在上海属于什么垃圾？",
+    "output": "材质：食物残余；投放建议：湿垃圾；说明：食物残余与包装分离后投放",
+    "meta": {
+      "class_id": 4,
+      "class_name": "食物残余",
+      "contaminated": false,
+      "region": "shanghai"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "钉子，应该投到哪个垃圾桶？",
+    "output": "材质：金属；投放建议：可回收物；说明：金属罐冲洗后可回收",
+    "meta": {
+      "class_id": 2,
+      "class_name": "金属",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "用过的镜子",
+    "output": "材质：玻璃；投放建议：可回收物；说明：玻璃轻放，尖锐边角包裹后投放",
+    "meta": {
+      "class_id": 3,
+      "class_name": "玻璃",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "餐巾纸还能回收吗？",
+    "output": "材质：纸及纸板；投放建议：可回收物；说明：纸及纸板保持干燥清洁可回收；油污纸张投其他垃圾",
+    "meta": {
+      "class_id": 1,
+      "class_name": "纸及纸板",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "钉子，在上海属于什么垃圾？",
+    "output": "材质：金属；投放建议：可回收物；说明：金属罐冲洗后可回收",
+    "meta": {
+      "class_id": 2,
+      "class_name": "金属",
+      "contaminated": false,
+      "region": "shanghai"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "没洗的薯片袋",
+    "output": "材质：塑料；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 0,
+      "class_name": "塑料",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "酒瓶，应该投到哪个垃圾桶？",
+    "output": "材质：玻璃；投放建议：可回收物；说明：玻璃轻放，尖锐边角包裹后投放",
+    "meta": {
+      "class_id": 3,
+      "class_name": "玻璃",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "请分类：铝罐",
+    "output": "材质：金属；投放建议：可回收物；说明：金属罐冲洗后可回收",
+    "meta": {
+      "class_id": 2,
+      "class_name": "金属",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "请分类：传单",
+    "output": "材质：纸及纸板；投放建议：可回收物；说明：纸及纸板保持干燥清洁可回收；油污纸张投其他垃圾",
+    "meta": {
+      "class_id": 1,
+      "class_name": "纸及纸板",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "蛋壳，已经弄脏了",
+    "output": "材质：食物残余；投放建议：厨余垃圾；说明：食物残余与包装分离后投放",
+    "meta": {
+      "class_id": 4,
+      "class_name": "食物残余",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "酒瓶，已经弄脏了",
+    "output": "材质：玻璃；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 3,
+      "class_name": "玻璃",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "在上海，饮料瓶怎么投放？",
+    "output": "材质：塑料；投放建议：可回收物；说明：塑料容器/包装清空、冲洗后可回收；沾污塑料投其他垃圾",
+    "meta": {
+      "class_id": 0,
+      "class_name": "塑料",
+      "contaminated": false,
+      "region": "shanghai"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "钉子还能回收吗？",
+    "output": "材质：金属；投放建议：可回收物；说明：金属罐冲洗后可回收",
+    "meta": {
+      "class_id": 2,
+      "class_name": "金属",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "用过的饮料瓶",
+    "output": "材质：塑料；投放建议：可回收物；说明：塑料容器/包装清空、冲洗后可回收；沾污塑料投其他垃圾",
+    "meta": {
+      "class_id": 0,
+      "class_name": "塑料",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "沾了油的薯片袋",
+    "output": "材质：塑料；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 0,
+      "class_name": "塑料",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "用过的铝罐",
+    "output": "材质：金属；投放建议：可回收物；说明：金属罐冲洗后可回收",
+    "meta": {
+      "class_id": 2,
+      "class_name": "金属",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "请分类：薯片袋",
+    "output": "材质：塑料；投放建议：可回收物；说明：塑料容器/包装清空、冲洗后可回收；沾污塑料投其他垃圾",
+    "meta": {
+      "class_id": 0,
+      "class_name": "塑料",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "请分类：镜子",
+    "output": "材质：玻璃；投放建议：可回收物；说明：玻璃轻放，尖锐边角包裹后投放",
+    "meta": {
+      "class_id": 3,
+      "class_name": "玻璃",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "沾了油的钉子",
+    "output": "材质：金属；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 2,
+      "class_name": "金属",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "镜子，在上海属于什么垃圾？",
+    "output": "材质：玻璃；投放建议：可回收物；说明：玻璃轻放，尖锐边角包裹后投放",
+    "meta": {
+      "class_id": 3,
+      "class_name": "玻璃",
+      "contaminated": false,
+      "region": "shanghai"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "干净的苹果核",
+    "output": "材质：食物残余；投放建议：厨余垃圾；说明：食物残余与包装分离后投放",
+    "meta": {
+      "class_id": 4,
+      "class_name": "食物残余",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "请分析下面的物品描述，输出材质类别与对应的垃圾投放建议。",
+    "input": "用过的传单",
+    "output": "材质：纸及纸板；投放建议：可回收物；说明：纸及纸板保持干燥清洁可回收；油污纸张投其他垃圾",
+    "meta": {
+      "class_id": 1,
+      "class_name": "纸及纸板",
+      "contaminated": false,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "判断该物品的材质类别和垃圾投放去向。",
+    "input": "薯片袋，已经弄脏了",
+    "output": "材质：塑料；投放建议：其他垃圾；说明：描述提到被油污或食物污染，可回收材质按其他垃圾处理",
+    "meta": {
+      "class_id": 0,
+      "class_name": "塑料",
+      "contaminated": true,
+      "region": "general"
+    }
+  },
+  {
+    "instruction": "你是垃圾分类助手。请判断物品描述对应的材质类别（五类之一：塑料、纸及纸板、金属、玻璃、食物残余），并给出投放建议。",
+    "input": "废弃的苹果核",
+    "output": "材质：食物残余；投放建议：厨余垃圾；说明：食物残余与包装分离后投放",
+    "meta": {
+      "class_id": 4,
+      "class_name": "食物残余",
+      "contaminated": false,
+      "region": "general"
+    }
+  }
+]

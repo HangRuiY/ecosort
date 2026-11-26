@@ -1,0 +1,140 @@
+{
+  "status": "completed",
+  "measurements": [
+    {
+      "scope": "model",
+      "batch": 1,
+      "backend": "pytorch_fp32",
+      "iterations": 300,
+      "mean_ms_per_batch": 18.586767666666667,
+      "median_ms_per_batch": 18.249850000000002,
+      "p95_ms_per_batch": 20.78841,
+      "std_ms": 1.2239203895355935,
+      "mean_ms_per_image": 18.586767666666667,
+      "throughput_images_per_second": 53.8017162496409
+    },
+    {
+      "scope": "model",
+      "batch": 1,
+      "backend": "tensorrt_fp16",
+      "iterations": 300,
+      "mean_ms_per_batch": 2.4851046666666665,
+      "median_ms_per_batch": 2.4631999999999996,
+      "p95_ms_per_batch": 2.7434499999999997,
+      "std_ms": 0.14883165068528909,
+      "mean_ms_per_image": 2.4851046666666665,
+      "throughput_images_per_second": 402.3975381855144
+    },
+    {
+      "scope": "model",
+      "batch": 32,
+      "backend": "pytorch_fp32",
+      "iterations": 120,
+      "mean_ms_per_batch": 41.291759166666665,
+      "median_ms_per_batch": 40.95575,
+      "p95_ms_per_batch": 42.76372,
+      "std_ms": 0.8722715917827613,
+      "mean_ms_per_image": 1.2903674739583333,
+      "throughput_images_per_second": 774.973036891885
+    },
+    {
+      "scope": "model",
+      "batch": 32,
+      "backend": "tensorrt_fp16",
+      "iterations": 120,
+      "mean_ms_per_batch": 12.614245,
+      "median_ms_per_batch": 12.4892,
+      "p95_ms_per_batch": 13.15796,
+      "std_ms": 0.4136225352364909,
+      "mean_ms_per_image": 0.39419515625,
+      "throughput_images_per_second": 2536.814529922322
+    },
+    {
+      "scope": "pipeline",
+      "batch": 1,
+      "backend": "pytorch_fp32",
+      "iterations": 150,
+      "mean_ms_per_batch": 24.073954,
+      "median_ms_per_batch": 23.943199999999997,
+      "p95_ms_per_batch": 25.82228,
+      "std_ms": 0.9561091091895147,
+      "mean_ms_per_image": 24.073954,
+      "throughput_images_per_second": 41.53866872055999
+    },
+    {
+      "scope": "pipeline",
+      "batch": 1,
+      "backend": "tensorrt_fp16",
+      "iterations": 150,
+      "mean_ms_per_batch": 8.405541333333334,
+      "median_ms_per_batch": 8.2878,
+      "p95_ms_per_batch": 10.655824999999998,
+      "std_ms": 1.0981865138580453,
+      "mean_ms_per_image": 8.405541333333334,
+      "throughput_images_per_second": 118.96913718505697
+    },
+    {
+      "scope": "pipeline",
+      "batch": 32,
+      "backend": "pytorch_fp32",
+      "iterations": 60,
+      "mean_ms_per_batch": 176.87146166666668,
+      "median_ms_per_batch": 171.7241,
+      "p95_ms_per_batch": 201.45824000000002,
+      "std_ms": 10.921980616637287,
+      "mean_ms_per_image": 5.527233177083334,
+      "throughput_images_per_second": 180.92234721454074
+    },
+    {
+      "scope": "pipeline",
+      "batch": 32,
+      "backend": "tensorrt_fp16",
+      "iterations": 60,
+      "mean_ms_per_batch": 175.20174166666666,
+      "median_ms_per_batch": 172.4163,
+      "p95_ms_per_batch": 192.12442499999997,
+      "std_ms": 9.494485713623488,
+      "mean_ms_per_image": 5.475054427083333,
+      "throughput_images_per_second": 182.64658613315726
+    }
+  ],
+  "comparisons": [
+    {
+      "scope": "model",
+      "batch": 1,
+      "speedup": 7.479269551892784,
+      "latency_reduction_percent": 86.62971038733416,
+      "throughput_increase_percent": 647.9269551892785,
+      "latency_target_pass": true,
+      "throughput_target_pass": true
+    },
+    {
+      "scope": "model",
+      "batch": 32,
+      "speedup": 3.2734229568766633,
+      "latency_reduction_percent": 69.45093826328663,
+      "throughput_increase_percent": 227.34229568766634,
+      "latency_target_pass": true,
+      "throughput_target_pass": true
+    },
+    {
+      "scope": "pipeline",
+      "batch": 1,
+      "speedup": 2.864057536012751,
+      "latency_reduction_percent": 65.08450031376925,
+      "throughput_increase_percent": 186.40575360127508,
+      "latency_target_pass": true,
+      "throughput_target_pass": true
+    },
+    {
+      "scope": "pipeline",
+      "batch": 32,
+      "speedup": 1.0095302705561955,
+      "latency_reduction_percent": 0.9440301924720673,
+      "throughput_increase_percent": 0.9530270556195486,
+      "latency_target_pass": false,
+      "throughput_target_pass": false
+    }
+  ],
+  "protocol_sha256": "f02e3ee020db1ea09ff2d31b6df3d90c60849ae090d769b623f0de02995d2c07"
+}

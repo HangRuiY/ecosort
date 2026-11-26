@@ -1,0 +1,125 @@
+{
+  "accuracy": 1.0,
+  "by_type": {
+    "text": {
+      "accuracy": 1.0,
+      "avg_latency_s": 1.89
+    },
+    "image": {
+      "accuracy": 1.0,
+      "avg_latency_s": 2.36
+    }
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "type": "text",
+      "query": "喝完的易拉罐是什么垃圾？",
+      "expect": "classify_text",
+      "called": [
+        "classify_text"
+      ],
+      "ok": true,
+      "latency_s": 1.87
+    },
+    {
+      "round": 2,
+      "type": "text",
+      "query": "快递纸箱怎么投放？",
+      "expect": "classify_text",
+      "called": [
+        "classify_text"
+      ],
+      "ok": true,
+      "latency_s": 1.99
+    },
+    {
+      "round": 3,
+      "type": "text",
+      "query": "废旧电池应该扔哪里？",
+      "expect": "classify_text",
+      "called": [
+        "classify_text"
+      ],
+      "ok": true,
+      "latency_s": 1.48
+    },
+    {
+      "round": 4,
+      "type": "text",
+      "query": "香蕉皮属于哪类垃圾？",
+      "expect": "classify_text",
+      "called": [
+        "classify_text"
+      ],
+      "ok": true,
+      "latency_s": 1.45
+    },
+    {
+      "round": 5,
+      "type": "text",
+      "query": "碎玻璃瓶怎么处理？",
+      "expect": "classify_text",
+      "called": [
+        "classify_text"
+      ],
+      "ok": true,
+      "latency_s": 2.65
+    },
+    {
+      "round": 6,
+      "type": "image",
+      "query": "帮我看看这张图里有什么垃圾：D:\\AI全栈开发\\ecosort\\experime",
+      "expect": "detect_trash",
+      "called": [
+        "detect_trash"
+      ],
+      "ok": true,
+      "latency_s": 2.31
+    },
+    {
+      "round": 7,
+      "type": "image",
+      "query": "识别一下这张图片里的垃圾：D:\\AI全栈开发\\ecosort\\experimen",
+      "expect": "detect_trash",
+      "called": [
+        "detect_trash"
+      ],
+      "ok": true,
+      "latency_s": 2.18
+    },
+    {
+      "round": 8,
+      "type": "image",
+      "query": "分析这张照片：D:\\AI全栈开发\\ecosort\\experiment4\\bac",
+      "expect": "detect_trash",
+      "called": [
+        "detect_trash"
+      ],
+      "ok": true,
+      "latency_s": 2.16
+    },
+    {
+      "round": 9,
+      "type": "image",
+      "query": "图中有什么垃圾？路径：D:\\AI全栈开发\\ecosort\\experiment4",
+      "expect": "detect_trash",
+      "called": [
+        "detect_trash"
+      ],
+      "ok": true,
+      "latency_s": 2.6
+    },
+    {
+      "round": 10,
+      "type": "image",
+      "query": "检测这张图片：D:\\AI全栈开发\\ecosort\\experiment4\\bac",
+      "expect": "detect_trash",
+      "called": [
+        "detect_trash"
+      ],
+      "ok": true,
+      "latency_s": 2.57
+    }
+  ]
+}

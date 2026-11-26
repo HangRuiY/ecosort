@@ -1,0 +1,85 @@
+{
+  "pages": 21,
+  "pixel_changed_pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    21
+  ],
+  "internal_links_verified": 8,
+  "all_links_target_correct_reference_number": true,
+  "all_citations_superscript": true,
+  "only_word_document_xml_changed": true,
+  "all_text_preserved": true,
+  "qa_directory": "reports/qa_citation_links",
+  "pdf_links": [
+    {
+      "source_page": 3,
+      "destination_page": 21,
+      "destination": "['/XYZ', 87, 555, 0]"
+    },
+    {
+      "source_page": 4,
+      "destination_page": 21,
+      "destination": "['/XYZ', 87, 501, 0]"
+    },
+    {
+      "source_page": 5,
+      "destination_page": 21,
+      "destination": "['/XYZ', 87, 465, 0]"
+    },
+    {
+      "source_page": 5,
+      "destination_page": 21,
+      "destination": "['/XYZ', 87, 393, 0]"
+    },
+    {
+      "source_page": 6,
+      "destination_page": 21,
+      "destination": "['/XYZ', 87, 339, 0]"
+    },
+    {
+      "source_page": 7,
+      "destination_page": 21,
+      "destination": "['/XYZ', 87, 285, 0]"
+    },
+    {
+      "source_page": 8,
+      "destination_page": 21,
+      "destination": "['/XYZ', 87, 231, 0]"
+    },
+    {
+      "source_page": 9,
+      "destination_page": 21,
+      "destination": "['/XYZ', 87, 195, 0]"
+    }
+  ],
+  "visual_review_passed": true,
+  "reviewed_changed_pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    21
+  ],
+  "other_pages_pixel_identical_to_previously_reviewed_render": true
+}

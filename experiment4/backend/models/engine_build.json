@@ -1,0 +1,62 @@
+{
+  "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "tensorrt": "10.13.3.9",
+  "torch": "2.11.0+cu128",
+  "engine": "D:\\project\\ecosort\\ecosort\\experiment4\\backend\\models\\baseline.engine",
+  "seconds": 478.9,
+  "batch_profile_max": 32,
+  "sample_check": {
+    "pytorch_fp32": [
+      [
+        5,
+        0.5989
+      ],
+      [
+        5,
+        0.4783
+      ],
+      [
+        5,
+        0.4725
+      ],
+      [
+        5,
+        0.4723
+      ],
+      [
+        0,
+        0.4517
+      ],
+      [
+        5,
+        0.2697
+      ]
+    ],
+    "tensorrt_fp16": [
+      [
+        5,
+        0.6001
+      ],
+      [
+        5,
+        0.4766
+      ],
+      [
+        5,
+        0.4746
+      ],
+      [
+        5,
+        0.4727
+      ],
+      [
+        0,
+        0.4543
+      ],
+      [
+        5,
+        0.2673
+      ]
+    ]
+  }
+}

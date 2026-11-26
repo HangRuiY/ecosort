@@ -1,0 +1,168 @@
+{
+  "backend": "tensorrt_fp16",
+  "model_sha256": "6743205ca4ef399b878603439c75a050ba3a1d5ad8541f9c291d8a2aa0cedb43",
+  "input_count": 4,
+  "duration_seconds": 5.58797140000388,
+  "note": "Includes file reading/drawing/export; not the controlled benchmark latency.",
+  "images": [
+    {
+      "source": "C:\\Users\\Livia\\Desktop\\ecosort\\experiment3\\data\\images\\val\\000005.png",
+      "source_sha256": "1edb84ab5c0929ad4fe0f998e163a791504527a4224bad68653f9313be060de4",
+      "annotated": "000001_000005.jpg",
+      "detections": [
+        {
+          "name": "metal",
+          "class": 5,
+          "confidence": 0.59831,
+          "box": {
+            "x1": 380.8125,
+            "y1": 95.4375,
+            "x2": 570.8125,
+            "y2": 319.6875
+          }
+        },
+        {
+          "name": "metal",
+          "class": 5,
+          "confidence": 0.48438,
+          "box": {
+            "x1": 0.0,
+            "y1": 107.03125,
+            "x2": 62.6875,
+            "y2": 193.90625
+          }
+        },
+        {
+          "name": "metal",
+          "class": 5,
+          "confidence": 0.47268,
+          "box": {
+            "x1": 419.28125,
+            "y1": 189.25,
+            "x2": 475.82812,
+            "y2": 227.96875
+          }
+        },
+        {
+          "name": "metal",
+          "class": 5,
+          "confidence": 0.47268,
+          "box": {
+            "x1": 98.375,
+            "y1": 82.5625,
+            "x2": 274.625,
+            "y2": 340.625
+          }
+        },
+        {
+          "name": "plastic_rigid",
+          "class": 0,
+          "confidence": 0.44939,
+          "box": {
+            "x1": 31.5,
+            "y1": 308.9375,
+            "x2": 575.875,
+            "y2": 500.875
+          }
+        },
+        {
+          "name": "metal",
+          "class": 5,
+          "confidence": 0.27048,
+          "box": {
+            "x1": 223.36719,
+            "y1": 134.97266,
+            "x2": 247.22656,
+            "y2": 158.01562
+          }
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\Livia\\Desktop\\ecosort\\experiment3\\data\\images\\val\\000013.png",
+      "source_sha256": "aa4ef17a94ecb4a7e65709bf865f98064a189c8d659f09612202d4dbf81fe59c",
+      "annotated": "000002_000013.jpg",
+      "detections": []
+    },
+    {
+      "source": "C:\\Users\\Livia\\Desktop\\ecosort\\experiment3\\data\\images\\val\\000017.png",
+      "source_sha256": "07068bf9c44fd9679a1777c6d753807e479fe42e6228acf6a8a57b02bd3455dd",
+      "annotated": "000003_000017.jpg",
+      "detections": [
+        {
+          "name": "plastic_rigid",
+          "class": 0,
+          "confidence": 0.35757,
+          "box": {
+            "x1": 303.71875,
+            "y1": 340.96875,
+            "x2": 375.15625,
+            "y2": 415.03125
+          }
+        },
+        {
+          "name": "paper_cardboard",
+          "class": 3,
+          "confidence": 0.34687,
+          "box": {
+            "x1": 303.53125,
+            "y1": 341.375,
+            "x2": 375.14844,
+            "y2": 414.65625
+          }
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\Livia\\Desktop\\ecosort\\experiment3\\data\\images\\val\\000023.png",
+      "source_sha256": "ae5faaf4216b3d780d075b06b8477cab706cf20f7b9d390aba33b81ac19460bf",
+      "annotated": "000004_000023.jpg",
+      "detections": [
+        {
+          "name": "plastic_rigid",
+          "class": 0,
+          "confidence": 0.68088,
+          "box": {
+            "x1": 404.625,
+            "y1": 64.25,
+            "x2": 558.875,
+            "y2": 403.375
+          }
+        },
+        {
+          "name": "plastic_rigid",
+          "class": 0,
+          "confidence": 0.59455,
+          "box": {
+            "x1": 268.9375,
+            "y1": 80.375,
+            "x2": 391.59375,
+            "y2": 457.0
+          }
+        },
+        {
+          "name": "plastic_rigid",
+          "class": 0,
+          "confidence": 0.34334,
+          "box": {
+            "x1": 139.75,
+            "y1": 277.75,
+            "x2": 287.21875,
+            "y2": 544.9375
+          }
+        },
+        {
+          "name": "glass",
+          "class": 6,
+          "confidence": 0.26284,
+          "box": {
+            "x1": 275.28125,
+            "y1": 82.25,
+            "x2": 391.6875,
+            "y2": 453.25
+          }
+        }
+      ]
+    }
+  ]
+}

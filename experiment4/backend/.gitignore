@@ -1,0 +1,7 @@
+storage/
+.ultralytics/
+__pycache__/
+.pytest_cache/
+models/*.engine
+models/*.onnx
+models/*.pt

@@ -1,0 +1,48 @@
+{
+  "status": "completed",
+  "duration_seconds": 3159.867,
+  "duration_minutes": 52.664,
+  "save_dir": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\baseline\\yolo11n_baseline_amp",
+  "best_checkpoint": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\baseline\\yolo11n_baseline_amp\\weights\\best.pt",
+  "last_checkpoint": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\baseline\\yolo11n_baseline_amp\\weights\\last.pt",
+  "metrics": {
+    "metrics/precision(B)": 0.30823149464400307,
+    "metrics/recall(B)": 0.2819428678104031,
+    "metrics/mAP50(B)": 0.2203688319622786,
+    "metrics/mAP50-95(B)": 0.1606643419305642
+  },
+  "config": {
+    "config_path": "D:\\Pycharm\\ecosort\\experiment2\\configs\\baseline.yaml",
+    "data": "D:\\Pycharm\\ecosort\\data\\split\\data.yaml",
+    "model": "yolo11n.pt",
+    "run": {
+      "project": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\baseline",
+      "name": "yolo11n_baseline_amp",
+      "exist_ok": false
+    },
+    "train": {
+      "epochs": 60,
+      "imgsz": 640,
+      "batch": 16,
+      "device": 0,
+      "workers": 4,
+      "seed": 20261003,
+      "deterministic": true,
+      "amp": true,
+      "pretrained": true,
+      "patience": 20,
+      "optimizer": "AdamW",
+      "lr0": 0.001,
+      "lrf": 0.01,
+      "weight_decay": 0.0005,
+      "warmup_epochs": 3.0,
+      "cos_lr": true,
+      "cache": false,
+      "plots": true,
+      "save": true,
+      "val": true,
+      "verbose": true,
+      "fraction": 1.0
+    }
+  }
+}

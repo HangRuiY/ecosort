@@ -1,0 +1,157 @@
+{
+  "method": "Saved validation predictions only; same-class confidence-ordered greedy GT matching at IoU >= 0.5.",
+  "selection": "First 4 validation images sorted by path; not a representative or random sample.",
+  "cases": [
+    {
+      "source": "000005.png",
+      "ground_truth": 6,
+      "backends": {
+        "pytorch_fp32": {
+          "predictions": 6,
+          "tp": 3,
+          "fp": 3,
+          "fn": 3
+        },
+        "tensorrt_fp16": {
+          "predictions": 6,
+          "tp": 3,
+          "fp": 3,
+          "fn": 3
+        }
+      },
+      "matched_predictions_between_backends": [
+        {
+          "class_id": 5,
+          "iou": 0.9988797529119977,
+          "confidence_abs_diff": 0.0007199999999999429,
+          "max_coordinate_abs_diff_pixels": 0.0825500000000261
+        },
+        {
+          "class_id": 5,
+          "iou": 0.9993453356657616,
+          "confidence_abs_diff": 0.00605,
+          "max_coordinate_abs_diff_pixels": 0.01948999999999046
+        },
+        {
+          "class_id": 5,
+          "iou": 0.9992844404012418,
+          "confidence_abs_diff": 0.0016800000000000148,
+          "max_coordinate_abs_diff_pixels": 0.015749999999997044
+        },
+        {
+          "class_id": 5,
+          "iou": 0.9987786513431955,
+          "confidence_abs_diff": 0.0007599999999999829,
+          "max_coordinate_abs_diff_pixels": 0.11389000000002625
+        },
+        {
+          "class_id": 0,
+          "iou": 0.9981720176153698,
+          "confidence_abs_diff": 0.0014399999999999968,
+          "max_coordinate_abs_diff_pixels": 0.3363599999999991
+        },
+        {
+          "class_id": 5,
+          "iou": 0.9971945561817378,
+          "confidence_abs_diff": 0.0004899999999999904,
+          "max_coordinate_abs_diff_pixels": 0.025210000000015498
+        }
+      ]
+    },
+    {
+      "source": "000013.png",
+      "ground_truth": 4,
+      "backends": {
+        "pytorch_fp32": {
+          "predictions": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 4
+        },
+        "tensorrt_fp16": {
+          "predictions": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 4
+        }
+      },
+      "matched_predictions_between_backends": []
+    },
+    {
+      "source": "000017.png",
+      "ground_truth": 1,
+      "backends": {
+        "pytorch_fp32": {
+          "predictions": 2,
+          "tp": 1,
+          "fp": 1,
+          "fn": 0
+        },
+        "tensorrt_fp16": {
+          "predictions": 2,
+          "tp": 1,
+          "fp": 1,
+          "fn": 0
+        }
+      },
+      "matched_predictions_between_backends": [
+        {
+          "class_id": 0,
+          "iou": 0.9992989987671655,
+          "confidence_abs_diff": 0.0010499999999999954,
+          "max_coordinate_abs_diff_pixels": 0.02032000000002654
+        },
+        {
+          "class_id": 3,
+          "iou": 0.9993293687695786,
+          "confidence_abs_diff": 6.0000000000004494e-05,
+          "max_coordinate_abs_diff_pixels": 0.023379999999974643
+        }
+      ]
+    },
+    {
+      "source": "000023.png",
+      "ground_truth": 4,
+      "backends": {
+        "pytorch_fp32": {
+          "predictions": 4,
+          "tp": 2,
+          "fp": 2,
+          "fn": 2
+        },
+        "tensorrt_fp16": {
+          "predictions": 4,
+          "tp": 2,
+          "fp": 2,
+          "fn": 2
+        }
+      },
+      "matched_predictions_between_backends": [
+        {
+          "class_id": 0,
+          "iou": 0.9996542673551315,
+          "confidence_abs_diff": 0.0041799999999999615,
+          "max_coordinate_abs_diff_pixels": 0.051029999999997244
+        },
+        {
+          "class_id": 0,
+          "iou": 0.9992082470108835,
+          "confidence_abs_diff": 0.003149999999999986,
+          "max_coordinate_abs_diff_pixels": 0.08875000000000455
+        },
+        {
+          "class_id": 0,
+          "iou": 0.9986433863616444,
+          "confidence_abs_diff": 0.0014899999999999913,
+          "max_coordinate_abs_diff_pixels": 0.26465000000001737
+        },
+        {
+          "class_id": 6,
+          "iou": 0.9991149915062952,
+          "confidence_abs_diff": 0.0016199999999999548,
+          "max_coordinate_abs_diff_pixels": 0.08969000000000449
+        }
+      ]
+    }
+  ]
+}

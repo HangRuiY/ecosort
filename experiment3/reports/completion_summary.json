@@ -1,0 +1,45 @@
+{
+  "test_map_loss_percentage_points": 0.012621330133547048,
+  "test_map_relative_change_percent": -0.07200610061165835,
+  "accuracy_target_pass": true,
+  "all_speed_targets_pass": false,
+  "comparisons": [
+    {
+      "scope": "model",
+      "batch": 1,
+      "speedup": 7.479269551892784,
+      "latency_reduction_percent": 86.62971038733416,
+      "throughput_increase_percent": 647.9269551892785,
+      "latency_target_pass": true,
+      "throughput_target_pass": true
+    },
+    {
+      "scope": "model",
+      "batch": 32,
+      "speedup": 3.2734229568766633,
+      "latency_reduction_percent": 69.45093826328663,
+      "throughput_increase_percent": 227.34229568766634,
+      "latency_target_pass": true,
+      "throughput_target_pass": true
+    },
+    {
+      "scope": "pipeline",
+      "batch": 1,
+      "speedup": 2.864057536012751,
+      "latency_reduction_percent": 65.08450031376925,
+      "throughput_increase_percent": 186.40575360127508,
+      "latency_target_pass": true,
+      "throughput_target_pass": true
+    },
+    {
+      "scope": "pipeline",
+      "batch": 32,
+      "speedup": 1.0095302705561955,
+      "latency_reduction_percent": 0.9440301924720673,
+      "throughput_increase_percent": 0.9530270556195486,
+      "latency_target_pass": false,
+      "throughput_target_pass": false
+    }
+  ],
+  "originals_unchanged": true
+}

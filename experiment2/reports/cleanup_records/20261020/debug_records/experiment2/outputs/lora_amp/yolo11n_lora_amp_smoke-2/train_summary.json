@@ -1,0 +1,110 @@
+{
+  "status": "completed",
+  "method": "neck_conv_lora_plus_full_detection_head",
+  "smoke_test": true,
+  "duration_seconds": 96.47403649999978,
+  "duration_minutes": 1.6079006083333298,
+  "duration_scope": "model.train包含准备、训练和最终验证；不含权重导出",
+  "completed_epochs": 3,
+  "save_dir": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\lora_amp\\yolo11n_lora_amp_smoke-2",
+  "base_checkpoint": "D:\\Pycharm\\ecosort\\experiment2\\yolo11n.pt",
+  "base_checkpoint_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "data_yaml_sha256": "e4fa2505e91a96967b9eb6d6c84502d92f8996e4fb3799bb80ffeae00bb65e1a",
+  "last_checkpoint": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\lora_amp\\yolo11n_lora_amp_smoke-2\\weights\\last.pt",
+  "lora": {
+    "rank": 8,
+    "alpha": 16
+  },
+  "adapter_updated": true,
+  "optimizer_step_attempts": 33,
+  "optimizer_step_successes": 24,
+  "optimizer_step_skips": 9,
+  "amp_requested": true,
+  "amp_enabled": true,
+  "training_peak_allocated_memory_mb": 1099.9716796875,
+  "memory_scope": "训练批次阶段PyTorch峰值已分配显存",
+  "parameter_report": {
+    "total_parameters": 2638046,
+    "original_parameters": 2607070,
+    "trainable_parameters": 478862,
+    "lora_parameters": 30976,
+    "head_trainable_parameters": 447886,
+    "frozen_parameters": 2159184,
+    "trainable_ratio": 0.1815214746065838,
+    "lora_layers": [
+      "model.13.cv1.conv",
+      "model.13.cv2.conv",
+      "model.16.cv1.conv",
+      "model.16.cv2.conv",
+      "model.19.cv1.conv",
+      "model.19.cv2.conv",
+      "model.22.cv1.conv",
+      "model.22.cv2.conv",
+      "model.22.m.0.cv1.conv",
+      "model.22.m.0.cv2.conv",
+      "model.22.m.0.cv3.conv"
+    ]
+  },
+  "metrics": {
+    "metrics/precision(B)": 0.04984934309750379,
+    "metrics/recall(B)": 0.32542242951403894,
+    "metrics/mAP50(B)": 0.02647507906571505,
+    "metrics/mAP50-95(B)": 0.014969944968925121
+  },
+  "config": {
+    "config_path": "D:\\Pycharm\\ecosort\\experiment2\\configs\\lora_amp.yaml",
+    "data": "D:\\Pycharm\\ecosort\\data\\split\\data.yaml",
+    "model": "D:\\Pycharm\\ecosort\\experiment2\\yolo11n.pt",
+    "lora": {
+      "rank": 8,
+      "alpha": 16
+    },
+    "run": {
+      "project": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\lora_amp",
+      "name": "yolo11n_lora_amp_smoke-2"
+    },
+    "train": {
+      "epochs": 3,
+      "imgsz": 640,
+      "batch": 16,
+      "device": 0,
+      "workers": 4,
+      "seed": 20261003,
+      "deterministic": true,
+      "amp": true,
+      "pretrained": true,
+      "patience": 3,
+      "optimizer": "AdamW",
+      "lr0": 0.001,
+      "lrf": 0.01,
+      "weight_decay": 0.0005,
+      "warmup_epochs": 3.0,
+      "cos_lr": true,
+      "cache": false,
+      "plots": false,
+      "save": true,
+      "val": true,
+      "verbose": true,
+      "fraction": 0.02,
+      "close_mosaic": 0,
+      "nbs": 16,
+      "data": "D:\\Pycharm\\ecosort\\data\\split\\data.yaml",
+      "project": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\lora_amp",
+      "name": "yolo11n_lora_amp_smoke",
+      "exist_ok": false,
+      "compile": false
+    }
+  },
+  "environment": {
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "ultralytics": "8.4.175",
+    "device": "0",
+    "gpu_name": "NVIDIA GeForce RTX 5060 Laptop GPU"
+  },
+  "best_checkpoint": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\lora_amp\\yolo11n_lora_amp_smoke-2\\weights\\best.pt",
+  "best_lora_checkpoint": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\lora_amp\\yolo11n_lora_amp_smoke-2\\weights\\best_lora.pt",
+  "adapter_and_head": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\lora_amp\\yolo11n_lora_amp_smoke-2\\weights\\adapter_and_head.pt",
+  "merged_layers": 11,
+  "merge_output_check_passed": true
+}

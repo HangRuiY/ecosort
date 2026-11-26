@@ -1,0 +1,22 @@
+{
+  "syntax_pass": true,
+  "timing_iterations": 1260,
+  "accuracy_records": 4,
+  "report_pages": 21,
+  "visual_review": "All changed pages inspected; other pages pixel-identical to previously reviewed render.",
+  "renderer": "Microsoft Word read-only PDF export; skill renderer unavailable because LibreOffice is absent",
+  "status": "implementation_and_evaluation_complete_with_reported_batch32_pipeline_target_not_met",
+  "report_format_reference": "experiment1 and experiment2 school report; experiment2 retained as main template",
+  "report_body_tables": 17,
+  "report_figures": 11,
+  "report_code_blocks": 3,
+  "report_characters_including_tables": 16221,
+  "qa_directory": "reports/qa_member_duties",
+  "reference_count": 8,
+  "post_bibliography_user_deletion_preserved": true,
+  "citation_links": 8,
+  "citation_format": "superscript internal hyperlinks",
+  "all_current_user_text_preserved": true,
+  "draft_confirmation_phrases_removed": true,
+  "member_duties_restored": true
+}

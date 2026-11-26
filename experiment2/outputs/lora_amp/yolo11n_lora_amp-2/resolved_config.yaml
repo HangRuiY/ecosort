@@ -1,0 +1,37 @@
+config_path: D:\Pycharm\ecosort\experiment2\configs\lora_amp.yaml
+data: D:\Pycharm\ecosort\data\split\data.yaml
+model: D:\Pycharm\ecosort\experiment2\yolo11n.pt
+lora:
+  rank: 8
+  alpha: 16
+run:
+  project: D:\Pycharm\ecosort\experiment2\outputs\lora_amp
+  name: yolo11n_lora_amp-2
+train:
+  epochs: 60
+  imgsz: 640
+  batch: 16
+  device: 0
+  workers: 4
+  seed: 20261003
+  deterministic: true
+  amp: true
+  pretrained: true
+  patience: 20
+  optimizer: AdamW
+  lr0: 0.001
+  lrf: 0.01
+  weight_decay: 0.0005
+  warmup_epochs: 3.0
+  cos_lr: true
+  cache: false
+  plots: true
+  save: true
+  val: true
+  verbose: true
+  fraction: 1.0
+  data: D:\Pycharm\ecosort\data\split\data.yaml
+  project: D:\Pycharm\ecosort\experiment2\outputs\lora_amp
+  name: yolo11n_lora_amp
+  exist_ok: false
+  compile: false

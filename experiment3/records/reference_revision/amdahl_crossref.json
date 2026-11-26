@@ -1,0 +1,169 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          25
+        ]
+      ],
+      "date-time": "2026-10-25T23:28:25Z",
+      "timestamp": 1792970905881,
+      "version": "4.5.0"
+    },
+    "publisher-location": "New York, New York, USA",
+    "reference-count": 0,
+    "publisher": "ACM Press",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              1967,
+              1,
+              1
+            ]
+          ],
+          "date-time": "1967-01-01T00:00:00Z",
+          "timestamp": -94694400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          1967
+        ]
+      ]
+    },
+    "DOI": "10.1145/1465482.1465560",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2008,
+          12,
+          10
+        ]
+      ],
+      "date-time": "2008-12-10T11:24:48Z",
+      "timestamp": 1228908288000
+    },
+    "page": "483",
+    "source": "Crossref",
+    "is-referenced-by-count": 2207,
+    "title": [
+      "Validity of the single processor approach to achieving large scale computing capabilities"
+    ],
+    "prefix": "10.1145",
+    "author": [
+      {
+        "given": "Gene M.",
+        "family": "Amdahl",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "320",
+    "event": {
+      "name": "the April 18-20, 1967, spring joint computer conference",
+      "location": "Atlantic City, New Jersey",
+      "acronym": "AFIPS '67 (Spring)",
+      "number": "30",
+      "sponsor": [
+        "AFIPS, American Federation of Information Processing Societies"
+      ],
+      "start": {
+        "date-parts": [
+          [
+            1967,
+            4,
+            18
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            1967,
+            4,
+            20
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "Proceedings of the April 18-20, 1967, spring joint computer conference on - AFIPS '67 (Spring)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://dl.acm.org/doi/10.1145/1465482.1465560",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://dl.acm.org/ft_gateway.cfm?id=1465560&amp;ftid=577306&amp;dwn=1",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          18
+        ]
+      ],
+      "date-time": "2025-06-18T19:43:48Z",
+      "timestamp": 1750275828000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://portal.acm.org/citation.cfm?doid=1465482.1465560"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1967
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.1145/1465482.1465560",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1967
+        ]
+      ]
+    }
+  }
+}

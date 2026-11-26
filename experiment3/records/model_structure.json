@@ -1,0 +1,7 @@
+{
+  "parameters": 2607070,
+  "gflops_at_640": 6.5792384,
+  "checkpoint_bytes": 5511386,
+  "optimization_changes_architecture": false,
+  "note": "FP16/TensorRT changes execution precision and graph scheduling, not logical network parameter count or algorithmic FLOPs."
+}

@@ -1,0 +1,13 @@
+Evaluating base model
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+trainable params: 1,081,344 || all params: 495,114,112 || trainable%: 0.2184
+epoch 1 step 20 loss 0.0167
+epoch 1 step 40 loss 0.0071
+epoch 1 mean loss 0.0372
+epoch 2 step 20 loss 0.0013
+epoch 2 step 40 loss 0.0003
+epoch 2 mean loss 0.0032
+epoch 3 step 20 loss 0.0034
+epoch 3 step 40 loss 0.0071
+epoch 3 mean loss 0.0055
+{'base_eval': 5, 'lora_eval': 14, 'int8_eval': 2}

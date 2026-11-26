@@ -1,0 +1,15 @@
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: plastic_rigid
+  1: plastic_flexible
+  2: plastic_unspecified
+  3: paper_cardboard
+  4: composite_packaging
+  5: metal
+  6: glass
+  7: food_waste
+  8: cigarette
+  9: special_unknown
+path: D:/Pycharm/ecosort/experiment2/datasets/augmentation_control/experiment1_augmentation

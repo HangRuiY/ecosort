@@ -1,0 +1,297 @@
+[
+  {
+    "key": "yolo",
+    "doi": "10.1109/CVPR.2016.91",
+    "title": [
+      "You Only Look Once: Unified, Real-Time Object Detection"
+    ],
+    "authors": [
+      {
+        "given": "Joseph",
+        "family": "Redmon",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Santosh",
+        "family": "Divvala",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ross",
+        "family": "Girshick",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ali",
+        "family": "Farhadi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    },
+    "page": "779-788",
+    "publisher": "IEEE",
+    "status": "resolved"
+  },
+  {
+    "key": "coco",
+    "doi": "10.1007/978-3-319-10602-1_48",
+    "title": [
+      "Microsoft COCO: Common Objects in Context"
+    ],
+    "authors": [
+      {
+        "given": "Tsung-Yi",
+        "family": "Lin",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Maire",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Serge",
+        "family": "Belongie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James",
+        "family": "Hays",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pietro",
+        "family": "Perona",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Deva",
+        "family": "Ramanan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Piotr",
+        "family": "Dollár",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C. Lawrence",
+        "family": "Zitnick",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Lecture Notes in Computer Science",
+      "Computer Vision – ECCV 2014"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "page": "740-755",
+    "publisher": "Springer International Publishing",
+    "status": "resolved"
+  },
+  {
+    "key": "soft_nms",
+    "doi": "10.1109/ICCV.2017.593",
+    "title": [
+      "Soft-NMS — Improving Object Detection with One Line of Code"
+    ],
+    "authors": [
+      {
+        "given": "Navaneeth",
+        "family": "Bodla",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bharat",
+        "family": "Singh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rama",
+        "family": "Chellappa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Larry S.",
+        "family": "Davis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "2017 IEEE International Conference on Computer Vision (ICCV)"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2017,
+          10
+        ]
+      ]
+    },
+    "page": "5562-5570",
+    "publisher": "IEEE",
+    "status": "resolved"
+  },
+  {
+    "key": "amdahl",
+    "doi": "10.1145/1465482.1465560",
+    "title": [
+      "Validity of the single processor approach to achieving large scale computing capabilities"
+    ],
+    "authors": [
+      {
+        "given": "Gene M.",
+        "family": "Amdahl",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Proceedings of the April 18-20, 1967, spring joint computer conference on - AFIPS '67 (Spring)"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          1967
+        ]
+      ]
+    },
+    "page": "483",
+    "publisher": "ACM Press",
+    "status": "resolved"
+  }
+]

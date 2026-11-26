@@ -1,0 +1,49 @@
+{
+  "task": "3.1.4 inference acceleration, no optional stage 3.2",
+  "source_model": "experiment2 A best checkpoint; unchanged architecture and weights",
+  "source_checkpoint_sha256": "e16fa7f91e983b39b24c9222a06de756d20e09889b85dc26927a683a6c73f58a",
+  "optimization": "TensorRT FP16 layer/tactic optimization; no INT8, pruning or retraining",
+  "imgsz": 640,
+  "batch_sizes": [
+    1,
+    32
+  ],
+  "device": 0,
+  "timing_warmup_iterations": 30,
+  "timing_rounds": 3,
+  "timing_iterations": {
+    "model_b1": 100,
+    "model_b32": 40,
+    "pipeline_b1": 50,
+    "pipeline_b32": 20
+  },
+  "timing_order": "alternate baseline/optimized between rounds",
+  "model_timing_scope": "wall clock with CUDA synchronize, preallocated GPU tensor -> raw network output; excludes H2D and NMS",
+  "pipeline_timing_scope": "decoded CPU BGR images -> preprocessing/H2D -> network -> NMS -> Results; CUDA synchronize; excludes file IO/drawing/saving",
+  "accuracy": {
+    "imgsz": 640,
+    "batch": 32,
+    "rect": false,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "augment": false,
+    "workers": 0,
+    "split_order": [
+      "val",
+      "test"
+    ]
+  },
+  "selection": "FP16 backend fixed before test evaluation; no test-driven tuning",
+  "accuracy_target_interpretation": "absolute mAP50-95 loss <= 1 percentage point; also report relative loss",
+  "targets": {
+    "latency_reduction_percent": 40,
+    "throughput_increase_percent": 50,
+    "map_loss_percentage_points": 1
+  },
+  "notes": [
+    "Detection mAP replaces classification Top-1; no claims of pruning FLOPs/parameter reduction.",
+    "CPU and GPU cross-platform deployment is outside this experiment.",
+    "Historical experiment2 speed from another GPU is not used as timing baseline."
+  ]
+}

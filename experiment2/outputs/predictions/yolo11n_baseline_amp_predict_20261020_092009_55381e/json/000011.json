@@ -1,0 +1,25 @@
+{
+  "image_index": 11,
+  "source_image": "D:\\Pycharm\\ecosort\\data\\split\\images\\test\\000051.png",
+  "status": "completed",
+  "source_sha256": "74448a2286748fe546acd3cdb7ea50ea45a753a2b0bdf78e1145a2a1b8d77742",
+  "original_width": 640,
+  "original_height": 640,
+  "detection_count": 1,
+  "annotated_image": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\annotated\\000011.jpg",
+  "error": null,
+  "detections": [
+    {
+      "class_id": 3,
+      "class_name": "paper_cardboard",
+      "class_name_zh": "纸及纸板",
+      "confidence": 0.3411373496055603,
+      "xyxy": [
+        286.9267578125,
+        325.13250732421875,
+        365.4429931640625,
+        394.19671630859375
+      ]
+    }
+  ]
+}

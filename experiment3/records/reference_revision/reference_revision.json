@@ -1,0 +1,141 @@
+{
+  "references": [
+    "[1] REDMON J, DIVVALA S, GIRSHICK R, et al. You Only Look Once: Unified, Real-Time Object Detection[C]//2016 IEEE Conference on Computer Vision and Pattern Recognition. 2016: 779-788. DOI: 10.1109/CVPR.2016.91.",
+    "[2] PROENÇA P F, SIMÕES P. TACO: Trash Annotations in Context for Litter Detection[EB/OL]. (2020-03-16)[2026-10-26]. https://arxiv.org/abs/2003.06975. DOI: 10.48550/arXiv.2003.06975.",
+    "[3] CHEN T, MOREAU T, JIANG Z, et al. TVM: An Automated End-to-End Optimizing Compiler for Deep Learning[C]//13th USENIX Symposium on Operating Systems Design and Implementation. USENIX Association, 2018: 578-594.",
+    "[4] MICIKEVICIUS P, NARANG S, ALBEN J, et al. Mixed Precision Training[C/OL]//International Conference on Learning Representations. 2018[2026-10-26]. https://openreview.net/forum?id=r1gs9JgRZ.",
+    "[5] PASZKE A, GROSS S, MASSA F, et al. PyTorch: An Imperative Style, High-Performance Deep Learning Library[C]//Advances in Neural Information Processing Systems. 2019, 32: 8024-8035.",
+    "[6] BODLA N, SINGH B, CHELLAPPA R, et al. Soft-NMS—Improving Object Detection with One Line of Code[C]//2017 IEEE International Conference on Computer Vision. 2017: 5562-5570. DOI: 10.1109/ICCV.2017.593.",
+    "[7] LIN T Y, MAIRE M, BELONGIE S, et al. Microsoft COCO: Common Objects in Context[C]//Computer Vision—ECCV 2014. Cham: Springer, 2014: 740-755. DOI: 10.1007/978-3-319-10602-1_48.",
+    "[8] AMDAHL G M. Validity of the Single Processor Approach to Achieving Large Scale Computing Capabilities[C]//Proceedings of the April 18-20, 1967, Spring Joint Computer Conference. New York: ACM, 1967: 483-485. DOI: 10.1145/1465482.1465560."
+  ],
+  "source_mapping": [
+    {
+      "id": 1,
+      "sources": [
+        "https://openaccess.thecvf.com/content_cvpr_2016/html/Redmon_You_Only_Look_CVPR_2016_paper.html",
+        "https://api.crossref.org/works/10.1109/CVPR.2016.91"
+      ],
+      "supports": "YOLO family detection background; not a claim that the original paper describes YOLO11."
+    },
+    {
+      "id": 2,
+      "sources": [
+        "https://arxiv.org/abs/2003.06975",
+        "https://github.com/pedropro/TACO"
+      ],
+      "supports": "TACO dataset background; explicitly an arXiv preprint, not journal publication."
+    },
+    {
+      "id": 3,
+      "sources": [
+        "https://www.usenix.org/conference/osdi18/presentation/chen",
+        "https://www.usenix.org/system/files/osdi18-chen.pdf"
+      ],
+      "supports": "Graph/operator compiler optimization principles; TVM is not claimed to have been used. Pagination follows official USENIX BibTeX."
+    },
+    {
+      "id": 4,
+      "sources": [
+        "https://arxiv.org/abs/1710.03740",
+        "https://openreview.net/pdf?id=r1gs9JgRZ"
+      ],
+      "supports": "FP16 numerical range and precision background; training results are not used to substantiate this inference speedup."
+    },
+    {
+      "id": 5,
+      "sources": [
+        "https://proceedings.neurips.cc/paper/2019/hash/bdbca288fee7f92f2bfa9f7012727740-Abstract.html",
+        "https://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf"
+      ],
+      "supports": "PyTorch framework background; does not substitute for the current API/runtime records."
+    },
+    {
+      "id": 6,
+      "sources": [
+        "https://api.crossref.org/works/10.1109/ICCV.2017.593",
+        "https://ieeexplore.ieee.org/document/8237855",
+        "https://arxiv.org/abs/1704.04503"
+      ],
+      "supports": "NMS role and alternatives; the experiment does not claim to implement Soft-NMS. IEEE/Crossref pages 5562-5570 used; CVF PDF pagination differs."
+    },
+    {
+      "id": 7,
+      "sources": [
+        "https://api.crossref.org/works/10.1007/978-3-319-10602-1_48",
+        "https://link.springer.com/chapter/10.1007/978-3-319-10602-1_48"
+      ],
+      "supports": "COCO detection-evaluation background."
+    },
+    {
+      "id": 8,
+      "sources": [
+        "https://api.crossref.org/works/10.1145/1465482.1465560",
+        "https://doi.org/10.1145/1465482.1465560",
+        "https://www.usenix.org/system/files/tech-schedule/icac13_full_proceedings.pdf"
+      ],
+      "supports": "Unaccelerated components limit end-to-end speedup; no fitted bottleneck fraction is inferred. Crossref supplies first page 483; full range 483-485 cross-checked in scholarly references."
+    }
+  ],
+  "in_text_changes": [
+    {
+      "before": "EcoSort的输入不是单一垃圾类别图片，而是可能同时含有塑料瓶、纸盒、金属罐等多个目标的画面。模型需要输出每个目标的类别、置信度及边界框。因此优化后端必须保留原有十类顺序、边界框坐标含义和多目标后处理，不能为了套用任务书中的分类示例而把任务改为整图单标签分类。",
+      "after": "EcoSort的输入不是单一垃圾类别图片，而是可能同时含有塑料瓶、纸盒、金属罐等多个目标的画面。模型需要输出每个目标的类别、置信度及边界框[1]。因此优化后端必须保留原有十类顺序、边界框坐标含义和多目标后处理，不能为了套用任务书中的分类示例而把任务改为整图单标签分类。"
+    },
+    {
+      "before": "公共数据延续实验一的固定划分，不重新随机抽样或重新划分。原数据由TACO正式数据、TACO社区数据和SortWaste工业分拣帧组成，共10,528张未增强真实图像、100,496个目标。实验三只需要验证集和测试集，不进行训练或INT8校准，因此没有复制训练集，也没有生成新的增强图片。",
+      "after": "公共数据延续实验一的固定划分，不重新随机抽样或重新划分。原数据由TACO正式数据、TACO社区数据[2]和SortWaste工业分拣帧组成，共10,528张未增强真实图像、100,496个目标。实验三只需要验证集和测试集，不进行训练或INT8校准，因此没有复制训练集，也没有生成新的增强图片。"
+    },
+    {
+      "before": "PyTorch FP32基线按32位浮点运行网络，TensorRT方案允许合适的算子采用16位浮点计算，并通过计算图优化和执行策略选择减少运行开销。与重新学习权重的训练方法不同，本实验改变的是模型的表示与执行方式，目标是在基本维持检测输出质量的条件下缩短推理时间[1-2]。",
+      "after": "PyTorch FP32基线按32位浮点运行网络，TensorRT方案允许合适的算子采用16位浮点计算。图级与算子级优化是深度学习编译的重要思路[3]，本轮通过TensorRT转换考察此类执行优化的实际效果。与重新学习权重的训练方法不同，本实验改变的是模型的表示与执行方式，目标是在基本维持检测输出质量的条件下缩短推理时间[1-2]。"
+    },
+    {
+      "before": "PyTorch FP32基线按32位浮点运行网络，TensorRT方案允许合适的算子采用16位浮点计算。图级与算子级优化是深度学习编译的重要思路[3]，本轮通过TensorRT转换考察此类执行优化的实际效果。与重新学习权重的训练方法不同，本实验改变的是模型的表示与执行方式，目标是在基本维持检测输出质量的条件下缩短推理时间[1-2]。",
+      "after": "PyTorch FP32基线按32位浮点运行网络，TensorRT方案允许合适的算子采用16位浮点计算。图级与算子级优化是深度学习编译的重要思路[3]，本轮通过TensorRT转换考察此类执行优化的实际效果。与重新学习权重的训练方法不同，本实验改变的是模型的表示与执行方式，目标是在基本维持检测输出质量的条件下缩短推理时间。"
+    },
+    {
+      "before": "FP16具有更低的数值精度和不同的表示范围，权重、激活及中间结果经过低精度计算后可能产生舍入差异。目标检测又包含置信度筛选与NMS，临界位置的小数值变化可能影响候选框是否保留以及框之间的抑制关系。因此“图片看起来相似”或“输出形状相同”不足以证明精度一致，仍需完整数据集上的检测指标。",
+      "after": "FP16具有更低的数值精度和不同的表示范围，权重、激活及中间结果经过低精度计算后可能产生舍入差异[4]。目标检测又包含置信度筛选与NMS，临界位置的小数值变化可能影响候选框是否保留以及框之间的抑制关系。因此“图片看起来相似”或“输出形状相同”不足以证明精度一致，仍需完整数据集上的检测指标。"
+    },
+    {
+      "before": "动态profile由固定版本Ultralytics导出器创建，实际包含最小、最优与最大形状范围；正式评估和测速始终使用640×640及batch=1或32，并未测试整个动态尺寸范围。不能把“支持动态形状”写成已验证任意分辨率或任意batch的性能。引擎与构建GPU、CUDA及TensorRT运行时有关，移动到新机器时应重新构建[1]。",
+      "after": "动态profile由固定版本Ultralytics导出器创建，实际包含最小、最优与最大形状范围；正式评估和测速始终使用640×640及batch=1或32，并未测试整个动态尺寸范围。不能把“支持动态形状”写成已验证任意分辨率或任意batch的性能。引擎与构建GPU、CUDA及TensorRT运行时有关，移动到新机器时应重新构建。"
+    },
+    {
+      "before": "脚本以自身目录解析相对路径，避免终端工作目录变化后读取错误模型或将输出写回实验二。模型加载时核对固定十类名称和顺序，预测坐标采用原图像素xyxy形式。预测结果同时保存类别ID、类别名称、置信度、位置与输入哈希，图片文件仅用于直观展示，JSON保留可复核的完整结果。",
+      "after": "脚本以自身目录解析相对路径，避免终端工作目录变化后读取错误模型或将输出写回实验二。PyTorch为GPU张量计算和模型执行提供框架支持[5]。模型加载时核对固定十类名称和顺序，预测坐标采用原图像素xyxy形式。预测结果同时保存类别ID、类别名称、置信度、位置与输入哈希，图片文件仅用于直观展示，JSON保留可复核的完整结果。"
+    },
+    {
+      "before": "预测入口使用OpenCV解码图片，再由框架完成尺寸处理、颜色与张量转换、模型调用及按类别NMS。默认展示阈值为0.25、NMS IoU为0.7、最大检测框数为300。每次预测创建独立输出目录，保存输入和模型哈希，防止重复运行时覆盖上一次案例。单张图片没有保留框可以是有效结果，不等于程序执行失败。",
+      "after": "预测入口使用OpenCV解码图片，再由框架完成尺寸处理、颜色与张量转换、模型调用及按类别NMS。关于NMS处理重复候选框的作用及不同策略，可参见文献[6]。默认展示阈值为0.25、NMS IoU为0.7、最大检测框数为300。每次预测创建独立输出目录，保存输入和模型哈希，防止重复运行时覆盖上一次案例。单张图片没有保留框可以是有效结果，不等于程序执行失败。"
+    },
+    {
+      "before": "AP由精确率—召回率曲线计算。mAP50使用IoU=0.5的匹配标准，mAP50-95综合多个IoU阈值，更能同时反映分类和定位质量。NMS IoU=0.7是后处理抑制阈值，与计算AP的匹配阈值作用不同。P和R由框架选择的工作点产生，不能只根据Precision的升降判断整体模型更好。",
+      "after": "本实验采用COCO风格的目标检测评价体系[7]。AP由精确率—召回率曲线计算。mAP50使用IoU=0.5的匹配标准，mAP50-95综合多个IoU阈值，更能同时反映分类和定位质量。NMS IoU=0.7是后处理抑制阈值，与计算AP的匹配阈值作用不同。P和R由框架选择的工作点产生，不能只根据Precision的升降判断整体模型更好。"
+    },
+    {
+      "before": "CUDA操作通常由CPU异步提交。如果只在Python调用前后计时，CPU可能在GPU计算尚未结束时就读到时间，得到偏小的结果。timed函数在调用前后都执行torch.cuda.synchronize，保证记录包含该次工作的完成等待[3]。这种主机同步计时也包含Python调用成本，因此报告不把它称为仅GPU内核执行时间。",
+      "after": "CUDA操作通常由CPU异步提交。如果只在Python调用前后计时，CPU可能在GPU计算尚未结束时就读到时间，得到偏小的结果。timed函数在调用前后都执行torch.cuda.synchronize，保证记录包含该次工作的完成等待。这种主机同步计时也包含Python调用成本，因此报告不把它称为仅GPU内核执行时间。"
+    },
+    {
+      "before": "完整调用除了网络计算，还包括CPU图像组织、数据搬运、按类别NMS和结果对象创建。即使网络部分显著加速，共同开销也可能限制总流程改善。任务书同时要求构建完整pipeline，所以本实验没有仅保留模型计时，而是明确报告两种范围。",
+      "after": "完整调用除了网络计算，还包括CPU图像组织、数据搬运、按类别NMS和结果对象创建。即使网络部分显著加速，共同开销也可能限制总流程改善[8]。任务书同时要求构建完整pipeline，所以本实验没有仅保留模型计时，而是明确报告两种范围。"
+    }
+  ],
+  "all_eight_references_cited": true,
+  "citation_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "only_docx_package_part_modified": "word/document.xml",
+  "post_bibliography_user_deletion_preserved": true,
+  "output_sha256": "41c404ef9ef8527cbfc3f1f5cdc2d0070ebd8393b9a7cf0f24655da8ac0a77ef",
+  "reference_format": "12pt font retained; hanging indent retained; bibliography line spacing 18pt to avoid an isolated last entry"
+}

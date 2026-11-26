@@ -1,0 +1,25 @@
+{
+  "image_index": 4,
+  "source_image": "D:\\Pycharm\\ecosort\\data\\split\\images\\test\\000021.png",
+  "status": "completed",
+  "source_sha256": "9922d8bb7871268a5f9d3774295fe456e4b6e2e19ee831e3d727004758c62f9e",
+  "original_width": 640,
+  "original_height": 640,
+  "detection_count": 1,
+  "annotated_image": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\annotated\\000004.jpg",
+  "error": null,
+  "detections": [
+    {
+      "class_id": 5,
+      "class_name": "metal",
+      "class_name_zh": "金属",
+      "confidence": 0.659986674785614,
+      "xyxy": [
+        186.8148193359375,
+        172.672119140625,
+        458.7880859375,
+        503.63946533203125
+      ]
+    }
+  ]
+}

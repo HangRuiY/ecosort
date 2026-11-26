@@ -1,0 +1,93 @@
+{
+  "cleaned_at": "2026-10-20T15:07:23+08:00",
+  "root": "D:\\Pycharm\\ecosort",
+  "status": "completed",
+  "deleted_paths": [
+    "experiment2\\datasets\\augmentation_control",
+    "experiment2\\outputs\\baseline\\yolo11n_baseline_amp_smoke",
+    "experiment2\\outputs\\baseline\\yolo11n_baseline_amp_smoke-2",
+    "experiment2\\outputs\\lora_amp\\yolo11n_lora_amp",
+    "experiment2\\outputs\\lora_amp\\yolo11n_lora_amp_smoke",
+    "experiment2\\outputs\\lora_amp\\yolo11n_lora_amp_smoke-2",
+    "experiment2\\outputs\\augmentation_control\\yolo11n_no_augmentation_amp",
+    "experiment2\\weights\\yolo26n.pt",
+    "data\\split\\labels\\test.cache",
+    "data\\split\\labels\\train.cache",
+    "data\\split\\labels\\val.cache",
+    "experiment2\\src\\__pycache__"
+  ],
+  "metadata_archive": "D:\\Pycharm\\ecosort\\experiment2\\datasets\\augmentation_control_records",
+  "metadata_files": [
+    {
+      "relative": "augmentation_preview.jpg",
+      "sha256": "c2fe4033feed2a366ac111c2fe4c65a1846831f0d057884564e1d09997f6cb28",
+      "size": 854492
+    },
+    {
+      "relative": "manifest.csv",
+      "sha256": "cd4527746298b2abfff31d90c4e82813ed675a968a87c18979cb2b9255031856",
+      "size": 3580037
+    },
+    {
+      "relative": "preparation_summary.json",
+      "sha256": "32fccdf3b6c9926907693152d5e05c449a61165140d8e55e8aaf3b11fd503363",
+      "size": 3012
+    },
+    {
+      "relative": "experiment1_augmentation\\data.yaml",
+      "sha256": "ce625509ee19e2fb8855c3129b49b327c7d80a3ffbb3704c527574b54d2ed2e9",
+      "size": 261
+    },
+    {
+      "relative": "experiment1_augmentation\\summary.json",
+      "sha256": "1ec937f6df9e83db3433111833d9dde656b638725e4258c3c0e9dbc336f56bb1",
+      "size": 894
+    },
+    {
+      "relative": "experiment1_augmentation\\test.json",
+      "sha256": "d2e9b325e69fe8da2845a45215ccafea8cc2a6ab359f40e31932ee617b5cef19",
+      "size": 6487482
+    },
+    {
+      "relative": "experiment1_augmentation\\train.json",
+      "sha256": "c4bc55e3c5d009455e60af19f2ed0f872f22f36f3fb907144a3544baf991895d",
+      "size": 89426871
+    },
+    {
+      "relative": "experiment1_augmentation\\val.json",
+      "sha256": "d4df6f1a09211225d005e5a677bf8d04994d353542800e5b8ac0ad8944697f70",
+      "size": 7360693
+    },
+    {
+      "relative": "no_augmentation\\data.yaml",
+      "sha256": "ce625509ee19e2fb8855c3129b49b327c7d80a3ffbb3704c527574b54d2ed2e9",
+      "size": 261
+    },
+    {
+      "relative": "no_augmentation\\summary.json",
+      "sha256": "33c44d20feedec82991f809ecc42307c7a13d36d069af5761833a8e8a7346b12",
+      "size": 851
+    },
+    {
+      "relative": "no_augmentation\\test.json",
+      "sha256": "d2e9b325e69fe8da2845a45215ccafea8cc2a6ab359f40e31932ee617b5cef19",
+      "size": 6487482
+    },
+    {
+      "relative": "no_augmentation\\train.json",
+      "sha256": "f753b0dfeaf74b8044b3fcf23a26d6f3ccdf629474f34bec7bc8ba561cb4b5c0",
+      "size": 89680389
+    },
+    {
+      "relative": "no_augmentation\\val.json",
+      "sha256": "d4df6f1a09211225d005e5a677bf8d04994d353542800e5b8ac0ad8944697f70",
+      "size": 7360693
+    }
+  ],
+  "diagnostic_files_preserved": 19,
+  "estimated_freed_unique_bytes": 5932216102,
+  "disk_free_space_increase_bytes": 5994594304,
+  "protected_file_count": 31909,
+  "protected_missing_or_size_changed": [],
+  "restore_command": "python prepare_augmentation.py --output datasets/augmentation_control --seed 20261003"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "running",
+  "amp_enabled": true,
+  "training_peak_allocated_memory_mb": 0.0,
+  "training_peak_reserved_memory_mb": 0.0,
+  "memory_units": "MiB (2**20 bytes); legacy field suffix is _mb",
+  "memory_scope": "Training epoch only; excludes validation and startup checks",
+  "optimizer_step_attempts": 0,
+  "optimizer_step_successes": 0,
+  "optimizer_step_skips": 0,
+  "parameter_report": {
+    "total_parameters": 2607070,
+    "trainable_parameters": 2607054,
+    "frozen_parameters": 16,
+    "trainable_ratio": 0.9999938628421945,
+    "lora_parameters": 0,
+    "method": "full_finetune",
+    "frozen_names": [
+      "model.23.dfl.conv.weight"
+    ]
+  },
+  "fixed_budget_checks_enabled": true,
+  "epoch_observations": []
+}

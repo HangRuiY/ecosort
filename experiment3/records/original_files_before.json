@@ -1,0 +1,1398 @@
+{
+  "experiment1/experiment1.py": {
+    "bytes": 23638,
+    "sha256": "51d3701b050e54f4652da9ad224be1bb1625727b3ac46c62d1c539c33eda0128"
+  },
+  "experiment1/README.md": {
+    "bytes": 3608,
+    "sha256": "5bc71516e12a9171144bae321b6a647a1cb97b10d6bf43f9e1ac09d190c283c7"
+  },
+  "experiment1/requirements.txt": {
+    "bytes": 43,
+    "sha256": "25cc9c3c5426f4652768fe5c721a61c6674feb232a5407c9740b2384a799ced2"
+  },
+  "experiment1/实验一报告_循智EcoSort.docx": {
+    "bytes": 2144233,
+    "sha256": "b8352fefb15861fd1a458f3de17ec15cc2b9e6ea35895dcd53762356742b45e4"
+  },
+  "experiment2/configs/baseline.yaml": {
+    "bytes": 871,
+    "sha256": "8501068ea571e7498ae8591dd032701190d8f4ae75be8f1661fa7a462849e928"
+  },
+  "experiment2/configs/experiment1_augmentation.yaml": {
+    "bytes": 1011,
+    "sha256": "42ca5c3cc56de2eb58d86b740bb34abc384d40faf5980937c948fad0b993cc33"
+  },
+  "experiment2/configs/lora_amp.yaml": {
+    "bytes": 640,
+    "sha256": "8e414562efd92e76b4272ac90097d8b097a9e577d4b4a42592892ecd9e53b851"
+  },
+  "experiment2/configs/no_augmentation.yaml": {
+    "bytes": 971,
+    "sha256": "f7a5555aa56459554847b2d3666116e81af9d42e00cd6581b85ed9b87a166974"
+  },
+  "experiment2/datasets/augmentation_control_records/augmentation_preview.jpg": {
+    "bytes": 854492,
+    "sha256": "c2fe4033feed2a366ac111c2fe4c65a1846831f0d057884564e1d09997f6cb28"
+  },
+  "experiment2/datasets/augmentation_control_records/experiment1_augmentation/data.yaml": {
+    "bytes": 261,
+    "sha256": "ce625509ee19e2fb8855c3129b49b327c7d80a3ffbb3704c527574b54d2ed2e9"
+  },
+  "experiment2/datasets/augmentation_control_records/experiment1_augmentation/summary.json": {
+    "bytes": 894,
+    "sha256": "1ec937f6df9e83db3433111833d9dde656b638725e4258c3c0e9dbc336f56bb1"
+  },
+  "experiment2/datasets/augmentation_control_records/experiment1_augmentation/test.json": {
+    "bytes": 6487482,
+    "sha256": "d2e9b325e69fe8da2845a45215ccafea8cc2a6ab359f40e31932ee617b5cef19"
+  },
+  "experiment2/datasets/augmentation_control_records/experiment1_augmentation/train.json": {
+    "bytes": 89426871,
+    "sha256": "c4bc55e3c5d009455e60af19f2ed0f872f22f36f3fb907144a3544baf991895d"
+  },
+  "experiment2/datasets/augmentation_control_records/experiment1_augmentation/val.json": {
+    "bytes": 7360693,
+    "sha256": "d4df6f1a09211225d005e5a677bf8d04994d353542800e5b8ac0ad8944697f70"
+  },
+  "experiment2/datasets/augmentation_control_records/manifest.csv": {
+    "bytes": 3580037,
+    "sha256": "cd4527746298b2abfff31d90c4e82813ed675a968a87c18979cb2b9255031856"
+  },
+  "experiment2/datasets/augmentation_control_records/no_augmentation/data.yaml": {
+    "bytes": 261,
+    "sha256": "ce625509ee19e2fb8855c3129b49b327c7d80a3ffbb3704c527574b54d2ed2e9"
+  },
+  "experiment2/datasets/augmentation_control_records/no_augmentation/summary.json": {
+    "bytes": 851,
+    "sha256": "33c44d20feedec82991f809ecc42307c7a13d36d069af5761833a8e8a7346b12"
+  },
+  "experiment2/datasets/augmentation_control_records/no_augmentation/test.json": {
+    "bytes": 6487482,
+    "sha256": "d2e9b325e69fe8da2845a45215ccafea8cc2a6ab359f40e31932ee617b5cef19"
+  },
+  "experiment2/datasets/augmentation_control_records/no_augmentation/train.json": {
+    "bytes": 89680389,
+    "sha256": "f753b0dfeaf74b8044b3fcf23a26d6f3ccdf629474f34bec7bc8ba561cb4b5c0"
+  },
+  "experiment2/datasets/augmentation_control_records/no_augmentation/val.json": {
+    "bytes": 7360693,
+    "sha256": "d4df6f1a09211225d005e5a677bf8d04994d353542800e5b8ac0ad8944697f70"
+  },
+  "experiment2/datasets/augmentation_control_records/preparation_summary.json": {
+    "bytes": 3012,
+    "sha256": "32fccdf3b6c9926907693152d5e05c449a61165140d8e55e8aaf3b11fd503363"
+  },
+  "experiment2/evaluate.py": {
+    "bytes": 11406,
+    "sha256": "2d5990e05ef19aaa31cef50d655887b3746df45909b0f9409c1d9edc74fff6e8"
+  },
+  "experiment2/export_report_figures.py": {
+    "bytes": 20673,
+    "sha256": "63301626e5add489f59aca9c41849510f99f7b99bd55bf379184f089d1522184"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/args.yaml": {
+    "bytes": 2019,
+    "sha256": "9aa453863e33939e2684dab96822c2d3eb5eb71301394bc1b4889460157aebd1"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/BoxF1_curve.png": {
+    "bytes": 236886,
+    "sha256": "7cf20896994f5a6c108132ea9407f8abaf8e6bd77730bce8d82bbc6255fa7c45"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/BoxP_curve.png": {
+    "bytes": 327493,
+    "sha256": "0e055ccd0601d0e9bd63e2f3f528e60d52027eeeffe0259b9ab0b97237161f1a"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/BoxPR_curve.png": {
+    "bytes": 271511,
+    "sha256": "b71a33ba9d96d53dc59a60272e2f7ad9f76032b2af76d6578bfac0c17df260a2"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/BoxR_curve.png": {
+    "bytes": 259115,
+    "sha256": "17a85c68ecc23a5a5e5457b7c0233cc4344955d6ec532486910b52c6175f1c00"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/confusion_matrix.png": {
+    "bytes": 329038,
+    "sha256": "ed7b05708f4958e6e59d3d084b9e3da308138f6e182739a98da8d40656837876"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/confusion_matrix_normalized.png": {
+    "bytes": 367941,
+    "sha256": "85f588e052b2c45a1769b37bb871659d843f9cf25d04ea2d63568fcf83988726"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/environment.json": {
+    "bytes": 628,
+    "sha256": "59ba8bf973803111a89f0c07598a2429fd52c98d74b199b83ce4853a8e15e586"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/epoch_resources.csv": {
+    "bytes": 2563,
+    "sha256": "348bf545efd9eeb7ad1267d4c0aaf587d3f72aec0397736f79213e73951dc85a"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/test_best_20261018_174714_e02a5c/BoxF1_curve.png": {
+    "bytes": 250532,
+    "sha256": "b7a948a99775cd8023c0b5e33c6d7f10fad8f1116cc07dc9a81aa487846f70eb"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/test_best_20261018_174714_e02a5c/BoxP_curve.png": {
+    "bytes": 325609,
+    "sha256": "9ab4f74bfd49a7b6bb71805b3492c9287c0c86f1d0768bd21072511f7e4efd01"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/test_best_20261018_174714_e02a5c/BoxPR_curve.png": {
+    "bytes": 267052,
+    "sha256": "7f0cec968f068760561231ab573549c5930f4d54fd90d185246a724e2d971006"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/test_best_20261018_174714_e02a5c/BoxR_curve.png": {
+    "bytes": 269898,
+    "sha256": "f4dafb8bd5a45bc0c73a42f879ea637a9b9acd027bfd11cc90b988d0da5f9b93"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/test_best_20261018_174714_e02a5c/confusion_matrix.png": {
+    "bytes": 330083,
+    "sha256": "3a87a84d11b7ecc9c4330903ff8a257311de89ab721d0145ccc115e514837ac7"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/test_best_20261018_174714_e02a5c/confusion_matrix_normalized.png": {
+    "bytes": 389213,
+    "sha256": "0b9e4b7c7456410440562033f011a3955454128b3fa074f6c2c3c4bbfd449dd1"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/test_best_20261018_174714_e02a5c/dataset_resolved.yaml": {
+    "bytes": 354,
+    "sha256": "350caf7f7dd6cb95d1e93b1a2c6812fcce9db3679394a1cfbdad0c7c547f3e51"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/test_best_20261018_174714_e02a5c/evaluation_summary.json": {
+    "bytes": 12732,
+    "sha256": "9cecd5473f231defb80a85317699401da27d3230d78e49d96acec60039a7b3dd"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/test_best_20261018_174714_e02a5c/per_class_metrics.csv": {
+    "bytes": 1375,
+    "sha256": "c4772bd4c33835514cfbba416513f0492fbb6be66a36d85b426653005314426e"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/test_best_20261018_174714_e02a5c/val_batch0_labels.jpg": {
+    "bytes": 847092,
+    "sha256": "c91b05aa0697098d70faf1dfbc5cf0c92a95e700810a5c027eeb8dd15b999590"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/test_best_20261018_174714_e02a5c/val_batch0_pred.jpg": {
+    "bytes": 837697,
+    "sha256": "d56d7aac61fa1da30a1a46ee5b4e6aadfe764d0d420effcc1cb043610e48e28e"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/test_best_20261018_174714_e02a5c/val_batch1_labels.jpg": {
+    "bytes": 639044,
+    "sha256": "2b08cc78980d67776e7a37eb0be4ee24f5565186e51e34f2b5e6075dcc422cd3"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/test_best_20261018_174714_e02a5c/val_batch1_pred.jpg": {
+    "bytes": 584385,
+    "sha256": "bc3cf51a9516431f4737c8ccc241c09716b59cb4f15e26a321731a0830ef758a"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/test_best_20261018_174714_e02a5c/val_batch2_labels.jpg": {
+    "bytes": 785655,
+    "sha256": "7f77e866a1faa8396da17c1029b77f36eaff7bbc10b7d7f0ffffde8c847e3214"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/test_best_20261018_174714_e02a5c/val_batch2_pred.jpg": {
+    "bytes": 777282,
+    "sha256": "94459f992c72862864fc56def5c82394e22daebd07da7abc10e2c2b441e1f9f4"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/val_best_20261018_174301_8a8537/BoxF1_curve.png": {
+    "bytes": 238732,
+    "sha256": "c051081bf8f0f6692e21335fb2f8d43b8ecea186e8db234404747b509dde34f5"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/val_best_20261018_174301_8a8537/BoxP_curve.png": {
+    "bytes": 329132,
+    "sha256": "81e71b7701080defe7a413ac5b001b1839daad1b3966187037f4db818601e975"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/val_best_20261018_174301_8a8537/BoxPR_curve.png": {
+    "bytes": 271724,
+    "sha256": "ea6651838b6ad0ef80695c1304e7037f52c9c26355beb05a23529dd0b736b463"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/val_best_20261018_174301_8a8537/BoxR_curve.png": {
+    "bytes": 259794,
+    "sha256": "7c89598942ce61c34b153458067a1edec2c20511a032386247f83f4e28397564"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/val_best_20261018_174301_8a8537/confusion_matrix.png": {
+    "bytes": 330073,
+    "sha256": "4d85a97390a977a1135a3bf0ac79ceaa87d557f29019885a670cfdf77f43b757"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/val_best_20261018_174301_8a8537/confusion_matrix_normalized.png": {
+    "bytes": 362264,
+    "sha256": "fdc16646db5c51dd411b6d96d435d80f537a97011ca24554709b168cd4ec4973"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/val_best_20261018_174301_8a8537/dataset_resolved.yaml": {
+    "bytes": 354,
+    "sha256": "350caf7f7dd6cb95d1e93b1a2c6812fcce9db3679394a1cfbdad0c7c547f3e51"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/val_best_20261018_174301_8a8537/evaluation_summary.json": {
+    "bytes": 12740,
+    "sha256": "9c18ad52d2016eec8403b4fdeb77f108b09dcc1eada92acfcef30595283fdde1"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/val_best_20261018_174301_8a8537/per_class_metrics.csv": {
+    "bytes": 1390,
+    "sha256": "abc9d4490a39c7a0336ea32bb1ca03747750d246d81dd166d69f3faa82bff1dc"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/val_best_20261018_174301_8a8537/val_batch0_labels.jpg": {
+    "bytes": 748130,
+    "sha256": "6b8fcfd6314b80ff72c1375dbe963e862085ce9b732f1bd8b289484cc50a86d1"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/val_best_20261018_174301_8a8537/val_batch0_pred.jpg": {
+    "bytes": 725371,
+    "sha256": "7e0f08b472e12d5b0cb7863fab76a1c42e46a786ebfcc4c0fb6f4bfcd35d266c"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/val_best_20261018_174301_8a8537/val_batch1_labels.jpg": {
+    "bytes": 591937,
+    "sha256": "54b072c5ece17f7a875a33eb9e679bb0b2bb8b6696b3639b004eb8e0cdb144c4"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/val_best_20261018_174301_8a8537/val_batch1_pred.jpg": {
+    "bytes": 551994,
+    "sha256": "2525d444816f3d0faf0e8eeb25beefb3daa0bd6b2fff41b2fd19bba908a26178"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/val_best_20261018_174301_8a8537/val_batch2_labels.jpg": {
+    "bytes": 774120,
+    "sha256": "f07f2a6affdb8f482570c5e41a543cf586d143d61ba25722348db85ae52a1c10"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/evaluation/val_best_20261018_174301_8a8537/val_batch2_pred.jpg": {
+    "bytes": 757920,
+    "sha256": "5d6b5c256ea5ad4b625a3b0754e3b658571c7c103542f1e54a6fd0182f0d12e5"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/labels.jpg": {
+    "bytes": 148437,
+    "sha256": "4fb622cbe5fc65fc406d8474850ada441ef4b52e94028a722e33d56fd3c2e413"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/parameter_report.json": {
+    "bytes": 255,
+    "sha256": "81548df4e2c53fb400da5751cded6b7f7e1aec4e860f4e10998eea01a6cb1cbf"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/resolved_config.yaml": {
+    "bytes": 1057,
+    "sha256": "90411b10bc3ab5e4db7b8dae05ec58ad668b91667c342f8bc4fcb0a87d0cb0ec"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/results.csv": {
+    "bytes": 3959,
+    "sha256": "de30cdc91c6bf24113ab17b1f3e70f10e3642eaba57bcf96618993452ede525b"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/results.png": {
+    "bytes": 301179,
+    "sha256": "ef813930c312081e4cf34ff7d70270464884c7d647a3cf60137dda3f63924263"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/train_batch0.jpg": {
+    "bytes": 724114,
+    "sha256": "072a89ffbcd753b67c40a80d404bebf1e07cc916f0f2f7c0ae207a5b9bd67098"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/train_batch1.jpg": {
+    "bytes": 719047,
+    "sha256": "ff58d6a4a44e0ace5ae1b922cdad8bff8f9c6fcaf3bc5f6dd047d4533fdef0d7"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/train_batch2.jpg": {
+    "bytes": 731306,
+    "sha256": "6ad2dbcbbe86df8ba1ff5c6f668e1bde25c06f9b51bfb164b4f55ccb56150ef2"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/train_summary.json": {
+    "bytes": 18857,
+    "sha256": "1d673d3032214739620766507bafdebb146f246f30f2d327279604227ae2e3f6"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/training_resources.json": {
+    "bytes": 14500,
+    "sha256": "a446300c5f4d5aba39f0a21539bd0ebdcd2c568d48420b5435d297bbf992957b"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/val_batch0_labels.jpg": {
+    "bytes": 748844,
+    "sha256": "69a7780d9ad53b0107ecd54c112d2104ed7d45e5a03f7fab3cffb2c9bced9856"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/val_batch0_pred.jpg": {
+    "bytes": 725887,
+    "sha256": "0db3718250a8a99bde91c19147f8873b863fb985a38c65f5e4c87ff9cda39828"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/val_batch1_labels.jpg": {
+    "bytes": 774822,
+    "sha256": "2f4a1697cfd7d301e26707434c9eba3622542963c8aa2d53de45ba96109a3a3b"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/val_batch1_pred.jpg": {
+    "bytes": 758433,
+    "sha256": "83a203e294d95e3a3e0c95850a3d30e6dd4931232dfec6edf6be5b02c40730c6"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/val_batch2_labels.jpg": {
+    "bytes": 881125,
+    "sha256": "2df7af6d4549bdb666cb7d109fa1f0f32d49ac2d2e6f91ef3bdbf552f5062c7b"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/val_batch2_pred.jpg": {
+    "bytes": 857329,
+    "sha256": "8880de176ef8a7900699adc1676889225e8c2831ead8175592a50f389c54c7e0"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/weights/best.pt": {
+    "bytes": 5507738,
+    "sha256": "923f52b9d23abfd918d53ee3028ad908bee9d43c621fe0c8a269492d9919c9df"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_experiment1_augmentation_amp/weights/last.pt": {
+    "bytes": 5507738,
+    "sha256": "864c518826dda22b2dba6a18501f176c27ab0faeaaf2a695aa77930b37e886ad"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/args.yaml": {
+    "bytes": 1996,
+    "sha256": "bed6d18f0d42866ce94c5e6fe77967bd9600937fc9778714855bd59439d91054"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/BoxF1_curve.png": {
+    "bytes": 224558,
+    "sha256": "ec173a912f3f24233922c831e13e1ed3de1f4e267e8b0e68da21ba87065e49b8"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/BoxP_curve.png": {
+    "bytes": 320636,
+    "sha256": "0a57787afdb2a5711c75d5d9854ca28363b0137288d91ea9e124875b579921ba"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/BoxPR_curve.png": {
+    "bytes": 255151,
+    "sha256": "74fe47afaa27557ad91cc9dbb3fc51a7e6e33b6b79365b142c2e886994b1df33"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/BoxR_curve.png": {
+    "bytes": 239915,
+    "sha256": "411266d35cb26a3f1fdf0c8b40d026efa293dee10c5c67bd39a8f343e6f04d1f"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/confusion_matrix.png": {
+    "bytes": 319168,
+    "sha256": "0cc09d221913888dcdac32c9b056cd2f81f7fe3b6df7d1c60c66c62b96845d78"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/confusion_matrix_normalized.png": {
+    "bytes": 357914,
+    "sha256": "6afd682a872f5507f9d06d087944443d72e606baa41c2f1a027d6831d445b297"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/environment.json": {
+    "bytes": 628,
+    "sha256": "59ba8bf973803111a89f0c07598a2429fd52c98d74b199b83ce4853a8e15e586"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/epoch_resources.csv": {
+    "bytes": 2569,
+    "sha256": "92aa2a9d8556fdb805ca550f88efc907102bb5e1cc8d692850eca5cc8941ee86"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/test_best_20261018_174649_6b8389/BoxF1_curve.png": {
+    "bytes": 235616,
+    "sha256": "2c8356c03aec0bdacfd9351d9c8fe369d8dd53183caf2f9609a4804c09f20173"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/test_best_20261018_174649_6b8389/BoxP_curve.png": {
+    "bytes": 321059,
+    "sha256": "a0d7e4f9e3abae1dba24f86711c3462974d1fe3382a679239ecde42063c50a49"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/test_best_20261018_174649_6b8389/BoxPR_curve.png": {
+    "bytes": 254722,
+    "sha256": "4dccc8ea4596a2fee307c82b903a7e93cacada36b76fd4e6f5aa5bec8110fe20"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/test_best_20261018_174649_6b8389/BoxR_curve.png": {
+    "bytes": 249555,
+    "sha256": "db48583920dbc78324fc11b12f1bb5187de49176d362dd1ab852f0ef7ff6e6c0"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/test_best_20261018_174649_6b8389/confusion_matrix.png": {
+    "bytes": 336196,
+    "sha256": "c40898a65c1df74823142687f7dbdd52382418c0fb43c0a95d94b1ee00c5e348"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/test_best_20261018_174649_6b8389/confusion_matrix_normalized.png": {
+    "bytes": 382012,
+    "sha256": "8b4407a154409f34f095763b342df20b67196a486e888a79bc69bcae97ab8f1d"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/test_best_20261018_174649_6b8389/dataset_resolved.yaml": {
+    "bytes": 345,
+    "sha256": "cca0f2b92bacd236a8c1aae819a8094b6d8013f627639d16bc2b220e122582be"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/test_best_20261018_174649_6b8389/evaluation_summary.json": {
+    "bytes": 12640,
+    "sha256": "ef22c93a74f68589303cb13dd6fc1ade454bce3ee44eae41b7bab77abb5c0e94"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/test_best_20261018_174649_6b8389/per_class_metrics.csv": {
+    "bytes": 1433,
+    "sha256": "80864f3802d82b17733c385f476e55316e98247c5ebd484f378339f291c15305"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/test_best_20261018_174649_6b8389/val_batch0_labels.jpg": {
+    "bytes": 847092,
+    "sha256": "c91b05aa0697098d70faf1dfbc5cf0c92a95e700810a5c027eeb8dd15b999590"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/test_best_20261018_174649_6b8389/val_batch0_pred.jpg": {
+    "bytes": 835716,
+    "sha256": "904dcfad7ebcd3e036c5a213a634e3fa873b8a5e0ce219cd713a779b37e9370f"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/test_best_20261018_174649_6b8389/val_batch1_labels.jpg": {
+    "bytes": 639044,
+    "sha256": "2b08cc78980d67776e7a37eb0be4ee24f5565186e51e34f2b5e6075dcc422cd3"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/test_best_20261018_174649_6b8389/val_batch1_pred.jpg": {
+    "bytes": 587247,
+    "sha256": "a704c76dfe462b5016d247bc0959abdd6aac15573217d0269c717ad1167644a4"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/test_best_20261018_174649_6b8389/val_batch2_labels.jpg": {
+    "bytes": 785655,
+    "sha256": "7f77e866a1faa8396da17c1029b77f36eaff7bbc10b7d7f0ffffde8c847e3214"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/test_best_20261018_174649_6b8389/val_batch2_pred.jpg": {
+    "bytes": 767825,
+    "sha256": "b4db65c591c466015463a694c344168ba43acf00661d6dcba1ded708908459ef"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/val_best_20261018_174216_f26229/BoxF1_curve.png": {
+    "bytes": 224643,
+    "sha256": "3fbc791cd60320883032405a5d60ddfe22d7f6b12b2495a0577642dfdd1c420f"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/val_best_20261018_174216_f26229/BoxP_curve.png": {
+    "bytes": 320398,
+    "sha256": "d90678f1dcfbc76ebda1bccdbbbed91c19afa048942cba8f4a54b0de77a76f84"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/val_best_20261018_174216_f26229/BoxPR_curve.png": {
+    "bytes": 254677,
+    "sha256": "d570ff065ffd41c486d0e22a42c5a0ce1b978e9eb730d6ce0bd21d7fb7fd124d"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/val_best_20261018_174216_f26229/BoxR_curve.png": {
+    "bytes": 239712,
+    "sha256": "da3d17f9c61b041a4caadf5ecb303ac95de9ac6525899c8f60fb3ea84322915f"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/val_best_20261018_174216_f26229/confusion_matrix.png": {
+    "bytes": 320651,
+    "sha256": "b223ee1473426148d4920821e8b52e0336d83fef017b685cb6bba77d700c1c0b"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/val_best_20261018_174216_f26229/confusion_matrix_normalized.png": {
+    "bytes": 358288,
+    "sha256": "10165c0faadf1c65cefd0b4c4c1aea051ed92c80494ab2846a6c4ec5ba96b4d9"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/val_best_20261018_174216_f26229/dataset_resolved.yaml": {
+    "bytes": 345,
+    "sha256": "cca0f2b92bacd236a8c1aae819a8094b6d8013f627639d16bc2b220e122582be"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/val_best_20261018_174216_f26229/evaluation_summary.json": {
+    "bytes": 12526,
+    "sha256": "3f8592f4e6321a3d7023793817c637e40de01c3c114b623efb9e44b97e2a64a0"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/val_best_20261018_174216_f26229/per_class_metrics.csv": {
+    "bytes": 1322,
+    "sha256": "b10103c9bf6e3e725f420390fd72dc551a27859dce0f6c8eb5e2a804cc9856ad"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/val_best_20261018_174216_f26229/val_batch0_labels.jpg": {
+    "bytes": 748130,
+    "sha256": "6b8fcfd6314b80ff72c1375dbe963e862085ce9b732f1bd8b289484cc50a86d1"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/val_best_20261018_174216_f26229/val_batch0_pred.jpg": {
+    "bytes": 727083,
+    "sha256": "5e1ce969d804c4195b3bcae0db683a10773b2fe47317c3ff7df304d454e9f148"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/val_best_20261018_174216_f26229/val_batch1_labels.jpg": {
+    "bytes": 591937,
+    "sha256": "54b072c5ece17f7a875a33eb9e679bb0b2bb8b6696b3639b004eb8e0cdb144c4"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/val_best_20261018_174216_f26229/val_batch1_pred.jpg": {
+    "bytes": 554114,
+    "sha256": "58980b3179e965d408b98b6bcfd5e06eaaa85ed85e785ca44d9c27195328c5c9"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/val_best_20261018_174216_f26229/val_batch2_labels.jpg": {
+    "bytes": 774120,
+    "sha256": "f07f2a6affdb8f482570c5e41a543cf586d143d61ba25722348db85ae52a1c10"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/evaluation/val_best_20261018_174216_f26229/val_batch2_pred.jpg": {
+    "bytes": 764147,
+    "sha256": "9f9facfa81f083a9fecff7077340e60631d1846f3cdc8ed4fc70c25f1ca0a309"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/labels.jpg": {
+    "bytes": 149233,
+    "sha256": "6ae52a2e4b471fac1328ee05123b857eb04655b3136aef63c284a8073183e27f"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/parameter_report.json": {
+    "bytes": 255,
+    "sha256": "81548df4e2c53fb400da5751cded6b7f7e1aec4e860f4e10998eea01a6cb1cbf"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/resolved_config.yaml": {
+    "bytes": 1030,
+    "sha256": "64ca67ec9396d2bfdfcc6477ea0e2effc6c42e257952901bc61089f1f09e765e"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/results.csv": {
+    "bytes": 3954,
+    "sha256": "3771be12d647a638f05d2a18fc3818b78c09f65d5484879c4c67126b961e2193"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/results.png": {
+    "bytes": 273523,
+    "sha256": "df051b660a3bda4561bd0a68c272f9618f8174069e14c058eb94772758162654"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/train_batch0.jpg": {
+    "bytes": 714902,
+    "sha256": "f1c50708d6c67acccceb3875b386c612b1b69f288363bfbfafc375c0e1aa8d5f"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/train_batch1.jpg": {
+    "bytes": 718872,
+    "sha256": "d4eb270384467b95f3a9f1dfba2699cd8292a1e3bf438716d9c1e981ea1dd0db"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/train_batch2.jpg": {
+    "bytes": 727188,
+    "sha256": "2ac01e5d72a1417929ac2a84f58f56918c48c9309f2ba13dc7fd6fa75b4b6d49"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/train_summary.json": {
+    "bytes": 18737,
+    "sha256": "efcceec941a69a3958a9c3d667127270a2477719a5788e531b0498721721e97b"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/training_resources.json": {
+    "bytes": 14506,
+    "sha256": "6d5a8af715e423161c0ab95486e1d6f6a9db2f96e094fbe4757605bfac2df7f9"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/val_batch0_labels.jpg": {
+    "bytes": 748844,
+    "sha256": "69a7780d9ad53b0107ecd54c112d2104ed7d45e5a03f7fab3cffb2c9bced9856"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/val_batch0_pred.jpg": {
+    "bytes": 727856,
+    "sha256": "d9241cc3d1cee5ed4575082a1f5e10fd701b3dbcd4ae4817fdfb5d3dd305b394"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/val_batch1_labels.jpg": {
+    "bytes": 774822,
+    "sha256": "2f4a1697cfd7d301e26707434c9eba3622542963c8aa2d53de45ba96109a3a3b"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/val_batch1_pred.jpg": {
+    "bytes": 764509,
+    "sha256": "8dff074a3708ab0de12dc577fa11698cf539d20cb664a34a304d036d8156cdd6"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/val_batch2_labels.jpg": {
+    "bytes": 881125,
+    "sha256": "2df7af6d4549bdb666cb7d109fa1f0f32d49ac2d2e6f91ef3bdbf552f5062c7b"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/val_batch2_pred.jpg": {
+    "bytes": 837771,
+    "sha256": "d20878c2feb746e3c0a0c409a8200270b7593aa1a11c633540cd6fd90f83b060"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/weights/best.pt": {
+    "bytes": 5507674,
+    "sha256": "3dca07c0f9beed3deb21379218cee2b2e59ce5e2f6830ddcb67234d58a6990e5"
+  },
+  "experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp-2/weights/last.pt": {
+    "bytes": 5507674,
+    "sha256": "150be3cce85f412a5570b9cc53c5da7e86ef3f5702caea6f0d69e701457bf638"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/args.yaml": {
+    "bytes": 1880,
+    "sha256": "4bbb181bb4115091e6e8f6a5ee929539161d5fcc8506a35b6e16704a019a83aa"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/BoxF1_curve.png": {
+    "bytes": 248624,
+    "sha256": "0899191ca1ed3c3094609f6f73db23a08bf23f1b1060ba91fa642daa385285f0"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/BoxP_curve.png": {
+    "bytes": 290900,
+    "sha256": "5bdcb3284d838e7f236c29e53e3007e1217d293b4ac0756fc698491166528f1a"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/BoxPR_curve.png": {
+    "bytes": 265096,
+    "sha256": "e4d3aefeca945f73ceb05128ad15af2fe6640aa020d561df90c270b7ac75bdd5"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/BoxR_curve.png": {
+    "bytes": 261468,
+    "sha256": "55c565377fb661b141e65e12e7fa3c0d22698b6538f2c9ad276c6a86d4a87d00"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/confusion_matrix.png": {
+    "bytes": 331498,
+    "sha256": "5278f53f059ecb064484feceb3f9d64e2df8c67839ba1c95db0f2d201fff35dc"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/confusion_matrix_normalized.png": {
+    "bytes": 360966,
+    "sha256": "3c7c0ec824346333969cc8b69217b8656b254c3eb3208a63960f17587cce8824"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/environment.json": {
+    "bytes": 628,
+    "sha256": "59ba8bf973803111a89f0c07598a2429fd52c98d74b199b83ce4853a8e15e586"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/test_best_20261018_174533_bf413a/BoxF1_curve.png": {
+    "bytes": 260204,
+    "sha256": "b33643537f8ed68e2c4aab2d00afe64068175bc81cc6ac3a6b5e97c450c4de4c"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/test_best_20261018_174533_bf413a/BoxP_curve.png": {
+    "bytes": 346010,
+    "sha256": "817828f8ae0f2b5e1dd2bad224b4a2f9fea161397fe3761d3f2c5df42fb821f6"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/test_best_20261018_174533_bf413a/BoxPR_curve.png": {
+    "bytes": 278429,
+    "sha256": "0f3b244fc7e82820e5c67a3067aa11742173a54d923ceed59eeabcea994a9811"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/test_best_20261018_174533_bf413a/BoxR_curve.png": {
+    "bytes": 276995,
+    "sha256": "d1ed17a25a5c353bc6248f431d6a75a4f66bc831de83e9a05e1572d400f73397"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/test_best_20261018_174533_bf413a/confusion_matrix.png": {
+    "bytes": 323500,
+    "sha256": "bf402fc94f599e8a63a04ee5f6ca1e03b50ab1a950cb805201717580886ee617"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/test_best_20261018_174533_bf413a/confusion_matrix_normalized.png": {
+    "bytes": 366736,
+    "sha256": "6d7b80c1c338f4b0a6dcbef2ab387bf3006b3f47c5465e435c5341f2c5256418"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/test_best_20261018_174533_bf413a/dataset_resolved.yaml": {
+    "bytes": 298,
+    "sha256": "abddf975c2136ace5265e8f922dcd3a67a8804828cb3d29cde59bd17508cb662"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/test_best_20261018_174533_bf413a/evaluation_summary.json": {
+    "bytes": 10136,
+    "sha256": "1676f740ad073b060b07c2916e57f6493a3860c25daeb25e23956561a1711484"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/test_best_20261018_174533_bf413a/per_class_metrics.csv": {
+    "bytes": 1413,
+    "sha256": "5ed2f5e32f255809390663650d4b10e49142c9b629a74b1df9bddc5e40c7c9c8"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/test_best_20261018_174533_bf413a/val_batch0_labels.jpg": {
+    "bytes": 847092,
+    "sha256": "c91b05aa0697098d70faf1dfbc5cf0c92a95e700810a5c027eeb8dd15b999590"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/test_best_20261018_174533_bf413a/val_batch0_pred.jpg": {
+    "bytes": 837144,
+    "sha256": "ad61d07796837a16ee4351b1c48a74ed4ee8006f4282e0372339efe6d984ddd7"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/test_best_20261018_174533_bf413a/val_batch1_labels.jpg": {
+    "bytes": 639044,
+    "sha256": "2b08cc78980d67776e7a37eb0be4ee24f5565186e51e34f2b5e6075dcc422cd3"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/test_best_20261018_174533_bf413a/val_batch1_pred.jpg": {
+    "bytes": 582348,
+    "sha256": "c45a29c23579b16a600a487dbe3f195b237fad5b9768bb8d9a4823d3d8287c58"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/test_best_20261018_174533_bf413a/val_batch2_labels.jpg": {
+    "bytes": 785655,
+    "sha256": "7f77e866a1faa8396da17c1029b77f36eaff7bbc10b7d7f0ffffde8c847e3214"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/test_best_20261018_174533_bf413a/val_batch2_pred.jpg": {
+    "bytes": 762891,
+    "sha256": "66c4868a77d01df6cd5417b64ef001e1c05f2fe8cdbc86ab048e58022b37e6c5"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/val_best_20261013_155237_1ca1c6/BoxF1_curve.png": {
+    "bytes": 247404,
+    "sha256": "7f5b683116eb44e2a8c19c2f009efc560444733d1efeb54ba4d7a32b54ceba7c"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/val_best_20261013_155237_1ca1c6/BoxP_curve.png": {
+    "bytes": 290056,
+    "sha256": "33fb332c5493eec648c209b7109901337422f048d543927911aefd1c4d70540a"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/val_best_20261013_155237_1ca1c6/BoxPR_curve.png": {
+    "bytes": 265164,
+    "sha256": "6c35b342bbf2d585655e6606e7925a2d008e0b905f9c2fdc3b95d484c710e790"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/val_best_20261013_155237_1ca1c6/BoxR_curve.png": {
+    "bytes": 260797,
+    "sha256": "0193d2e0e14659880fa7226de41bbab25dc0e8d58748e5630fd966dbbfc430ab"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/val_best_20261013_155237_1ca1c6/confusion_matrix.png": {
+    "bytes": 332744,
+    "sha256": "f3dfd7d40fe91015b2ff4b0fc5e208183c70ce7d1fb6c03dba74e18671ce907a"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/val_best_20261013_155237_1ca1c6/confusion_matrix_normalized.png": {
+    "bytes": 364483,
+    "sha256": "b361943f67dc297436842b90bb28d39162a08a1f9ecc3009f89dc277048fe7ab"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/val_best_20261013_155237_1ca1c6/dataset_resolved.yaml": {
+    "bytes": 298,
+    "sha256": "abddf975c2136ace5265e8f922dcd3a67a8804828cb3d29cde59bd17508cb662"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/val_best_20261013_155237_1ca1c6/evaluation_summary.json": {
+    "bytes": 9582,
+    "sha256": "131521c87b8e853c5c1f46c55fb8fa62f360ac6c08c5ca5925aac151e20e3eca"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/val_best_20261013_155237_1ca1c6/per_class_metrics.csv": {
+    "bytes": 1413,
+    "sha256": "03c57a568bb8c01301187646c815104dd53fc278c7211d050af208804918dc88"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/val_best_20261013_155237_1ca1c6/val_batch0_labels.jpg": {
+    "bytes": 748130,
+    "sha256": "6b8fcfd6314b80ff72c1375dbe963e862085ce9b732f1bd8b289484cc50a86d1"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/val_best_20261013_155237_1ca1c6/val_batch0_pred.jpg": {
+    "bytes": 728872,
+    "sha256": "5329d358c853272793974c69b88364b07af0dc6bf5e5867f3e75768456f05ad8"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/val_best_20261013_155237_1ca1c6/val_batch1_labels.jpg": {
+    "bytes": 591937,
+    "sha256": "54b072c5ece17f7a875a33eb9e679bb0b2bb8b6696b3639b004eb8e0cdb144c4"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/val_best_20261013_155237_1ca1c6/val_batch1_pred.jpg": {
+    "bytes": 556412,
+    "sha256": "f962fe57a38b5d1a1895e1802b1828e4e06efcbbd4e88f241168b7f71e71d0b0"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/val_best_20261013_155237_1ca1c6/val_batch2_labels.jpg": {
+    "bytes": 774120,
+    "sha256": "f07f2a6affdb8f482570c5e41a543cf586d143d61ba25722348db85ae52a1c10"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/evaluation/val_best_20261013_155237_1ca1c6/val_batch2_pred.jpg": {
+    "bytes": 757035,
+    "sha256": "5331949deaca74cab4993d83b288114d6024b2f1decfde394497556b487be6e6"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/labels.jpg": {
+    "bytes": 150647,
+    "sha256": "1dc44a3219d99dbc434ca2624e7b87ae693c9f71c12110c871cee1f372a5480b"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/resolved_config.yaml": {
+    "bytes": 615,
+    "sha256": "39a29bcb804c4a6d2c15a463de1a83bec9a95c8fb69793a5f405266b197ecfba"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/results.csv": {
+    "bytes": 7753,
+    "sha256": "e1297ffb5712786e766095c0a3b4d5468cc5f361bd1c0188c6b7b695038b06aa"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/results.png": {
+    "bytes": 296381,
+    "sha256": "8c971ab3017d72d1abc068c3fe7ffffb5587e6db43d5dff3654bc592fd2cfbeb"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/train_batch0.jpg": {
+    "bytes": 590431,
+    "sha256": "bdb6e4ce337c54571a7970c8f5ad9fa87548cf51ba2bffe032c65efe92952e2f"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/train_batch1.jpg": {
+    "bytes": 742219,
+    "sha256": "f1cfc913fa384cdda174f6571372d4936a11ca07081fcdc7f9ad56787cc02408"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/train_batch2.jpg": {
+    "bytes": 690372,
+    "sha256": "c1653c53a894fd47ee51582123469f1bc886b60a95b7aa5a153a4418fa20c4cc"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/train_batch26350.jpg": {
+    "bytes": 738913,
+    "sha256": "deacc6af1c667760763bffc596fd029da8ec5a180ca61f2ae576cba1835a143c"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/train_batch26351.jpg": {
+    "bytes": 652114,
+    "sha256": "646bea80e87330cf7094ed529c073e0630194c3e7961425708fe828602f52ec6"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/train_batch26352.jpg": {
+    "bytes": 666652,
+    "sha256": "5c2fc0431924f8a649dc5dbb91b4aa92a0bb6e72bb4fa692aab9587abd3e0b93"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/train_summary.json": {
+    "bytes": 1520,
+    "sha256": "d4b6af60b1c8fa83b3fdc8df2f8127a0d22cd31f1bc4f90e383f8ecd82ab43b3"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/val_batch0_labels.jpg": {
+    "bytes": 748844,
+    "sha256": "69a7780d9ad53b0107ecd54c112d2104ed7d45e5a03f7fab3cffb2c9bced9856"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/val_batch0_pred.jpg": {
+    "bytes": 729947,
+    "sha256": "da64e3ffe27bc96ccc91753ffd63bb21f82f2ff5322b756a5d799c67c2bdfebd"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/val_batch1_labels.jpg": {
+    "bytes": 774822,
+    "sha256": "2f4a1697cfd7d301e26707434c9eba3622542963c8aa2d53de45ba96109a3a3b"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/val_batch1_pred.jpg": {
+    "bytes": 761288,
+    "sha256": "abe3e28d12bdd284a538e0fea89887ed5ce7a5ea4d6cbce0857e347785364ac0"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/val_batch2_labels.jpg": {
+    "bytes": 881125,
+    "sha256": "2df7af6d4549bdb666cb7d109fa1f0f32d49ac2d2e6f91ef3bdbf552f5062c7b"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/val_batch2_pred.jpg": {
+    "bytes": 849163,
+    "sha256": "d4397644a61673aea68bd63b6879cc384c617751f03b675fd795c487d4d615f1"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/weights/best.pt": {
+    "bytes": 5511386,
+    "sha256": "e16fa7f91e983b39b24c9222a06de756d20e09889b85dc26927a683a6c73f58a"
+  },
+  "experiment2/outputs/baseline/yolo11n_baseline_amp/weights/last.pt": {
+    "bytes": 5511386,
+    "sha256": "daabb64e5fca66d5867142555f8ae9c753899d1257cdea361e9f0add8d65c947"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/args.yaml": {
+    "bytes": 1907,
+    "sha256": "0543fd20987ad87f3c08395155f4fb194e2c35752a3283debe2e8b0ac70e0ebb"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/BoxF1_curve.png": {
+    "bytes": 253936,
+    "sha256": "b139856054eb29abf7c6b932b6ae243de62732a8a49ad649ab3743c015c7a8ad"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/BoxP_curve.png": {
+    "bytes": 326614,
+    "sha256": "35e4ce9bd185319bf293dacdc285af74ff5323ba5e01ee49ad4239d9367cea5a"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/BoxPR_curve.png": {
+    "bytes": 280220,
+    "sha256": "8e13edd43adc4a6d3fb77acb78055db2a154d717905620e56045a8208d0d1ab5"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/BoxR_curve.png": {
+    "bytes": 273149,
+    "sha256": "3f514a08ab459809fd1548142f911ee507691a638186d5f81f167bb2329db623"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/confusion_matrix.png": {
+    "bytes": 320626,
+    "sha256": "dadf9c2c02b67b0ba4a7d3e54f3fbdb61c6ff000116faad2b55a527a7286f688"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/confusion_matrix_normalized.png": {
+    "bytes": 357062,
+    "sha256": "2dd5f391113b24d5df54bfac18e3771b8843ca47720241f1a321f2f054957449"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/environment.json": {
+    "bytes": 150,
+    "sha256": "46ea7c28a56ecedc51d43494634bfddb85f75ed1b47e57f8831f98645e3bf193"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/test_best_20261018_174624_7e0768/BoxF1_curve.png": {
+    "bytes": 268116,
+    "sha256": "b2701c86b7eb4ff928a3fe4579158a9c31903dc33ecd9a9e209051a60818d302"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/test_best_20261018_174624_7e0768/BoxP_curve.png": {
+    "bytes": 367095,
+    "sha256": "28848e7d04ad044b0a49c9b247ec6f381387a2d06961a6919660febba3968ce3"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/test_best_20261018_174624_7e0768/BoxPR_curve.png": {
+    "bytes": 286572,
+    "sha256": "d222f32f0cd2f02a0e4fbd7aa1316001d47d4329486dcd4bd7f16c0d031919c6"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/test_best_20261018_174624_7e0768/BoxR_curve.png": {
+    "bytes": 284593,
+    "sha256": "9f91cc1b3535a1beab8cdda7f156f0e1fae99323f23a0b7f3db8611c04706594"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/test_best_20261018_174624_7e0768/confusion_matrix.png": {
+    "bytes": 326563,
+    "sha256": "142462664ebfcdcc50647e95a2e39bd08200c26969a0712ac4647da05cf01781"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/test_best_20261018_174624_7e0768/confusion_matrix_normalized.png": {
+    "bytes": 375167,
+    "sha256": "db92c192cebd195311a8e03e13d0f121b5a4793b6f430149f81342dde2c1425e"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/test_best_20261018_174624_7e0768/dataset_resolved.yaml": {
+    "bytes": 298,
+    "sha256": "abddf975c2136ace5265e8f922dcd3a67a8804828cb3d29cde59bd17508cb662"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/test_best_20261018_174624_7e0768/evaluation_summary.json": {
+    "bytes": 10918,
+    "sha256": "d3ac2f355282c0f5381f993dc946cf53110369dd923e9fe1829bb4102f810500"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/test_best_20261018_174624_7e0768/per_class_metrics.csv": {
+    "bytes": 1365,
+    "sha256": "eb8d2fa219f834dda2e5ca75bb9527d360e6e1ae75e6092a1fc3e0e1297d4056"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/test_best_20261018_174624_7e0768/val_batch0_labels.jpg": {
+    "bytes": 847092,
+    "sha256": "c91b05aa0697098d70faf1dfbc5cf0c92a95e700810a5c027eeb8dd15b999590"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/test_best_20261018_174624_7e0768/val_batch0_pred.jpg": {
+    "bytes": 839966,
+    "sha256": "47e5243c6b4fc1a0e4479d2ded52f95165cdcc124a6d02bacb4829212bb2a1bf"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/test_best_20261018_174624_7e0768/val_batch1_labels.jpg": {
+    "bytes": 639044,
+    "sha256": "2b08cc78980d67776e7a37eb0be4ee24f5565186e51e34f2b5e6075dcc422cd3"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/test_best_20261018_174624_7e0768/val_batch1_pred.jpg": {
+    "bytes": 573306,
+    "sha256": "fffc1ad11c6e16a421e63f20e3fded994f30ff3a64ea848bf4b69d8472da1d65"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/test_best_20261018_174624_7e0768/val_batch2_labels.jpg": {
+    "bytes": 785655,
+    "sha256": "7f77e866a1faa8396da17c1029b77f36eaff7bbc10b7d7f0ffffde8c847e3214"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/test_best_20261018_174624_7e0768/val_batch2_pred.jpg": {
+    "bytes": 770604,
+    "sha256": "a099054a8be09826506154aaeb4b85778ba96852402883cb6fa1d6921748c68d"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/val_best_20261018_112948_1f3b39/BoxF1_curve.png": {
+    "bytes": 254349,
+    "sha256": "dab850c64969187a27288c779bad6ea26a18753f88553fb5d2a3749467e475cc"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/val_best_20261018_112948_1f3b39/BoxP_curve.png": {
+    "bytes": 326912,
+    "sha256": "8be9700f7e95663f5deba2314b8ac7c4fcc23117ce51d9cad9103d9a09466ce7"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/val_best_20261018_112948_1f3b39/BoxPR_curve.png": {
+    "bytes": 280642,
+    "sha256": "df51dca4e40e69e4bf187ca236abada4b87559f84da89c422cbf44334dc3f946"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/val_best_20261018_112948_1f3b39/BoxR_curve.png": {
+    "bytes": 274499,
+    "sha256": "a88ae644587c312adf58cccf5d1f6d78141897c479a9980a895ccf842101eded"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/val_best_20261018_112948_1f3b39/confusion_matrix.png": {
+    "bytes": 321409,
+    "sha256": "386205eca1b0fa346004d3fcd325907c039757e036dfc18de50d95eef23d1a02"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/val_best_20261018_112948_1f3b39/confusion_matrix_normalized.png": {
+    "bytes": 354853,
+    "sha256": "15fe737439c2d58101ae7cc251d788cd79146e3be7af1a575be946bd08194d03"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/val_best_20261018_112948_1f3b39/dataset_resolved.yaml": {
+    "bytes": 298,
+    "sha256": "abddf975c2136ace5265e8f922dcd3a67a8804828cb3d29cde59bd17508cb662"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/val_best_20261018_112948_1f3b39/evaluation_summary.json": {
+    "bytes": 9491,
+    "sha256": "4870e9cc0620f2026d03c85ae35f284616f980f1ce5d7c70816bcb2db378c7c6"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/val_best_20261018_112948_1f3b39/per_class_metrics.csv": {
+    "bytes": 1288,
+    "sha256": "c0b4d55b5ec9b616749329429c811b7462bfa3331966c87a910fd60b635e415c"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/val_best_20261018_112948_1f3b39/val_batch0_labels.jpg": {
+    "bytes": 748130,
+    "sha256": "6b8fcfd6314b80ff72c1375dbe963e862085ce9b732f1bd8b289484cc50a86d1"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/val_best_20261018_112948_1f3b39/val_batch0_pred.jpg": {
+    "bytes": 734406,
+    "sha256": "03ea4b1cb8b3b622376d32b4e17dd854d507945ef2cf244420543923a0ed56c5"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/val_best_20261018_112948_1f3b39/val_batch1_labels.jpg": {
+    "bytes": 591937,
+    "sha256": "54b072c5ece17f7a875a33eb9e679bb0b2bb8b6696b3639b004eb8e0cdb144c4"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/val_best_20261018_112948_1f3b39/val_batch1_pred.jpg": {
+    "bytes": 549194,
+    "sha256": "709972bb3697e8e1f95fbf027bb5ac679b848e742775543b4a82440ca31ad54a"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/val_best_20261018_112948_1f3b39/val_batch2_labels.jpg": {
+    "bytes": 774120,
+    "sha256": "f07f2a6affdb8f482570c5e41a543cf586d143d61ba25722348db85ae52a1c10"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/evaluation/val_best_20261018_112948_1f3b39/val_batch2_pred.jpg": {
+    "bytes": 762334,
+    "sha256": "d1060e6265997dccc32918a188b32b136d1e026331594d9846770fd4560c5c8a"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/labels.jpg": {
+    "bytes": 150647,
+    "sha256": "1dc44a3219d99dbc434ca2624e7b87ae693c9f71c12110c871cee1f372a5480b"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/parameter_report.json": {
+    "bytes": 572,
+    "sha256": "62ad4bc7ae159a6df1f83f5ac6d0b3f4108664f4cd55f1ae11c7d303bfaf8a1b"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/resolved_config.yaml": {
+    "bytes": 828,
+    "sha256": "4b0cfb4a2f2f1d5d01a3a680a507600ad43d648608b3a57df87cfcf94201485b"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/results.csv": {
+    "bytes": 7120,
+    "sha256": "887cd0494c2d9e52fe5a505ddeedfd8bdbc06c8d1337641f494676777729955f"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/results.png": {
+    "bytes": 282920,
+    "sha256": "69d9e3a8fce1ff9b31e4fecf324e46fadf07dfcde51b39c52b86ba173e624c1c"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/train_batch0.jpg": {
+    "bytes": 590431,
+    "sha256": "bdb6e4ce337c54571a7970c8f5ad9fa87548cf51ba2bffe032c65efe92952e2f"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/train_batch1.jpg": {
+    "bytes": 742219,
+    "sha256": "f1cfc913fa384cdda174f6571372d4936a11ca07081fcdc7f9ad56787cc02408"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/train_batch2.jpg": {
+    "bytes": 690372,
+    "sha256": "c1653c53a894fd47ee51582123469f1bc886b60a95b7aa5a153a4418fa20c4cc"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/train_batch26350.jpg": {
+    "bytes": 738913,
+    "sha256": "deacc6af1c667760763bffc596fd029da8ec5a180ca61f2ae576cba1835a143c"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/train_batch26351.jpg": {
+    "bytes": 652114,
+    "sha256": "646bea80e87330cf7094ed529c073e0630194c3e7961425708fe828602f52ec6"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/train_batch26352.jpg": {
+    "bytes": 666652,
+    "sha256": "5c2fc0431924f8a649dc5dbb91b4aa92a0bb6e72bb4fa692aab9587abd3e0b93"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/train_summary.json": {
+    "bytes": 3781,
+    "sha256": "88852d9231c40a371082efb7fc046900c21af9d4b161d4d89bb120359ec05c8d"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/val_batch0_labels.jpg": {
+    "bytes": 748844,
+    "sha256": "69a7780d9ad53b0107ecd54c112d2104ed7d45e5a03f7fab3cffb2c9bced9856"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/val_batch0_pred.jpg": {
+    "bytes": 735526,
+    "sha256": "a2b026dfa825962eb4bc5e0707e9369e246aeddd46663167c6cecd420881597a"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/val_batch1_labels.jpg": {
+    "bytes": 774822,
+    "sha256": "2f4a1697cfd7d301e26707434c9eba3622542963c8aa2d53de45ba96109a3a3b"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/val_batch1_pred.jpg": {
+    "bytes": 763524,
+    "sha256": "c5f1bc9ff2c1fcd1371cd7b808f518c04c84cc2af3e25dc3840a971219818bb7"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/val_batch2_labels.jpg": {
+    "bytes": 881125,
+    "sha256": "2df7af6d4549bdb666cb7d109fa1f0f32d49ac2d2e6f91ef3bdbf552f5062c7b"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/val_batch2_pred.jpg": {
+    "bytes": 851690,
+    "sha256": "7d1bb46a8e581e03e0aa0a761e93c275420549209ff093ffcd379d961c9aa197"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/weights/adapter_and_head.pt": {
+    "bytes": 1973790,
+    "sha256": "9a40981b35172fb7b4535e6df1378d0b8d25e6bbd2108e743e204a9a514d8b96"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/weights/best.pt": {
+    "bytes": 10721907,
+    "sha256": "2374304df9c0c6ef367a1150f2e21a53372c34093845a22d42dff95ee05b6b3e"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/weights/best_lora.pt": {
+    "bytes": 5581036,
+    "sha256": "388d0b0b56a3b8d4bdb038cd17923555d3c95511d0964473afd2aff346a48fff"
+  },
+  "experiment2/outputs/lora_amp/yolo11n_lora_amp-2/weights/last.pt": {
+    "bytes": 5581036,
+    "sha256": "d276a7c13be03a9b116b22231cf0a49f5f539a2e5bdef6ad09f74ba179ce4069"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/annotated/000001.jpg": {
+    "bytes": 223009,
+    "sha256": "d2132028c1b100783efb7ad188b40f023528e2f8c61d39bbf4504cfada2d86a6"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/annotated/000002.jpg": {
+    "bytes": 92925,
+    "sha256": "2a118d4abb21727c81b85e3f85facad389b7441fe54bd94be9958b13f30a2c4a"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/annotated/000003.jpg": {
+    "bytes": 221685,
+    "sha256": "a3ca994f3c2286abc8f91e92f91d294fa71a35a92dd3504d3ebc3671bc89ca77"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/annotated/000004.jpg": {
+    "bytes": 107896,
+    "sha256": "393a390e469aef4c77dd1aa41906dbde6f98557d0c61b003cd7bcd675bff9bfa"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/annotated/000005.jpg": {
+    "bytes": 188519,
+    "sha256": "0eb5ef6d7ba2b956e253112ace32dd1925074266fe89c176bb6b831192136dc2"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/annotated/000006.jpg": {
+    "bytes": 216797,
+    "sha256": "e1d83bf6a2c30b51a497868622b35a346992bbb99967108c0b94913b20175bf4"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/annotated/000007.jpg": {
+    "bytes": 206085,
+    "sha256": "821eefcacf633f31e9249b10b392abe7e7d3330845351f5a9a89344bbe98be78"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/annotated/000008.jpg": {
+    "bytes": 212800,
+    "sha256": "edcd973f9ec0a2f5900b4d49bed3cfcef55452435b7c7bc750512e9b97ad8a82"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/annotated/000009.jpg": {
+    "bytes": 244213,
+    "sha256": "e41e8307f32c63db8d09e1c08c8f97848ac25038c18c0d5a25ab4a16f46b74af"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/annotated/000010.jpg": {
+    "bytes": 108980,
+    "sha256": "4e0c88ddcf4a7fe804dfda17df4a763435ffc4cbf71c65c827473458f4c01583"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/annotated/000011.jpg": {
+    "bytes": 229236,
+    "sha256": "72e4bc924dc1d3ee77a948694be5658e519e0d43c5f995a58bd0b47f8f19acac"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/annotated/000012.jpg": {
+    "bytes": 230648,
+    "sha256": "d809ee66592460f311443e0e3471dc26f69ecfbc81fa6fb4613d8b6783532a8a"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/detections.csv": {
+    "bytes": 2640,
+    "sha256": "0da4b68848d29065b169854ab52d62f048a3a45316c54527c59b835416c04655"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/images.csv": {
+    "bytes": 4770,
+    "sha256": "6c3e09f64eaf355014e50b50a546ef0d1b3c62e45521600d1169d1a8322a21fb"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/json/000001.json": {
+    "bytes": 1083,
+    "sha256": "25b571f7ab8e60692b9d9032c99bd54d36d680f307ce6951392008a9e176ee89"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/json/000002.json": {
+    "bytes": 494,
+    "sha256": "e02f40c0588152337e8ac0082b1614db0a4ec451ba7b44c56867701d71382739"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/json/000003.json": {
+    "bytes": 776,
+    "sha256": "47079a91ae9de0e65b454d4be15272ff37ace50698698b5def1ae5ff9056171f"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/json/000004.json": {
+    "bytes": 772,
+    "sha256": "c5fdfd99677a3d2ba7bfb8a552197f124130f6797afd37866f5ff8552b7b909f"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/json/000005.json": {
+    "bytes": 790,
+    "sha256": "f2499be0803f2c96114c70fac4bd4e7715af5051783bb509cfbaeb9c7d8a3539"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/json/000006.json": {
+    "bytes": 794,
+    "sha256": "37a9f6c48fc144a301e12d0b07dd4fd8ae569116ee9fc68a40b1b26b006967e5"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/json/000007.json": {
+    "bytes": 1069,
+    "sha256": "9541ee298e7449a9b1557ef891bfa06972b83ec33aea16cc92045a65ab0e5ca7"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/json/000008.json": {
+    "bytes": 790,
+    "sha256": "f25af4371b7f1ed28dfbc16cd2f93d1ec2d11412f98f50f24cc9f3d288549c7a"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/json/000009.json": {
+    "bytes": 1063,
+    "sha256": "926355cb4c5ba301843a048b5ec16f86f19cd42fb1d12b66b1a7dea5f6025dd8"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/json/000010.json": {
+    "bytes": 793,
+    "sha256": "64bb4591d3822c30eb3c4f292e208e73a24d2b6f815b34750fcd7b9ab8938a14"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/json/000011.json": {
+    "bytes": 792,
+    "sha256": "9e26055152ffeabf8e3b2fc3644a2192521ee7b4ba0b86b0e135e530f88824d6"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/json/000012.json": {
+    "bytes": 794,
+    "sha256": "d13823e4a54a77acb9070c9b3b9acf18778a0027830ae9e2d054842ad9bd6045"
+  },
+  "experiment2/outputs/predictions/yolo11n_baseline_amp_predict_20261020_092009_55381e/prediction_summary.json": {
+    "bytes": 10368,
+    "sha256": "ffb776cb31f7c77d23da4ae17c36cc43acbf3677bdcb0e4ea88a0484de91dace"
+  },
+  "experiment2/outputs/registry/yolo11n_baseline_amp_predict_20261020_092009_55381e.csv": {
+    "bytes": 799,
+    "sha256": "bb0183243dd88e5634b5d0e65a2055e98a1e38b169f868df979d285993f08a3e"
+  },
+  "experiment2/outputs/registry/yolo11n_baseline_amp_predict_20261020_092009_55381e.json": {
+    "bytes": 10368,
+    "sha256": "ffb776cb31f7c77d23da4ae17c36cc43acbf3677bdcb0e4ea88a0484de91dace"
+  },
+  "experiment2/outputs/registry/yolo11n_baseline_amp_test_best_20261018_174533_bf413a.csv": {
+    "bytes": 1248,
+    "sha256": "365cf56d66ed531d3d6ea139af0bf0a8fed65027a344c4e25460ee0c1e54cdde"
+  },
+  "experiment2/outputs/registry/yolo11n_baseline_amp_test_best_20261018_174533_bf413a.json": {
+    "bytes": 10136,
+    "sha256": "1676f740ad073b060b07c2916e57f6493a3860c25daeb25e23956561a1711484"
+  },
+  "experiment2/outputs/registry/yolo11n_baseline_amp_val_best_20261013_155237_1ca1c6.csv": {
+    "bytes": 896,
+    "sha256": "d66bc333d814a76376022a9d5cde612064ad114f50f14701dcbaa148ec345b61"
+  },
+  "experiment2/outputs/registry/yolo11n_baseline_amp_val_best_20261013_155237_1ca1c6.json": {
+    "bytes": 9582,
+    "sha256": "131521c87b8e853c5c1f46c55fb8fa62f360ac6c08c5ca5925aac151e20e3eca"
+  },
+  "experiment2/outputs/registry/yolo11n_experiment1_augmentation_amp_test_best_20261018_174714_e02a5c.csv": {
+    "bytes": 1559,
+    "sha256": "2d307747e997e489431511e7606563fed1fd3eabb2bfa1d4f26f65b30a439b1f"
+  },
+  "experiment2/outputs/registry/yolo11n_experiment1_augmentation_amp_test_best_20261018_174714_e02a5c.json": {
+    "bytes": 12732,
+    "sha256": "9cecd5473f231defb80a85317699401da27d3230d78e49d96acec60039a7b3dd"
+  },
+  "experiment2/outputs/registry/yolo11n_experiment1_augmentation_amp_val_best_20261018_174301_8a8537.csv": {
+    "bytes": 1557,
+    "sha256": "30da22016f1193d6c71b308859b4456d9b3ecd4d6ba665801c46f44c74d6b920"
+  },
+  "experiment2/outputs/registry/yolo11n_experiment1_augmentation_amp_val_best_20261018_174301_8a8537.json": {
+    "bytes": 12740,
+    "sha256": "9c18ad52d2016eec8403b4fdeb77f108b09dcc1eada92acfcef30595283fdde1"
+  },
+  "experiment2/outputs/registry/yolo11n_lora_amp-2_test_best_20261018_174624_7e0768.csv": {
+    "bytes": 1432,
+    "sha256": "15c6f35aba7d95a0724e151e3e0c5a56a5539d7053bd1dd83a0e1b1bdeda4941"
+  },
+  "experiment2/outputs/registry/yolo11n_lora_amp-2_test_best_20261018_174624_7e0768.json": {
+    "bytes": 10918,
+    "sha256": "d3ac2f355282c0f5381f993dc946cf53110369dd923e9fe1829bb4102f810500"
+  },
+  "experiment2/outputs/registry/yolo11n_lora_amp-2_val_best_20261018_112948_1f3b39.csv": {
+    "bytes": 930,
+    "sha256": "5c4b292b178872466ee55d8990ce9ad803d63e61351f1fb9ceb426b2e2e2031a"
+  },
+  "experiment2/outputs/registry/yolo11n_lora_amp-2_val_best_20261018_112948_1f3b39.json": {
+    "bytes": 9491,
+    "sha256": "4870e9cc0620f2026d03c85ae35f284616f980f1ce5d7c70816bcb2db378c7c6"
+  },
+  "experiment2/outputs/registry/yolo11n_no_augmentation_amp-2_test_best_20261018_174649_6b8389.csv": {
+    "bytes": 1523,
+    "sha256": "a83518846d817fd63591be2a0bddbe643e37cc8fc06805988223408a4efd798a"
+  },
+  "experiment2/outputs/registry/yolo11n_no_augmentation_amp-2_test_best_20261018_174649_6b8389.json": {
+    "bytes": 12640,
+    "sha256": "ef22c93a74f68589303cb13dd6fc1ade454bce3ee44eae41b7bab77abb5c0e94"
+  },
+  "experiment2/outputs/registry/yolo11n_no_augmentation_amp-2_val_best_20261018_174216_f26229.csv": {
+    "bytes": 1520,
+    "sha256": "db22d71a0d172f1914826a222f972ffa2a40cd34dad449906d0818626f698855"
+  },
+  "experiment2/outputs/registry/yolo11n_no_augmentation_amp-2_val_best_20261018_174216_f26229.json": {
+    "bytes": 12526,
+    "sha256": "3f8592f4e6321a3d7023793817c637e40de01c3c114b623efb9e44b97e2a64a0"
+  },
+  "experiment2/predict.py": {
+    "bytes": 11618,
+    "sha256": "61304fa225c98353e1b84da45793f8974f291d88137357be17b37f1fcd58c070"
+  },
+  "experiment2/prepare_augmentation.py": {
+    "bytes": 21039,
+    "sha256": "344120bd9e94b5de941ace5558077eff32ff99a91abc38200332668761807848"
+  },
+  "experiment2/README.md": {
+    "bytes": 34768,
+    "sha256": "b6d360807968548b0658ab5626428dc1c57a0c93d87d0bf5bafafbf62c4d1231"
+  },
+  "experiment2/reports/cleanup_records/20261020/cleanup_summary.json": {
+    "bytes": 3492,
+    "sha256": "8b770e3cac7d2bb4c2207c2741f0ac15ea887661154b5272549aaf8915de125f"
+  },
+  "experiment2/reports/cleanup_records/20261020/debug_records/experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp/args.yaml": {
+    "bytes": 1992,
+    "sha256": "224e84ae594dad9bc4fffacab42c02e89f4ad956dc8024528a68e8b51faf427f"
+  },
+  "experiment2/reports/cleanup_records/20261020/debug_records/experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp/parameter_report.json": {
+    "bytes": 255,
+    "sha256": "81548df4e2c53fb400da5751cded6b7f7e1aec4e860f4e10998eea01a6cb1cbf"
+  },
+  "experiment2/reports/cleanup_records/20261020/debug_records/experiment2/outputs/augmentation_control/yolo11n_no_augmentation_amp/training_resources.json": {
+    "bytes": 756,
+    "sha256": "ee62a435de33c40d4647fd924117c68a74b4165222131faecca17d5ce4dd1621"
+  },
+  "experiment2/reports/cleanup_records/20261020/debug_records/experiment2/outputs/baseline/yolo11n_baseline_amp_smoke/args.yaml": {
+    "bytes": 1905,
+    "sha256": "d137a8ad73a5f4aa5c85ff2691955bef8548ee8ad34723bfcb3fb274a0a29156"
+  },
+  "experiment2/reports/cleanup_records/20261020/debug_records/experiment2/outputs/baseline/yolo11n_baseline_amp_smoke-2/args.yaml": {
+    "bytes": 1895,
+    "sha256": "28f894010edeab37fb9e4953702465831b8a6284dae383f784b4a21e92e6e101"
+  },
+  "experiment2/reports/cleanup_records/20261020/debug_records/experiment2/outputs/baseline/yolo11n_baseline_amp_smoke-2/environment.json": {
+    "bytes": 628,
+    "sha256": "59ba8bf973803111a89f0c07598a2429fd52c98d74b199b83ce4853a8e15e586"
+  },
+  "experiment2/reports/cleanup_records/20261020/debug_records/experiment2/outputs/baseline/yolo11n_baseline_amp_smoke-2/resolved_config.yaml": {
+    "bytes": 620,
+    "sha256": "147d41dbaf79092f722a969949bdce0d99d785b1e730a856a26dd1fdff417d07"
+  },
+  "experiment2/reports/cleanup_records/20261020/debug_records/experiment2/outputs/baseline/yolo11n_baseline_amp_smoke-2/results.csv": {
+    "bytes": 301,
+    "sha256": "7b91df595553ae3f62297d3fca2c4f19ff97b364095913e26a144abc8f287b51"
+  },
+  "experiment2/reports/cleanup_records/20261020/debug_records/experiment2/outputs/baseline/yolo11n_baseline_amp_smoke-2/train_summary.json": {
+    "bytes": 1553,
+    "sha256": "d57c135f28a11014c117dd53e82a8217c71221c37ee782f3b45d00b9c6544d5a"
+  },
+  "experiment2/reports/cleanup_records/20261020/debug_records/experiment2/outputs/lora_amp/yolo11n_lora_amp/args.yaml": {
+    "bytes": 1903,
+    "sha256": "c540c0bc287c637a820aa8db675452ed0c1c3e04de9beb63dec28e861092bfda"
+  },
+  "experiment2/reports/cleanup_records/20261020/debug_records/experiment2/outputs/lora_amp/yolo11n_lora_amp/parameter_report.json": {
+    "bytes": 572,
+    "sha256": "62ad4bc7ae159a6df1f83f5ac6d0b3f4108664f4cd55f1ae11c7d303bfaf8a1b"
+  },
+  "experiment2/reports/cleanup_records/20261020/debug_records/experiment2/outputs/lora_amp/yolo11n_lora_amp_smoke/args.yaml": {
+    "bytes": 1914,
+    "sha256": "748063a6a993fa6577e95853703a337d751cd335ad6b91e364a5c00773d14e09"
+  },
+  "experiment2/reports/cleanup_records/20261020/debug_records/experiment2/outputs/lora_amp/yolo11n_lora_amp_smoke/parameter_report.json": {
+    "bytes": 572,
+    "sha256": "62ad4bc7ae159a6df1f83f5ac6d0b3f4108664f4cd55f1ae11c7d303bfaf8a1b"
+  },
+  "experiment2/reports/cleanup_records/20261020/debug_records/experiment2/outputs/lora_amp/yolo11n_lora_amp_smoke-2/args.yaml": {
+    "bytes": 1918,
+    "sha256": "23e5f2f0a964dcfc6c69beabd0453212764668038892b0dd02dcd1e7bae5f86e"
+  },
+  "experiment2/reports/cleanup_records/20261020/debug_records/experiment2/outputs/lora_amp/yolo11n_lora_amp_smoke-2/environment.json": {
+    "bytes": 150,
+    "sha256": "46ea7c28a56ecedc51d43494634bfddb85f75ed1b47e57f8831f98645e3bf193"
+  },
+  "experiment2/reports/cleanup_records/20261020/debug_records/experiment2/outputs/lora_amp/yolo11n_lora_amp_smoke-2/parameter_report.json": {
+    "bytes": 572,
+    "sha256": "62ad4bc7ae159a6df1f83f5ac6d0b3f4108664f4cd55f1ae11c7d303bfaf8a1b"
+  },
+  "experiment2/reports/cleanup_records/20261020/debug_records/experiment2/outputs/lora_amp/yolo11n_lora_amp_smoke-2/resolved_config.yaml": {
+    "bytes": 870,
+    "sha256": "ccffd746e57d2918613359155e97be01ba86b9336e156ab5853aaad240c42a5a"
+  },
+  "experiment2/reports/cleanup_records/20261020/debug_records/experiment2/outputs/lora_amp/yolo11n_lora_amp_smoke-2/results.csv": {
+    "bytes": 559,
+    "sha256": "7c60437694149897fa5002ea7d8ca4c4b6c62f1f774ffeb515d0261c6e804956"
+  },
+  "experiment2/reports/cleanup_records/20261020/debug_records/experiment2/outputs/lora_amp/yolo11n_lora_amp_smoke-2/train_summary.json": {
+    "bytes": 3865,
+    "sha256": "7ebf0662196c46fd572ab9be7f0e2680edd8faeed41b7d92c83e115cca4e492a"
+  },
+  "experiment2/reports/experiment2_results.md": {
+    "bytes": 12144,
+    "sha256": "4ea9e75c6fe4a367943bd5fb8ca972c64a2ca7ee1956aeadb2c871384415f4a7"
+  },
+  "experiment2/reports/figures/report_20261020_093501_878347/01_validation_test_comparison.png": {
+    "bytes": 141553,
+    "sha256": "ca72966989bff544c2bdee360f7fabf3aaa457a9ae59ad32330c164e112fb9cf"
+  },
+  "experiment2/reports/figures/report_20261020_093501_878347/02_training_curves.png": {
+    "bytes": 518038,
+    "sha256": "35eb89b3812f70677db24558ff9037934dc77872f7eb06a14bce6a8bff40ca57"
+  },
+  "experiment2/reports/figures/report_20261020_093501_878347/03_augmentation_per_class.png": {
+    "bytes": 233980,
+    "sha256": "db126caf8252e4de894d86507f6bf043a44031fae84b27d082f914da48f90176"
+  },
+  "experiment2/reports/figures/report_20261020_093501_878347/04_case_correct_plastic.png": {
+    "bytes": 2707499,
+    "sha256": "b0b1898eee5f5cd6e21518adbecba4bb9d560b7503abe3fef2f51d2a4e1922b3"
+  },
+  "experiment2/reports/figures/report_20261020_093501_878347/05_case_correct_metal.png": {
+    "bytes": 2958822,
+    "sha256": "0b34bc0e72eae8c44a3d1d99838ee4dcadcd8fa746ef3d0d3200d8970a47a836"
+  },
+  "experiment2/reports/figures/report_20261020_093501_878347/06_case_missed_objects.png": {
+    "bytes": 1614655,
+    "sha256": "2f61d24f2b75f76e49bc4a8f918b63882804281a74109ed9950badba28fba2da"
+  },
+  "experiment2/reports/figures/report_20261020_093501_878347/07_case_wrong_class.png": {
+    "bytes": 2950899,
+    "sha256": "baec65f9485926c9532be2bc7867276c46eb01be1b58562460d986d3233cfcb2"
+  },
+  "experiment2/reports/figures/report_20261020_093501_878347/08_case_duplicate_classes.png": {
+    "bytes": 2309320,
+    "sha256": "b685731a63afe335beda063308dab6cb8c6570f455d010bd4fda6f7afac1ecff"
+  },
+  "experiment2/reports/figures/report_20261020_093501_878347/09_A_test_confusion_matrix_normalized.png": {
+    "bytes": 669203,
+    "sha256": "d41a088e4a0ba5af9d53b95b6d3d953f6206872c91c04442838abf0eda07a98e"
+  },
+  "experiment2/reports/figures/report_20261020_093501_878347/10_A_test_PR_curve.png": {
+    "bytes": 278429,
+    "sha256": "0f3b244fc7e82820e5c67a3067aa11742173a54d923ceed59eeabcea994a9811"
+  },
+  "experiment2/reports/figures/report_20261020_093501_878347/figure_manifest.json": {
+    "bytes": 9486,
+    "sha256": "f2743ebc3d746a2b46e4bc6ea96f3b517f3f1cf914ee180bf67bf9e75047a3bf"
+  },
+  "experiment2/reports/figures/report_20261020_093501_878347/README.md": {
+    "bytes": 2605,
+    "sha256": "c849f163bcae5a081a9008a6da3ffd7dd137df96f6453da991ad27db03bef1a8"
+  },
+  "experiment2/reports/prediction_case_review.json": {
+    "bytes": 27616,
+    "sha256": "b0e66d3c886e0d082b5f8b94f42f05f220f494eb64819e13609b65e2420d50a6"
+  },
+  "experiment2/reports/prediction_cases.md": {
+    "bytes": 8583,
+    "sha256": "dc7c1f3cfda62247900070e221fcb15c0c98e1907821d4af5ebbbf5cd11abd9a"
+  },
+  "experiment2/reports/references.md": {
+    "bytes": 14126,
+    "sha256": "45746c3d484abb71b14320c0ee97f66216759a634324cf39b6c67c1b7ccd2e2d"
+  },
+  "experiment2/reports/实验二报告_循智EcoSort.docx": {
+    "bytes": 6720746,
+    "sha256": "e5d380406676126b13556fc8c181e561d603ebc6e53f718af72f66d6c015b376"
+  },
+  "experiment2/requirements-experiment2.txt": {
+    "bytes": 134,
+    "sha256": "2aec8b591fcde4752b36fd65e3ffbf83583a021a17d148c19be0b52e64504cdc"
+  },
+  "experiment2/src/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "experiment2/src/experiment_registry.py": {
+    "bytes": 6838,
+    "sha256": "4eea9ec906f806ae1caa7ce96dd7f72e09119e4726bcdb17be8c927a12248011"
+  },
+  "experiment2/src/lora_layers.py": {
+    "bytes": 4828,
+    "sha256": "6b597026f57870866e3d26f09a9de9fefc2a238365769f1f0feebcecc0306124"
+  },
+  "experiment2/src/metrics.py": {
+    "bytes": 3793,
+    "sha256": "f117105a6f5c90d839c23513c454227506ff122858466793d6b7b7dab81f2ae0"
+  },
+  "experiment2/src/model_factory.py": {
+    "bytes": 10603,
+    "sha256": "03c8792a7c91f88fbf9ae310d9c4f3a21b0657c6f53da72e98ec899bf745bae1"
+  },
+  "experiment2/src/train_utils.py": {
+    "bytes": 8472,
+    "sha256": "adf0850eaafd8402b46755aef7b9dd757fc387c0afcb633125928ecf28ad457a"
+  },
+  "experiment2/train_baseline.py": {
+    "bytes": 13129,
+    "sha256": "5d73d157d976ccd565012cf3f3db729d93a9b24f36217a8cb43ea15f8925ced1"
+  },
+  "experiment2/train_lora.py": {
+    "bytes": 10958,
+    "sha256": "55af17aa7b754546439ff9721f1efa2f97c4fad8482df44b7c09001f3c752dda"
+  },
+  "experiment2/yolo11n.pt": {
+    "bytes": 5613764,
+    "sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1"
+  }
+}

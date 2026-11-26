@@ -1,0 +1,48 @@
+# 实验二基线模型配置
+
+# 相对于当前配置文件所在目录：
+# D:\Pycharm\ecosort\experiment2\configs
+data: ../../data/split/data.yaml
+
+# 首先使用轻量级预训练检测模型
+model: yolo11n.pt
+
+run:
+  project: ../outputs/baseline
+  name: yolo11n_baseline_amp
+  exist_ok: false
+
+train:
+  epochs: 60
+  imgsz: 640
+  batch: 16
+
+  # CUDA GPU 使用第 0 张卡
+  device: 0
+  workers: 4
+
+  # 实验一中使用过的固定随机种子
+  seed: 20261003
+  deterministic: true
+
+  # 基线也先启用混合精度，后续再做 amp=False 对照
+  amp: true
+
+  pretrained: true
+  patience: 20
+
+  optimizer: AdamW
+  lr0: 0.001
+  lrf: 0.01
+  weight_decay: 0.0005
+  warmup_epochs: 3.0
+  cos_lr: true
+
+  cache: false
+  plots: true
+  save: true
+  val: true
+  verbose: true
+
+  # 使用全部训练数据
+  fraction: 1.0

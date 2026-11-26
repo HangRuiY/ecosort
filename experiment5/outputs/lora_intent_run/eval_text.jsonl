@@ -1,0 +1,15 @@
+{"text": "我拍了张混合垃圾的照片，按物品帮我圈出来。", "has_image": true, "tool": "detect"}
+{"text": "麻烦看看画面里的物品分别是哪种垃圾", "has_image": true, "tool": "detect"}
+{"text": "帮我识别这张图里的物体", "has_image": false, "tool": "detect"}
+{"text": "请判断这张照片里面的垃圾类别", "has_image": true, "tool": "detect"}
+{"text": "我想分析照片中的垃圾。", "has_image": false, "tool": "detect"}
+{"text": "厨房的剩面条和玻璃罐分别如何投放？", "has_image": false, "tool": "advice"}
+{"text": "快递送来的瓦楞纸和空铝罐应该放进哪个桶", "has_image": false, "tool": "advice"}
+{"text": "有苹果芯、可乐瓶，这两样能一起处理吗？", "has_image": false, "tool": "advice"}
+{"text": "PET瓶、蛋壳、废旧报纸怎么分类", "has_image": false, "tool": "advice"}
+{"text": "旧塑料袋还可以回收吗？", "has_image": false, "tool": "advice"}
+{"text": "这个工具的用途有哪些？", "has_image": false, "tool": "answer"}
+{"text": "嗨，初次见面。", "has_image": false, "tool": "answer"}
+{"text": "你会算今天的汇率吗？", "has_image": false, "tool": "answer"}
+{"text": "垃圾识别系统支持什么功能？", "has_image": false, "tool": "answer"}
+{"text": "能给我讲讲如何用你的功能吗", "has_image": false, "tool": "answer"}

@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-10-26T12:20:57.781599+08:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\Livia\\Desktop\\ecosort\\experiment3\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "gpu": "NVIDIA GeForce RTX 4070 SUPER",
+  "gpu_memory_bytes": 12877955072,
+  "cuda": "12.8",
+  "cudnn": 91900,
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "ultralytics": "8.4.175",
+    "onnx": "1.19.1",
+    "tensorrt-cu12": "10.13.3.9",
+    "tensorrt-cu12-bindings": "10.13.3.9",
+    "tensorrt-cu12-libs": "10.13.3.9",
+    "numpy": "2.3.5",
+    "opencv-python": "5.0.0.93"
+  },
+  "tf32": false,
+  "seed": 20261026,
+  "nvidia_smi": "NVIDIA GeForce RTX 4070 SUPER, 12282 MiB, 617.42"
+}

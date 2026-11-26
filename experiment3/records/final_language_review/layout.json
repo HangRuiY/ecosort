@@ -1,0 +1,64 @@
+{
+  "pages": 21,
+  "changed_pages": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13,
+    17,
+    21
+  ],
+  "citation_links": 8,
+  "link_destinations": [
+    [
+      3,
+      21,
+      "['/XYZ', 87, 595, 0]"
+    ],
+    [
+      4,
+      21,
+      "['/XYZ', 87, 541, 0]"
+    ],
+    [
+      5,
+      21,
+      "['/XYZ', 87, 505, 0]"
+    ],
+    [
+      5,
+      21,
+      "['/XYZ', 87, 433, 0]"
+    ],
+    [
+      6,
+      21,
+      "['/XYZ', 87, 379, 0]"
+    ],
+    [
+      7,
+      21,
+      "['/XYZ', 87, 325, 0]"
+    ],
+    [
+      8,
+      21,
+      "['/XYZ', 87, 271, 0]"
+    ],
+    [
+      9,
+      21,
+      "['/XYZ', 87, 235, 0]"
+    ]
+  ],
+  "visual_review_passed": true,
+  "body_tables_unchanged": true,
+  "references_unchanged": true,
+  "no_draft_confirmation_phrases": true,
+  "unrelated_docx_parts_preserved": true
+}

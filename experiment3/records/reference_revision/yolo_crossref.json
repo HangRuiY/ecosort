@@ -1,0 +1,436 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          26
+        ]
+      ],
+      "date-time": "2026-10-26T02:17:45Z",
+      "timestamp": 1792981065026,
+      "version": "4.5.0"
+    },
+    "reference-count": 38,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2016.91",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          12,
+          12
+        ]
+      ],
+      "date-time": "2016-12-12T20:38:49Z",
+      "timestamp": 1481575129000
+    },
+    "page": "779-788",
+    "source": "Crossref",
+    "is-referenced-by-count": 42414,
+    "title": [
+      "You Only Look Once: Unified, Real-Time Object Detection"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Joseph",
+        "family": "Redmon",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Santosh",
+        "family": "Divvala",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ross",
+        "family": "Girshick",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ali",
+        "family": "Farhadi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref38",
+        "doi-asserted-by": "crossref",
+        "first-page": "391",
+        "DOI": "10.1007/978-3-319-10602-1_26",
+        "article-title": "Edge boxes: Locating object proposals from edges",
+        "author": "zitnick",
+        "year": "2014",
+        "journal-title": "Computer Vision&#x2014;ECCV 2014"
+      },
+      {
+        "key": "ref33",
+        "author": "szegedy",
+        "year": "2014",
+        "journal-title": "Going Deeper with Convolutions"
+      },
+      {
+        "key": "ref32",
+        "author": "shen",
+        "year": "2014",
+        "journal-title": "Do more dropouts in poo15 feature maps for better object detection"
+      },
+      {
+        "key": "ref31",
+        "author": "sermanet",
+        "year": "2013",
+        "journal-title": "Overfeat Integrated Recognition Localization and Detection Using Convolutional Networks"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "crossref",
+        "first-page": "65",
+        "DOI": "10.1007/978-3-319-10590-1_5",
+        "article-title": "30hz object detection with dpm v5",
+        "author": "sadeghi",
+        "year": "2014",
+        "journal-title": "Computer Vision-ECCV 2014"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.320"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/B:VISI.0000013087.49260.fb"
+      },
+      {
+        "key": "ref35",
+        "first-page": "34",
+        "article-title": "Robust real-time object detection",
+        "volume": "4",
+        "author": "viola",
+        "year": "2001",
+        "journal-title": "International Journal of Computer Vision"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-013-0620-5"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2009.167"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.135"
+      },
+      {
+        "key": "ref12",
+        "first-page": "101",
+        "article-title": "Detecting people in cubist art",
+        "author": "ginosar",
+        "year": "2014",
+        "journal-title": "Computer Vision-ECCV 2014 Workshops"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.81"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.169"
+      },
+      {
+        "key": "ref15",
+        "first-page": "655",
+        "article-title": "Region-based segmentation and object detection",
+        "author": "gould",
+        "year": "2009",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "crossref",
+        "first-page": "297",
+        "DOI": "10.1007/978-3-319-10584-0_20",
+        "article-title": "Simultaneous detection and segmentation",
+        "author": "hariharan",
+        "year": "2014",
+        "journal-title": "Computer Vision&#x2014;ECCV 2014"
+      },
+      {
+        "key": "ref17",
+        "author": "he",
+        "year": "2014",
+        "journal-title": "Spatial pyramid pooling in deep convolutional networks for visual recognition"
+      },
+      {
+        "key": "ref18",
+        "author": "hinton",
+        "year": "2012",
+        "journal-title": "Improving Neural Networks by Preventing Co-adaptation of Feature Detectors"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "crossref",
+        "first-page": "340",
+        "DOI": "10.1007/978-3-642-33712-3_25",
+        "article-title": "Diagnosing error in object detectors",
+        "author": "hoiem",
+        "year": "2012",
+        "journal-title": "Computer Vision-ECCV 2012"
+      },
+      {
+        "key": "ref28",
+        "author": "ren",
+        "year": "2015",
+        "journal-title": "Object detection networks on convolutional feature maps"
+      },
+      {
+        "key": "ref4",
+        "first-page": "886",
+        "article-title": "Histograms of oriented gradients for human detection",
+        "volume": "1",
+        "author": "dalal",
+        "year": "2005",
+        "journal-title": "Computer Vision and Pattern Recognition 2005 CVPR 2005 IEEE Computer Society Conference on"
+      },
+      {
+        "key": "ref27",
+        "author": "ren",
+        "year": "2015",
+        "journal-title": "Faster r-cnn Towards real-time object detection with region proposal networks"
+      },
+      {
+        "key": "ref3",
+        "author": "cai",
+        "year": "2015",
+        "journal-title": "The cross-depiction problem Computer vision algorithms for recognising objects in artwork and in photographs"
+      },
+      {
+        "key": "ref6",
+        "author": "donahue",
+        "year": "2013",
+        "journal-title": "Decaf A Deep Convolutional Activation Feature for Generic Visual Recognition"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-015-0816-y"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.237"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.276"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "crossref",
+        "first-page": "299",
+        "DOI": "10.1007/978-3-319-10602-1_20",
+        "article-title": "Towards unified object detection and semantic segmentation",
+        "author": "dong",
+        "year": "2014",
+        "journal-title": "Computer Vision&#x2014;ECCV 2014"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2009.5459303"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-014-0733-5"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "first-page": "2",
+        "DOI": "10.1007/978-3-540-88682-2_2",
+        "article-title": "Learning to localize objects with structured output regression",
+        "author": "blaschko",
+        "year": "2008",
+        "journal-title": "Computer Vision&#x2013;ECCV 2008"
+      },
+      {
+        "key": "ref20",
+        "author": "lenc",
+        "year": "2015",
+        "journal-title": "R-cnn minus r"
+      },
+      {
+        "key": "ref22",
+        "author": "lin",
+        "year": "2013",
+        "journal-title": "Network in Network"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICIP.2002.1038171"
+      },
+      {
+        "key": "ref24",
+        "author": "mishkin",
+        "year": "0",
+        "journal-title": "Models accuracy on imagenet 2012 val"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1150",
+        "DOI": "10.1109/ICCV.1999.790410",
+        "article-title": "Object recognition from local scale-invariant features",
+        "volume": "2",
+        "author": "lowe",
+        "year": "1999",
+        "journal-title": "Computer Vision 1999 The Proceedings of the Seventh IEEE International Conference on"
+      },
+      {
+        "key": "ref26",
+        "author": "redmon",
+        "year": "2014",
+        "journal-title": "Real-time grasp detection using convolutional neural networks"
+      },
+      {
+        "key": "ref25",
+        "first-page": "555",
+        "article-title": "A general framework for object detection",
+        "author": "papageorgiou",
+        "year": "1998",
+        "journal-title": "Computer Vision 1998 Sixth International Conference on"
+      }
+    ],
+    "event": {
+      "name": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Las Vegas, NV, USA",
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            27
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            30
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/7776647/7780329/07780460.pdf?arnumber=7780460",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          16
+        ]
+      ],
+      "date-time": "2019-09-16T08:54:12Z",
+      "timestamp": 1568624052000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/7780460/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    },
+    "references-count": 38,
+    "URL": "https://doi.org/10.1109/cvpr.2016.91",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    }
+  }
+}

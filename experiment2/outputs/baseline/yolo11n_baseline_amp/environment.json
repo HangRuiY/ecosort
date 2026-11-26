@@ -1,0 +1,23 @@
+{
+  "system": {
+    "python_version": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "python_executable": "D:\\Anaconda\\envs\\mypy\\python.exe",
+    "system_memory_gb": 15.71
+  },
+  "gpu": {
+    "cuda_available": true,
+    "torch_version": "2.11.0+cu128",
+    "torch_cuda_version": "12.8",
+    "device_count": 1,
+    "devices": [
+      {
+        "index": 0,
+        "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+        "total_memory_gb": 7.96,
+        "major": 12,
+        "minor": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "duration_seconds": 704.9308023999984,
+  "checkpoint_sha256": "e16fa7f91e983b39b24c9222a06de756d20e09889b85dc26927a683a6c73f58a",
+  "engine": "C:\\Users\\Livia\\Desktop\\ecosort\\experiment3\\models\\baseline.engine",
+  "engine_sha256": "6743205ca4ef399b878603439c75a050ba3a1d5ad8541f9c291d8a2aa0cedb43",
+  "engine_bytes": 11408983,
+  "onnx_sha256": "945f90f2809f44b50abc79196df3370381d7d22c62c9d28461681992f8037cbc",
+  "tensorrt_version": "10.13.3.9",
+  "requested_precision": "FP16, TensorRT may retain selected layers in FP32",
+  "batch_profile_max": 32,
+  "workspace_gib": 4,
+  "nms_embedded": false,
+  "onnx_inputs": [
+    "images"
+  ],
+  "onnx_outputs": [
+    "output0"
+  ]
+}

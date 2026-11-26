@@ -1,0 +1,25 @@
+{
+  "image_index": 12,
+  "source_image": "D:\\Pycharm\\ecosort\\data\\split\\images\\test\\000053.png",
+  "status": "completed",
+  "source_sha256": "09dae017123649ad753022e98792341786951111f7586dc72ea4bcbd79171756",
+  "original_width": 640,
+  "original_height": 640,
+  "detection_count": 1,
+  "annotated_image": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\annotated\\000012.jpg",
+  "error": null,
+  "detections": [
+    {
+      "class_id": 0,
+      "class_name": "plastic_rigid",
+      "class_name_zh": "硬质塑料",
+      "confidence": 0.5168325901031494,
+      "xyxy": [
+        279.82733154296875,
+        281.00848388671875,
+        392.9171142578125,
+        392.07122802734375
+      ]
+    }
+  ]
+}

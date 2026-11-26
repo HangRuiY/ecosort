@@ -1,0 +1,15 @@
+{
+  "pages": 21,
+  "changed_pages_after_final_alignment_fix": [
+    21
+  ],
+  "body_tables": 17,
+  "figures": 11,
+  "code_blocks": 3,
+  "characters_including_tables": 16419,
+  "school_template_geometry_pass": true,
+  "seven_chapters_pass": true,
+  "visual_review": "Pages 1-21 reviewed; final pixel comparison identifies only changed pages.",
+  "source_metrics_rerun": false,
+  "source_model_rerun": false
+}

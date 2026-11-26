@@ -1,0 +1,12 @@
+{
+  "image_index": 2,
+  "source_image": "D:\\Pycharm\\ecosort\\data\\split\\images\\test\\000012.png",
+  "status": "completed",
+  "source_sha256": "bfbb65437ddf6f3087daece5be3662920d0acd0e0c0b53e853498db51d4b3012",
+  "original_width": 640,
+  "original_height": 640,
+  "detection_count": 0,
+  "annotated_image": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\annotated\\000002.jpg",
+  "error": null,
+  "detections": []
+}

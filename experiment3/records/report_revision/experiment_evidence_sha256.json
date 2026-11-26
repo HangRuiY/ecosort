@@ -1,0 +1,10 @@
+{
+  "outputs/evaluation/test/pytorch_fp32/summary.json": "367e348191f1f29d30fff9b9d77424582b791de3fe973af0bab89e6d40ceb8ba",
+  "outputs/evaluation/test/tensorrt_fp16/summary.json": "ce33ffa2cf34247e151c4461ae8d816e8166cb3f6ecf1019495e9ebaba3fa4d3",
+  "outputs/evaluation/val/pytorch_fp32/summary.json": "b92464d78c28733a639e3c87f551eb1675026a475c0772e64f13b63d1a93a55e",
+  "outputs/evaluation/val/tensorrt_fp16/summary.json": "36295321be147bc12c15003180bd668de938a9f2d0dac52e382ff5dad2fe54aa",
+  "outputs/benchmark/iterations.csv": "51a2b2e3b5235e714184d4e94fb2141b945690a1094c0c614991802f40bca7e1",
+  "outputs/benchmark/summary.csv": "c3ad5d8663e520f9b83898ce1c01019fe17371c9bba35f6ebfbd5902a8b82ec6",
+  "outputs/benchmark/summary.json": "b60645d9d6f523c5d1c0370359f49d671e94f582c7e97c11d1d5b107f16867bb",
+  "configs/protocol.json": "f02e3ee020db1ea09ff2d31b6df3d90c60849ae090d769b623f0de02995d2c07"
+}

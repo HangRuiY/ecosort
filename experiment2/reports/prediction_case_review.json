@@ -1,0 +1,882 @@
+{
+  "review_date": "2026-10-20",
+  "prediction_id": "predict_20261020_092009_55381e",
+  "prediction_summary_sha256": "ffb776cb31f7c77d23da4ae17c36cc43acbf3677bdcb0e4ea88a0484de91dace",
+  "checkpoint_sha256": "e16fa7f91e983b39b24c9222a06de756d20e09889b85dc26927a683a6c73f58a",
+  "protocol": {
+    "confidence_threshold_from_prediction_run": 0.25,
+    "match_iou": 0.5,
+    "matching": "descending confidence, same-class one-to-one greedy IoU matching",
+    "scope": "12 path-sorted preview images only; not Ultralytics AP or whole-test metrics",
+    "class_error_note": "An incorrect-class box counts as FP and its unmatched annotated target as FN."
+  },
+  "totals": {
+    "ground_truth_count": 29,
+    "prediction_count": 14,
+    "true_positives": 6,
+    "false_positives": 8,
+    "false_negatives": 23
+  },
+  "cases": [
+    {
+      "image_index": 1,
+      "source_image": "D:\\Pycharm\\ecosort\\data\\split\\images\\test\\000003.png",
+      "source_filename": "000003.png",
+      "annotated_image": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\annotated\\000001.jpg",
+      "prediction_json": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\json\\000001.json",
+      "label_path": "D:\\Pycharm\\ecosort\\data\\split\\labels\\test\\000003.txt",
+      "label_sha256": "9d3b7d69b8faae59c21fb38ee1b758a03cf9bf518f223e202d4a851265c3e9eb",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "class_name_zh": "硬质塑料",
+          "xyxy": [
+            65.2806272,
+            367.3129472,
+            207.0863872,
+            542.82368
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name_zh": "硬质塑料",
+          "xyxy": [
+            378.56515520000005,
+            336.7078752,
+            434.4753568,
+            475.99219519999997
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name_zh": "硬质塑料",
+          "xyxy": [
+            198.02830400000002,
+            530.3318144,
+            207.086384,
+            542.5113855999999
+          ]
+        },
+        {
+          "class_id": 5,
+          "class_name_zh": "金属",
+          "xyxy": [
+            183.9726688,
+            251.1385856,
+            290.4831648,
+            377.6187392
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 0,
+          "class_name": "plastic_rigid",
+          "class_name_zh": "硬质塑料",
+          "confidence": 0.5426978468894958,
+          "xyxy": [
+            66.92947387695312,
+            368.453857421875,
+            219.07354736328125,
+            549.3264770507812
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "plastic_rigid",
+          "class_name_zh": "硬质塑料",
+          "confidence": 0.2796504497528076,
+          "xyxy": [
+            115.87744140625,
+            240.47561645507812,
+            164.85256958007812,
+            311.9325256347656
+          ]
+        }
+      ],
+      "matches": [
+        {
+          "prediction_index": 0,
+          "ground_truth_index": 0,
+          "iou": 0.8738251380308776
+        }
+      ],
+      "false_prediction_indices": [
+        1
+      ],
+      "missed_ground_truth_indices": [
+        1,
+        2,
+        3
+      ],
+      "unmatched_prediction_diagnostics": [
+        {
+          "prediction_index": 1,
+          "nearest_ground_truth_index": 3,
+          "nearest_iou": 0.0,
+          "different_class_overlap": false
+        }
+      ],
+      "ground_truth_count": 4,
+      "prediction_count": 2,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 3
+    },
+    {
+      "image_index": 2,
+      "source_image": "D:\\Pycharm\\ecosort\\data\\split\\images\\test\\000012.png",
+      "source_filename": "000012.png",
+      "annotated_image": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\annotated\\000002.jpg",
+      "prediction_json": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\json\\000002.json",
+      "label_path": "D:\\Pycharm\\ecosort\\data\\split\\labels\\test\\000012.txt",
+      "label_sha256": "fe6ef5bf5bcc492b1cf9fb9ba04edc17fa898484593cec8d542f390c40b734f5",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "class_name_zh": "硬质塑料",
+          "xyxy": [
+            476.9546112,
+            223.6564736,
+            606.5788160000001,
+            546.258944
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name_zh": "硬质塑料",
+          "xyxy": [
+            180.8491936,
+            242.7065728,
+            281.4250848,
+            530.3318144
+          ]
+        },
+        {
+          "class_id": 6,
+          "class_name_zh": "玻璃",
+          "xyxy": [
+            65.9053216,
+            80.3122976,
+            196.154224,
+            522.8366943999999
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name_zh": "硬质塑料",
+          "xyxy": [
+            523.8067328000001,
+            223.6564704,
+            589.7120512,
+            254.2615456
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name_zh": "硬质塑料",
+          "xyxy": [
+            413.860416,
+            287.0527008,
+            462.27427840000007,
+            322.96681920000003
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name_zh": "硬质塑料",
+          "xyxy": [
+            302.6647136,
+            278.6206912,
+            348.26744640000004,
+            317.3454784
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name_zh": "硬质塑料",
+          "xyxy": [
+            190.5319648,
+            242.7065696,
+            248.3162528,
+            272.99935039999997
+          ]
+        },
+        {
+          "class_id": 5,
+          "class_name_zh": "金属",
+          "xyxy": [
+            66.217664,
+            80.31229760000001,
+            119.0043904,
+            112.47885760000001
+          ]
+        },
+        {
+          "class_id": 4,
+          "class_name_zh": "复合包装",
+          "xyxy": [
+            377.31575999999995,
+            270.81327359999995,
+            492.571984,
+            546.258944
+          ]
+        },
+        {
+          "class_id": 4,
+          "class_name_zh": "复合包装",
+          "xyxy": [
+            269.5558784,
+            269.87638080000005,
+            379.8145408,
+            538.4515296
+          ]
+        }
+      ],
+      "predictions": [],
+      "matches": [],
+      "false_prediction_indices": [],
+      "missed_ground_truth_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "unmatched_prediction_diagnostics": [],
+      "ground_truth_count": 10,
+      "prediction_count": 0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 10
+    },
+    {
+      "image_index": 3,
+      "source_image": "D:\\Pycharm\\ecosort\\data\\split\\images\\test\\000018.png",
+      "source_filename": "000018.png",
+      "annotated_image": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\annotated\\000003.jpg",
+      "prediction_json": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\json\\000003.json",
+      "label_path": "D:\\Pycharm\\ecosort\\data\\split\\labels\\test\\000018.txt",
+      "label_sha256": "03b732b12931bf94edbb3c5a85ff3dcb078be1855d59ba5a9ebc83d1849ddc43",
+      "ground_truth": [
+        {
+          "class_id": 5,
+          "class_name_zh": "金属",
+          "xyxy": [
+            243.0188672,
+            364.82186240000004,
+            317.97007360000003,
+            402.92825600000003
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 5,
+          "class_name": "metal",
+          "class_name_zh": "金属",
+          "confidence": 0.32377415895462036,
+          "xyxy": [
+            241.2252197265625,
+            363.2654724121094,
+            318.633544921875,
+            404.5513000488281
+          ]
+        }
+      ],
+      "matches": [
+        {
+          "prediction_index": 0,
+          "ground_truth_index": 0,
+          "iou": 0.8936918763947865
+        }
+      ],
+      "false_prediction_indices": [],
+      "missed_ground_truth_indices": [],
+      "unmatched_prediction_diagnostics": [],
+      "ground_truth_count": 1,
+      "prediction_count": 1,
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "image_index": 4,
+      "source_image": "D:\\Pycharm\\ecosort\\data\\split\\images\\test\\000021.png",
+      "source_filename": "000021.png",
+      "annotated_image": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\annotated\\000004.jpg",
+      "prediction_json": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\json\\000004.json",
+      "label_path": "D:\\Pycharm\\ecosort\\data\\split\\labels\\test\\000021.txt",
+      "label_sha256": "7d16624d14fb3fc737ac77f8b91f8c55bf30885bc2c568434cdeaec0f43f6a0c",
+      "ground_truth": [
+        {
+          "class_id": 5,
+          "class_name_zh": "金属",
+          "xyxy": [
+            188.03318720000004,
+            170.5660352,
+            458.2137632,
+            501.288224
+          ]
+        },
+        {
+          "class_id": 5,
+          "class_name_zh": "金属",
+          "xyxy": [
+            288.29673280000003,
+            185.24398399999998,
+            359.1996128,
+            271.7501664
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 5,
+          "class_name": "metal",
+          "class_name_zh": "金属",
+          "confidence": 0.659986674785614,
+          "xyxy": [
+            186.8148193359375,
+            172.672119140625,
+            458.7880859375,
+            503.63946533203125
+          ]
+        }
+      ],
+      "matches": [
+        {
+          "prediction_index": 0,
+          "ground_truth_index": 0,
+          "iou": 0.9801552284538793
+        }
+      ],
+      "false_prediction_indices": [],
+      "missed_ground_truth_indices": [
+        1
+      ],
+      "unmatched_prediction_diagnostics": [],
+      "ground_truth_count": 2,
+      "prediction_count": 1,
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "image_index": 5,
+      "source_image": "D:\\Pycharm\\ecosort\\data\\split\\images\\test\\000025.png",
+      "source_filename": "000025.png",
+      "annotated_image": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\annotated\\000005.jpg",
+      "prediction_json": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\json\\000005.json",
+      "label_path": "D:\\Pycharm\\ecosort\\data\\split\\labels\\test\\000025.txt",
+      "label_sha256": "7dd6b699451d38c981c6879da2c37604d6974ad3de63e42c26b92ad67d4fc716",
+      "ground_truth": [
+        {
+          "class_id": 6,
+          "class_name_zh": "玻璃",
+          "xyxy": [
+            266.12005439999996,
+            279.24528000000004,
+            480.7027808,
+            370.12361599999997
+          ]
+        },
+        {
+          "class_id": 1,
+          "class_name_zh": "软质塑料",
+          "xyxy": [
+            79.9609536,
+            300.1691616,
+            291.73255040000004,
+            430.39688000000007
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 0,
+          "class_name": "plastic_rigid",
+          "class_name_zh": "硬质塑料",
+          "confidence": 0.3377031087875366,
+          "xyxy": [
+            303.0380859375,
+            297.52679443359375,
+            390.20892333984375,
+            356.52655029296875
+          ]
+        }
+      ],
+      "matches": [],
+      "false_prediction_indices": [
+        0
+      ],
+      "missed_ground_truth_indices": [
+        0,
+        1
+      ],
+      "unmatched_prediction_diagnostics": [
+        {
+          "prediction_index": 0,
+          "nearest_ground_truth_index": 0,
+          "nearest_iou": 0.26373411265533675,
+          "different_class_overlap": false
+        }
+      ],
+      "ground_truth_count": 2,
+      "prediction_count": 1,
+      "true_positives": 0,
+      "false_positives": 1,
+      "false_negatives": 2
+    },
+    {
+      "image_index": 6,
+      "source_image": "D:\\Pycharm\\ecosort\\data\\split\\images\\test\\000031.png",
+      "source_filename": "000031.png",
+      "annotated_image": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\annotated\\000006.jpg",
+      "prediction_json": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\json\\000006.json",
+      "label_path": "D:\\Pycharm\\ecosort\\data\\split\\labels\\test\\000031.txt",
+      "label_sha256": "b95548c70ecc9c27154ee6352de208636a7d866f8690cff297525c27b545ceb1",
+      "ground_truth": [
+        {
+          "class_id": 5,
+          "class_name_zh": "金属",
+          "xyxy": [
+            268.62719680000004,
+            328.58955519999995,
+            327.02667840000004,
+            428.54074879999996
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 1,
+          "class_name": "plastic_flexible",
+          "class_name_zh": "软质塑料",
+          "confidence": 0.4681546688079834,
+          "xyxy": [
+            274.56915283203125,
+            327.64801025390625,
+            327.88189697265625,
+            425.90966796875
+          ]
+        }
+      ],
+      "matches": [],
+      "false_prediction_indices": [
+        0
+      ],
+      "missed_ground_truth_indices": [
+        0
+      ],
+      "unmatched_prediction_diagnostics": [
+        {
+          "prediction_index": 0,
+          "nearest_ground_truth_index": 0,
+          "nearest_iou": 0.8550626593529058,
+          "different_class_overlap": true
+        }
+      ],
+      "ground_truth_count": 1,
+      "prediction_count": 1,
+      "true_positives": 0,
+      "false_positives": 1,
+      "false_negatives": 1
+    },
+    {
+      "image_index": 7,
+      "source_image": "D:\\Pycharm\\ecosort\\data\\split\\images\\test\\000032.png",
+      "source_filename": "000032.png",
+      "annotated_image": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\annotated\\000007.jpg",
+      "prediction_json": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\json\\000007.json",
+      "label_path": "D:\\Pycharm\\ecosort\\data\\split\\labels\\test\\000032.txt",
+      "label_sha256": "c7d81ca1fe725ecf8103a8210093fa5eeacb86f8c3adb2eb10fa9fe4ed29d11b",
+      "ground_truth": [
+        {
+          "class_id": 5,
+          "class_name_zh": "金属",
+          "xyxy": [
+            226.77944,
+            324.84138559999997,
+            355.757968,
+            425.1049312
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 0,
+          "class_name": "plastic_rigid",
+          "class_name_zh": "硬质塑料",
+          "confidence": 0.5244321823120117,
+          "xyxy": [
+            225.2255401611328,
+            322.20458984375,
+            355.57464599609375,
+            425.814697265625
+          ]
+        },
+        {
+          "class_id": 5,
+          "class_name": "metal",
+          "class_name_zh": "金属",
+          "confidence": 0.5022487640380859,
+          "xyxy": [
+            223.9439697265625,
+            322.11761474609375,
+            355.6343994140625,
+            426.05889892578125
+          ]
+        }
+      ],
+      "matches": [
+        {
+          "prediction_index": 1,
+          "ground_truth_index": 0,
+          "iou": 0.9429941331305257
+        }
+      ],
+      "false_prediction_indices": [
+        0
+      ],
+      "missed_ground_truth_indices": [],
+      "unmatched_prediction_diagnostics": [
+        {
+          "prediction_index": 0,
+          "nearest_ground_truth_index": 0,
+          "nearest_iou": 0.9548648743711496,
+          "different_class_overlap": true
+        }
+      ],
+      "ground_truth_count": 1,
+      "prediction_count": 2,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    },
+    {
+      "image_index": 8,
+      "source_image": "D:\\Pycharm\\ecosort\\data\\split\\images\\test\\000036.png",
+      "source_filename": "000036.png",
+      "annotated_image": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\annotated\\000008.jpg",
+      "prediction_json": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\json\\000008.json",
+      "label_path": "D:\\Pycharm\\ecosort\\data\\split\\labels\\test\\000036.txt",
+      "label_sha256": "5dcbfc3d4affd783a2a622ffcdc1ae01759c2c4250077529e1910147ee83b6e0",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "class_name_zh": "硬质塑料",
+          "xyxy": [
+            301.73064000000005,
+            382.6256704,
+            349.5120352,
+            444.47047039999995
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 0,
+          "class_name": "plastic_rigid",
+          "class_name_zh": "硬质塑料",
+          "confidence": 0.8833290934562683,
+          "xyxy": [
+            301.4861755371094,
+            381.5185852050781,
+            351.2648620605469,
+            444.9759216308594
+          ]
+        }
+      ],
+      "matches": [
+        {
+          "prediction_index": 0,
+          "ground_truth_index": 0,
+          "iou": 0.9354848192265203
+        }
+      ],
+      "false_prediction_indices": [],
+      "missed_ground_truth_indices": [],
+      "unmatched_prediction_diagnostics": [],
+      "ground_truth_count": 1,
+      "prediction_count": 1,
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "image_index": 9,
+      "source_image": "D:\\Pycharm\\ecosort\\data\\split\\images\\test\\000037.png",
+      "source_filename": "000037.png",
+      "annotated_image": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\annotated\\000009.jpg",
+      "prediction_json": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\json\\000009.json",
+      "label_path": "D:\\Pycharm\\ecosort\\data\\split\\labels\\test\\000037.txt",
+      "label_sha256": "9cefc28d90e5b62d716778b67e21a2e8a671f41e0d3e046742d1218758eaba3b",
+      "ground_truth": [
+        {
+          "class_id": 6,
+          "class_name_zh": "玻璃",
+          "xyxy": [
+            333.27261120000003,
+            350.76623040000004,
+            395.4196512,
+            460.0878496
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 0,
+          "class_name": "plastic_rigid",
+          "class_name_zh": "硬质塑料",
+          "confidence": 0.4363304376602173,
+          "xyxy": [
+            337.0078125,
+            352.24322509765625,
+            393.4854736328125,
+            460.49652099609375
+          ]
+        },
+        {
+          "class_id": 6,
+          "class_name": "glass",
+          "class_name_zh": "玻璃",
+          "confidence": 0.2683781683444977,
+          "xyxy": [
+            336.3863525390625,
+            352.3817138671875,
+            393.446533203125,
+            460.835205078125
+          ]
+        }
+      ],
+      "matches": [
+        {
+          "prediction_index": 1,
+          "ground_truth_index": 0,
+          "iou": 0.8989378162548824
+        }
+      ],
+      "false_prediction_indices": [
+        0
+      ],
+      "missed_ground_truth_indices": [],
+      "unmatched_prediction_diagnostics": [
+        {
+          "prediction_index": 0,
+          "nearest_ground_truth_index": 0,
+          "nearest_iou": 0.8934614233556161,
+          "different_class_overlap": true
+        }
+      ],
+      "ground_truth_count": 1,
+      "prediction_count": 2,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    },
+    {
+      "image_index": 10,
+      "source_image": "D:\\Pycharm\\ecosort\\data\\split\\images\\test\\000047.png",
+      "source_filename": "000047.png",
+      "annotated_image": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\annotated\\000010.jpg",
+      "prediction_json": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\json\\000010.json",
+      "label_path": "D:\\Pycharm\\ecosort\\data\\split\\labels\\test\\000047.txt",
+      "label_sha256": "b7e6fb3ac794f39148a833fddb0534c953aa957832ebf8a029f3edb82b062c34",
+      "ground_truth": [
+        {
+          "class_id": 3,
+          "class_name_zh": "纸及纸板",
+          "xyxy": [
+            357.64705919999994,
+            173.1372544,
+            559.2156864000001,
+            317.2548992
+          ]
+        },
+        {
+          "class_id": 3,
+          "class_name_zh": "纸及纸板",
+          "xyxy": [
+            231.96078720000003,
+            90.78431039999998,
+            429.21568640000004,
+            297.4509792
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name_zh": "硬质塑料",
+          "xyxy": [
+            10.392160000000015,
+            174.1176448,
+            214.50980479999998,
+            379.4117632
+          ]
+        },
+        {
+          "class_id": 5,
+          "class_name_zh": "金属",
+          "xyxy": [
+            277.2548992,
+            331.960784,
+            394.70588160000005,
+            448.43136960000004
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 0,
+          "class_name": "plastic_rigid",
+          "class_name_zh": "硬质塑料",
+          "confidence": 0.5890164971351624,
+          "xyxy": [
+            277.16522216796875,
+            331.3883056640625,
+            394.33966064453125,
+            448.5264892578125
+          ]
+        }
+      ],
+      "matches": [],
+      "false_prediction_indices": [
+        0
+      ],
+      "missed_ground_truth_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "unmatched_prediction_diagnostics": [
+        {
+          "prediction_index": 0,
+          "nearest_ground_truth_index": 3,
+          "nearest_iou": 0.9904618176378825,
+          "different_class_overlap": true
+        }
+      ],
+      "ground_truth_count": 4,
+      "prediction_count": 1,
+      "true_positives": 0,
+      "false_positives": 1,
+      "false_negatives": 4
+    },
+    {
+      "image_index": 11,
+      "source_image": "D:\\Pycharm\\ecosort\\data\\split\\images\\test\\000051.png",
+      "source_filename": "000051.png",
+      "annotated_image": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\annotated\\000011.jpg",
+      "prediction_json": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\json\\000011.json",
+      "label_path": "D:\\Pycharm\\ecosort\\data\\split\\labels\\test\\000051.txt",
+      "label_sha256": "d14cc023fae7f193bd9e66edc23a6ce6caf9439eb5d14029ee6243cf417dc30d",
+      "ground_truth": [
+        {
+          "class_id": 5,
+          "class_name_zh": "金属",
+          "xyxy": [
+            285.88235199999997,
+            324.3137248,
+            366.27451199999996,
+            393.5294112
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 3,
+          "class_name": "paper_cardboard",
+          "class_name_zh": "纸及纸板",
+          "confidence": 0.3411373496055603,
+          "xyxy": [
+            286.9267578125,
+            325.13250732421875,
+            365.4429931640625,
+            394.19671630859375
+          ]
+        }
+      ],
+      "matches": [],
+      "false_prediction_indices": [
+        0
+      ],
+      "missed_ground_truth_indices": [
+        0
+      ],
+      "unmatched_prediction_diagnostics": [
+        {
+          "prediction_index": 0,
+          "nearest_ground_truth_index": 0,
+          "nearest_iou": 0.9561092199082226,
+          "different_class_overlap": true
+        }
+      ],
+      "ground_truth_count": 1,
+      "prediction_count": 1,
+      "true_positives": 0,
+      "false_positives": 1,
+      "false_negatives": 1
+    },
+    {
+      "image_index": 12,
+      "source_image": "D:\\Pycharm\\ecosort\\data\\split\\images\\test\\000053.png",
+      "source_filename": "000053.png",
+      "annotated_image": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\annotated\\000012.jpg",
+      "prediction_json": "D:\\Pycharm\\ecosort\\experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\json\\000012.json",
+      "label_path": "D:\\Pycharm\\ecosort\\data\\split\\labels\\test\\000053.txt",
+      "label_sha256": "7757513b4437d09d848eac92af1b3593ab79b43d3e2195d169154a8ef5e8d12b",
+      "ground_truth": [
+        {
+          "class_id": 3,
+          "class_name_zh": "纸及纸板",
+          "xyxy": [
+            280.7843136,
+            273.9215712,
+            389.8039232,
+            390.00000320000004
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 0,
+          "class_name": "plastic_rigid",
+          "class_name_zh": "硬质塑料",
+          "confidence": 0.5168325901031494,
+          "xyxy": [
+            279.82733154296875,
+            281.00848388671875,
+            392.9171142578125,
+            392.07122802734375
+          ]
+        }
+      ],
+      "matches": [],
+      "false_prediction_indices": [
+        0
+      ],
+      "missed_ground_truth_indices": [
+        0
+      ],
+      "unmatched_prediction_diagnostics": [
+        {
+          "prediction_index": 0,
+          "nearest_ground_truth_index": 0,
+          "nearest_iou": 0.8912100329227098,
+          "different_class_overlap": true
+        }
+      ],
+      "ground_truth_count": 1,
+      "prediction_count": 1,
+      "true_positives": 0,
+      "false_positives": 1,
+      "false_negatives": 1
+    }
+  ]
+}

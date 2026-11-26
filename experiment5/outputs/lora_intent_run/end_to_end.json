@@ -1,0 +1,98 @@
+{
+  "base_url": "http://127.0.0.1:8000",
+  "test_image": "drinking_bb709fed159df96fa2.jpg",
+  "passed": 13,
+  "cases": [
+    {
+      "case": "React 页面",
+      "path": "/",
+      "status": 200,
+      "ms": 51.21,
+      "passed": true
+    },
+    {
+      "case": "React 构建资源",
+      "path": "/assets/index-F12XSMQg.js",
+      "status": 200,
+      "ms": 3.18,
+      "passed": true
+    },
+    {
+      "case": "OpenAPI 文档",
+      "path": "/openapi.json",
+      "status": 200,
+      "ms": 6.89,
+      "passed": true
+    },
+    {
+      "case": "压缩模型就绪",
+      "path": "/api/health",
+      "status": 200,
+      "ms": 1.21,
+      "passed": true
+    },
+    {
+      "case": "测试集图片检测",
+      "path": "/api/detect",
+      "status": 200,
+      "ms": 5177.12,
+      "passed": true
+    },
+    {
+      "case": "图像结果写入数据库",
+      "path": "/api/history",
+      "status": 200,
+      "ms": 2.57,
+      "passed": true
+    },
+    {
+      "case": "拒绝无效图片",
+      "path": "/api/detect",
+      "status": 415,
+      "ms": 36.84,
+      "passed": true
+    },
+    {
+      "case": "纯文本识别多个类别",
+      "path": "/api/advice",
+      "status": 200,
+      "ms": 2.36,
+      "passed": true
+    },
+    {
+      "case": "纯文本未知物品要求补充",
+      "path": "/api/advice",
+      "status": 200,
+      "ms": 1.68,
+      "passed": true
+    },
+    {
+      "case": "Agent 文字工具调用",
+      "path": "/api/agent",
+      "status": 200,
+      "ms": 8639.4,
+      "passed": true
+    },
+    {
+      "case": "Agent 图片工具调用",
+      "path": "/api/agent",
+      "status": 200,
+      "ms": 823.04,
+      "passed": true
+    },
+    {
+      "case": "Agent 提醒上传图片",
+      "path": "/api/agent",
+      "status": 200,
+      "ms": 688.8,
+      "passed": true
+    },
+    {
+      "case": "Agent 介绍应用能力",
+      "path": "/api/agent",
+      "status": 200,
+      "ms": 673.5,
+      "passed": true
+    }
+  ]
+}

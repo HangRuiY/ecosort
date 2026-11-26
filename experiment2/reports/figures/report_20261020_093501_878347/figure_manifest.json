@@ -1,0 +1,133 @@
+{
+  "status": "completed",
+  "created_at": "2026-10-20T09:35:01.614462+08:00",
+  "font": "Microsoft YaHei",
+  "files": [
+    {
+      "file": "01_validation_test_comparison.png",
+      "caption": "四组统一验证与测试 AP；A 在测试前依据验证集确定为主模型。",
+      "type": "plotted_from_saved_data",
+      "sha256": "ca72966989bff544c2bdee360f7fabf3aaa457a9ae59ad32330c164e112fb9cf"
+    },
+    {
+      "file": "02_training_curves.png",
+      "caption": "逐轮训练曲线；曲线来自训练期验证，与独立 FP32 评估存在精度设置差异，不混用数值。",
+      "type": "plotted_from_saved_data",
+      "sha256": "35eb89b3812f70677db24558ff9037934dc77872f7eb06a14bce6a8bff40ca57"
+    },
+    {
+      "file": "03_augmentation_per_class.png",
+      "caption": "C/D 测试集逐类 AP50–95，图中 n 为真值目标数。",
+      "type": "plotted_from_saved_data",
+      "sha256": "db126caf8252e4de894d86507f6bf043a44031fae84b27d082f914da48f90176"
+    },
+    {
+      "file": "04_case_correct_plastic.png",
+      "caption": "000036.png：正确检测：硬质塑料瓶。不用于继续根据测试集调参。",
+      "type": "plotted_from_saved_data",
+      "sha256": "b0b1898eee5f5cd6e21518adbecba4bb9d560b7503abe3fef2f51d2a4e1922b3"
+    },
+    {
+      "file": "05_case_correct_metal.png",
+      "caption": "000018.png：正确检测：植被背景中的金属目标。不用于继续根据测试集调参。",
+      "type": "plotted_from_saved_data",
+      "sha256": "0b34bc0e72eae8c44a3d1d99838ee4dcadcd8fa746ef3d0d3200d8970a47a836"
+    },
+    {
+      "file": "06_case_missed_objects.png",
+      "caption": "000012.png：漏检：多目标场景没有输出框。不用于继续根据测试集调参。",
+      "type": "plotted_from_saved_data",
+      "sha256": "2f61d24f2b75f76e49bc4a8f918b63882804281a74109ed9950badba28fba2da"
+    },
+    {
+      "file": "07_case_wrong_class.png",
+      "caption": "000031.png：类别错误：金属被预测为软质塑料。不用于继续根据测试集调参。",
+      "type": "plotted_from_saved_data",
+      "sha256": "baec65f9485926c9532be2bc7867276c46eb01be1b58562460d986d3233cfcb2"
+    },
+    {
+      "file": "08_case_duplicate_classes.png",
+      "caption": "000032.png：跨类别重复框：金属和硬质塑料同时输出。不用于继续根据测试集调参。",
+      "type": "plotted_from_saved_data",
+      "sha256": "b685731a63afe335beda063308dab6cb8c6570f455d010bd4fda6f7afac1ecff"
+    },
+    {
+      "file": "09_A_test_confusion_matrix_normalized.png",
+      "caption": "A 组最终测试归一化混淆矩阵：保留原图色块及数值，仅重排横轴类别标签，未重新计算。",
+      "type": "layout_repaired_from_framework_image",
+      "sha256": "d41a088e4a0ba5af9d53b95b6d3d953f6206872c91c04442838abf0eda07a98e"
+    },
+    {
+      "file": "10_A_test_PR_curve.png",
+      "caption": "A 组最终测试 PR 曲线，来自原始评估目录，未重新计算。",
+      "type": "copied_from_framework_evaluation",
+      "sha256": "0f3b244fc7e82820e5c67a3067aa11742173a54d923ceed59eeabcea994a9811"
+    }
+  ],
+  "sources": {
+    "data\\split\\images\\test\\000012.png": "bfbb65437ddf6f3087daece5be3662920d0acd0e0c0b53e853498db51d4b3012",
+    "data\\split\\images\\test\\000018.png": "be396b130e307b2c5f7abf2feb86cf52edff77d206850d476edcec79985dcbad",
+    "data\\split\\images\\test\\000031.png": "93fb77525f2b1bdab64422e3d86e408ba6617c237437511ca726d7e96c8c22a2",
+    "data\\split\\images\\test\\000032.png": "9dc3671ea80a7bb997da529d497646891561761e4196586e9228fc13a73e80ba",
+    "data\\split\\images\\test\\000036.png": "0879bbb3f1b11eaf8e781469991181a13f346a5a8ce09134c132830c172fd44b",
+    "data\\split\\labels\\test\\000012.txt": "fe6ef5bf5bcc492b1cf9fb9ba04edc17fa898484593cec8d542f390c40b734f5",
+    "data\\split\\labels\\test\\000018.txt": "03b732b12931bf94edbb3c5a85ff3dcb078be1855d59ba5a9ebc83d1849ddc43",
+    "data\\split\\labels\\test\\000031.txt": "b95548c70ecc9c27154ee6352de208636a7d866f8690cff297525c27b545ceb1",
+    "data\\split\\labels\\test\\000032.txt": "c7d81ca1fe725ecf8103a8210093fa5eeacb86f8c3adb2eb10fa9fe4ed29d11b",
+    "data\\split\\labels\\test\\000036.txt": "5dcbfc3d4affd783a2a622ffcdc1ae01759c2c4250077529e1910147ee83b6e0",
+    "experiment2\\outputs\\augmentation_control\\yolo11n_experiment1_augmentation_amp\\evaluation\\test_best_20261018_174714_e02a5c\\evaluation_summary.json": "9cecd5473f231defb80a85317699401da27d3230d78e49d96acec60039a7b3dd",
+    "experiment2\\outputs\\augmentation_control\\yolo11n_experiment1_augmentation_amp\\evaluation\\val_best_20261018_174301_8a8537\\evaluation_summary.json": "9c18ad52d2016eec8403b4fdeb77f108b09dcc1eada92acfcef30595283fdde1",
+    "experiment2\\outputs\\augmentation_control\\yolo11n_experiment1_augmentation_amp\\results.csv": "de30cdc91c6bf24113ab17b1f3e70f10e3642eaba57bcf96618993452ede525b",
+    "experiment2\\outputs\\augmentation_control\\yolo11n_experiment1_augmentation_amp\\train_summary.json": "1d673d3032214739620766507bafdebb146f246f30f2d327279604227ae2e3f6",
+    "experiment2\\outputs\\augmentation_control\\yolo11n_no_augmentation_amp-2\\evaluation\\test_best_20261018_174649_6b8389\\evaluation_summary.json": "ef22c93a74f68589303cb13dd6fc1ade454bce3ee44eae41b7bab77abb5c0e94",
+    "experiment2\\outputs\\augmentation_control\\yolo11n_no_augmentation_amp-2\\evaluation\\val_best_20261018_174216_f26229\\evaluation_summary.json": "3f8592f4e6321a3d7023793817c637e40de01c3c114b623efb9e44b97e2a64a0",
+    "experiment2\\outputs\\augmentation_control\\yolo11n_no_augmentation_amp-2\\results.csv": "3771be12d647a638f05d2a18fc3818b78c09f65d5484879c4c67126b961e2193",
+    "experiment2\\outputs\\augmentation_control\\yolo11n_no_augmentation_amp-2\\train_summary.json": "efcceec941a69a3958a9c3d667127270a2477719a5788e531b0498721721e97b",
+    "experiment2\\outputs\\baseline\\yolo11n_baseline_amp\\evaluation\\test_best_20261018_174533_bf413a\\BoxPR_curve.png": "0f3b244fc7e82820e5c67a3067aa11742173a54d923ceed59eeabcea994a9811",
+    "experiment2\\outputs\\baseline\\yolo11n_baseline_amp\\evaluation\\test_best_20261018_174533_bf413a\\confusion_matrix_normalized.png": "6d7b80c1c338f4b0a6dcbef2ab387bf3006b3f47c5465e435c5341f2c5256418",
+    "experiment2\\outputs\\baseline\\yolo11n_baseline_amp\\evaluation\\test_best_20261018_174533_bf413a\\evaluation_summary.json": "1676f740ad073b060b07c2916e57f6493a3860c25daeb25e23956561a1711484",
+    "experiment2\\outputs\\baseline\\yolo11n_baseline_amp\\evaluation\\val_best_20261013_155237_1ca1c6\\evaluation_summary.json": "131521c87b8e853c5c1f46c55fb8fa62f360ac6c08c5ca5925aac151e20e3eca",
+    "experiment2\\outputs\\baseline\\yolo11n_baseline_amp\\results.csv": "e1297ffb5712786e766095c0a3b4d5468cc5f361bd1c0188c6b7b695038b06aa",
+    "experiment2\\outputs\\baseline\\yolo11n_baseline_amp\\train_summary.json": "d4b6af60b1c8fa83b3fdc8df2f8127a0d22cd31f1bc4f90e383f8ecd82ab43b3",
+    "experiment2\\outputs\\lora_amp\\yolo11n_lora_amp-2\\evaluation\\test_best_20261018_174624_7e0768\\evaluation_summary.json": "d3ac2f355282c0f5381f993dc946cf53110369dd923e9fe1829bb4102f810500",
+    "experiment2\\outputs\\lora_amp\\yolo11n_lora_amp-2\\evaluation\\val_best_20261018_112948_1f3b39\\evaluation_summary.json": "4870e9cc0620f2026d03c85ae35f284616f980f1ce5d7c70816bcb2db378c7c6",
+    "experiment2\\outputs\\lora_amp\\yolo11n_lora_amp-2\\results.csv": "887cd0494c2d9e52fe5a505ddeedfd8bdbc06c8d1337641f494676777729955f",
+    "experiment2\\outputs\\lora_amp\\yolo11n_lora_amp-2\\train_summary.json": "88852d9231c40a371082efb7fc046900c21af9d4b161d4d89bb120359ec05c8d",
+    "experiment2\\outputs\\predictions\\yolo11n_baseline_amp_predict_20261020_092009_55381e\\prediction_summary.json": "ffb776cb31f7c77d23da4ae17c36cc43acbf3677bdcb0e4ea88a0484de91dace",
+    "experiment2\\reports\\prediction_case_review.json": "b0e66d3c886e0d082b5f8b94f42f05f220f494eb64819e13609b65e2420d50a6"
+  },
+  "notes": [
+    "仅读取既有结果；未加载模型或重新计算 AP。",
+    "新绘制 PNG 为 300 dpi；PR 曲线保留原始分辨率。混淆矩阵保留原色块与数值，仅重排横轴标签以避免截断。",
+    "案例来自 12 张按路径排序的预览图，只用于案例分析，不代表整个测试集。"
+  ],
+  "visual_review": {
+    "reviewed_on": "2026-10-20",
+    "status": "passed",
+    "inspected_files": [
+      "01_validation_test_comparison.png",
+      "02_training_curves.png",
+      "03_augmentation_per_class.png",
+      "04_case_correct_plastic.png",
+      "05_case_correct_metal.png",
+      "06_case_missed_objects.png",
+      "07_case_wrong_class.png",
+      "08_case_duplicate_classes.png",
+      "09_A_test_confusion_matrix_normalized.png",
+      "10_A_test_PR_curve.png"
+    ],
+    "repair": {
+      "file": "09_A_test_confusion_matrix_normalized.png",
+      "reason": "Original long vertical x-axis class labels were clipped.",
+      "scope": "Preserve saved heatmap, cell values and colorbar; replace bottom class label layout only.",
+      "source": "Original PNG remains in the baseline final test evaluation directory."
+    },
+    "checks": [
+      "Chinese fonts visible",
+      "Legends and captions readable",
+      "Case box labels identifiable",
+      "All class names visible in corrected confusion matrix",
+      "No model training, inference or AP recomputation"
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "[Content_Types].xml": {
+    "bytes": 1610,
+    "sha256": "76887486b7be27b1018a4970fd65eaa5b7256e17b46d454a81d36703c8672db5"
+  },
+  "_rels/": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "_rels/.rels": {
+    "bytes": 737,
+    "sha256": "514e1846381cb6bcfff105a4b0a17d666cf0ed1f0c120bff73b82226ab7ed977"
+  },
+  "customXml/": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "customXml/_rels/": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "customXml/_rels/item1.xml.rels": {
+    "bytes": 296,
+    "sha256": "80482f86e196171d66001e0e74d1900408a3aaf2463e54005d251b5f2db9a0b0"
+  },
+  "customXml/item1.xml": {
+    "bytes": 293,
+    "sha256": "f8006e718fb4286def8552769785d16f315d65232fa3a3e72ac91ac7b4456537"
+  },
+  "customXml/itemProps1.xml": {
+    "bytes": 327,
+    "sha256": "16c9a9ab07e137bbf93dbcfe36c21a778cdccdd1d2b152085354b53a2f17d1c1"
+  },
+  "docProps/": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docProps/app.xml": {
+    "bytes": 664,
+    "sha256": "fc99f91f91cb94438c95f0829fb2fdfd52bcee4ba95ef3b55a2a0b6fbddd6542"
+  },
+  "docProps/core.xml": {
+    "bytes": 676,
+    "sha256": "8903262ab37b1b4386d993f99c1d0b05c46911a691d00995afc19fee1d5be015"
+  },
+  "docProps/custom.xml": {
+    "bytes": 750,
+    "sha256": "def58adffb8d4072e0c0660833ba3729dd34d3d7d35a65d6db57f6dbe7d4f128"
+  },
+  "word/": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "word/_rels/": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "word/_rels/document.xml.rels": {
+    "bytes": 2278,
+    "sha256": "f10f7ce7906092014a0d3ba84111c89248b8be9d53248af6b912295524da157f"
+  },
+  "word/document.xml": {
+    "bytes": 330013,
+    "sha256": "95a6c3311f2de7b0b595e45733566aa11231131c6fd0ff8ddc3af8b5d493fc9f"
+  },
+  "word/fontTable.xml": {
+    "bytes": 3342,
+    "sha256": "435ddb6f4e36928ddaf0276a2be0db7e2a5d20346d1ebbb95d5652a2284e7b3d"
+  },
+  "word/header1.xml": {
+    "bytes": 1418,
+    "sha256": "abb447bd8099824855483a884f6932a5ef879ecad15958092db1c6e8bc4fd671"
+  },
+  "word/media/": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "word/media/image1.png": {
+    "bytes": 78460,
+    "sha256": "d1a8de89d73f562b95c858b2b90e94354325db1a5d7eb5e5e30a0d5db1391b19"
+  },
+  "word/media/image10.png": {
+    "bytes": 1135318,
+    "sha256": "0d0f5b7e8b51eec3d8b6915b8ae3ea06adeb286d42e0b0de5775467ed760c33a"
+  },
+  "word/media/image2.png": {
+    "bytes": 273501,
+    "sha256": "fdd8a1d475a3f00ce327058d4471dc4c3057bf7508364883622350237ce65951"
+  },
+  "word/media/image3.png": {
+    "bytes": 129013,
+    "sha256": "eea32748f827a73686d5f8335452b4b685a6307bf4a1e791e45f8b350d6098b9"
+  },
+  "word/media/image4.png": {
+    "bytes": 196545,
+    "sha256": "f4e7d74afa88415f5dd9c3fdc7750d53e1c22eeb0b9d5e7011fc680b9c82c46d"
+  },
+  "word/media/image5.png": {
+    "bytes": 189994,
+    "sha256": "1e6cad814a369d186d5e084e2ffe8833bb88da25569db39adb62cde9924d3d5a"
+  },
+  "word/media/image6.png": {
+    "bytes": 1282066,
+    "sha256": "1bd5acbbed24cf1a7e43f9de4138558356a4a28d68e78849cfd8e5caccd3e830"
+  },
+  "word/media/image7.png": {
+    "bytes": 1264812,
+    "sha256": "56074a0c93371143dd664f751a6e048989a3228b9914d30971a403fae41e70c1"
+  },
+  "word/media/image8.png": {
+    "bytes": 786829,
+    "sha256": "92da51b4d60ca83f2a4152d8e89cdaa8d4298d8d3eef87dcc81ae22115421243"
+  },
+  "word/media/image9.png": {
+    "bytes": 1330051,
+    "sha256": "4563c41b86b056c6d34a02a0f7edc6aacbd6eae8458c3a58a3c8190fa0f0c281"
+  },
+  "word/settings.xml": {
+    "bytes": 5658,
+    "sha256": "4f83fdb72efbcc33d3c0ab5afe74b60b5eaa775f6c546f7568e15b9c1973c1bf"
+  },
+  "word/styles.xml": {
+    "bytes": 27932,
+    "sha256": "89f0a9377122fff8d218299a3463044f51938a72877bb1fd233c2d5e982788f3"
+  },
+  "word/theme/": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "word/theme/theme1.xml": {
+    "bytes": 7046,
+    "sha256": "bea0a0590dea0ed9e97fa4391c1b7980640249387153014388eaaa628837b32c"
+  }
+}

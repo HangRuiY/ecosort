@@ -1,0 +1,22 @@
+{
+  "total_parameters": 2638046,
+  "original_parameters": 2607070,
+  "trainable_parameters": 478862,
+  "lora_parameters": 30976,
+  "head_trainable_parameters": 447886,
+  "frozen_parameters": 2159184,
+  "trainable_ratio": 0.1815214746065838,
+  "lora_layers": [
+    "model.13.cv1.conv",
+    "model.13.cv2.conv",
+    "model.16.cv1.conv",
+    "model.16.cv2.conv",
+    "model.19.cv1.conv",
+    "model.19.cv2.conv",
+    "model.22.cv1.conv",
+    "model.22.cv2.conv",
+    "model.22.m.0.cv1.conv",
+    "model.22.m.0.cv2.conv",
+    "model.22.m.0.cv3.conv"
+  ]
+}
